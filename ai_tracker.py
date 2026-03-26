@@ -128,14 +128,23 @@ def deduplicate(items: list[dict]) -> list[dict]:
     return result
 
 
-def send_discord(content: str) -> None:
-    """Discordに送信（2000文字超えは分割）。"""
-    chunks = [content[i:i+1990] for i in range(0, len(content), 1990)]
-    for chunk in chunks:
-        data = json.dumps({"content": chunk}).encode()
-        req = urllib.request.Request(WEBHOOK, data=data, headers=DISCORD_HEADERS)
+def send_embed(embeds: list[dict]) -> None:
+    """Discord Embed形式で送信（最大10 embed/回）。"""
+    for i in range(0, len(embeds), 10):
+        payload = json.dumps({"embeds": embeds[i:i+10]}).encode()
+        req = urllib.request.Request(WEBHOOK, data=payload, headers=DISCORD_HEADERS)
         with urllib.request.urlopen(req, timeout=30) as r:
-            print(f"Discord: {r.status}")
+            print(f"Discord embed: {r.status}")
+
+
+def build_field(label: str, items: list[dict], limit: int = 6) -> dict:
+    """カテゴリ1件分のEmbed Fieldを構築。"""
+    lines = []
+    for item in items[:limit]:
+        title = item["title"][:75].rstrip()
+        lines.append(f"• [{title}]({item['url']})")
+    value = "\n".join(lines) or "（なし）"
+    return {"name": label, "value": value[:1024], "inline": False}
 
 
 # ── メイン ─────────────────────────────────────────────────────────────────────
@@ -162,35 +171,31 @@ def main():
     }
     for item in all_items:
         cat = categorize(item["title"])
-        if cat:
-            key = f"{cat[0]} {cat[1]}"
-            buckets[key].append(item)
-        else:
-            buckets["🆕 その他"].append(item)
+        key = f"{cat[0]} {cat[1]}" if cat else "🆕 その他"
+        buckets[key].append(item)
 
-    # Discord メッセージ構築
-    header = f"📡 **AI最新情報ダイジェスト** — {now.strftime('%Y-%m-%d')}\n"
-    body_lines = []
+    total = sum(len(v) for v in buckets.values())
 
-    total = 0
-    for label, items in buckets.items():
-        if not items:
-            continue
-        body_lines.append(f"\n**{label}**")
-        for item in items[:8]:  # カテゴリ上限8件
-            title = item["title"][:80]
-            url = item["url"]
-            body_lines.append(f"• [{title}]({url})")
-            total += 1
+    # Embed構築
+    fields = [
+        build_field(label, items)
+        for label, items in buckets.items()
+        if items
+    ]
 
-    footer = f"\n\n📊 合計 {total} 件 | 次回: {next_run}"
+    if not fields:
+        fields = [{"name": "ニュースなし", "value": "直近2日間の新着はありませんでした。", "inline": False}]
 
-    if total == 0:
-        message = header + "\n（直近2日間の新着ニュースはありませんでした）" + footer
-    else:
-        message = header + "\n".join(body_lines) + footer
+    embed = {
+        "title": "📡 AI最新情報ダイジェスト",
+        "description": f"{now.strftime('%Y-%m-%d')}  |  合計 **{total}** 件",
+        "color": 7168255,  # #6D3EFF — 紫
+        "fields": fields,
+        "footer": {"text": f"次回: {next_run}"},
+        "timestamp": now.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
 
-    send_discord(message)
+    send_embed([embed])
     print("完了")
 
 
