@@ -228,8 +228,20 @@ def curate_with_claude(items: list[dict], now: datetime) -> list[dict]:
 def send_discord(payload: dict) -> None:
     data = json.dumps(payload, ensure_ascii=False).encode()
     req  = urllib.request.Request(WEBHOOK, data=data, headers=DISCORD_HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        print(f"Discord: {r.status}")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print(f"Discord: {r.status}")
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="ignore")
+        print(f"Discord ERROR {e.code}: {body}")
+        # ボタンが原因の可能性 → Embedだけ再送
+        if e.code == 400 and "components" in payload:
+            print("ボタン除去して再送...")
+            payload.pop("components", None)
+            data2 = json.dumps(payload, ensure_ascii=False).encode()
+            req2  = urllib.request.Request(WEBHOOK, data=data2, headers=DISCORD_HEADERS)
+            with urllib.request.urlopen(req2, timeout=30) as r2:
+                print(f"Discord (no buttons): {r2.status}")
 
 
 # ── メイン ─────────────────────────────────────────────────────────────────────
@@ -282,16 +294,19 @@ def main():
         })
 
     # ボタン行（URL ボタン、最大5個）
-    buttons = [
-        {
-            "type":  2,
-            "style": 5,
-            "label": f"{numbers[item['rank']-1]} 詳細を見る",
-            "url":   item["url"],
-        }
-        for item in top5
-        if item.get("url", "").startswith("http")
-    ]
+    buttons = []
+    for item in top5:
+        url = item.get("url", "").strip()
+        if url.startswith("http") and len(url) <= 512:
+            rank = item["rank"]
+            if rank <= len(numbers):
+                buttons.append({
+                    "type":  2,
+                    "style": 5,
+                    "label": f"{numbers[rank-1]} 詳細を見る",
+                    "url":   url,
+                })
+    buttons = buttons[:5]  # Discord上限
 
     payload = {
         "embeds": [{
