@@ -23,7 +23,10 @@ from duckduckgo_search import DDGS
 
 # ── 設定 ──────────────────────────────────────────────────────────────────────
 WEBHOOK          = os.environ["DISCORD_WEBHOOK"]
+BOT_TOKEN        = os.environ.get("DISCORD_BOT_TOKEN", "")
+CHANNEL_ID       = os.environ.get("DISCORD_CHANNEL_ID", "")
 DEEPSEEK_KEY     = os.environ["DEEPSEEK_API_KEY"]
+DATA_DIR         = os.path.join(os.path.dirname(__file__), "data")
 JST              = timezone(timedelta(hours=9))
 ONE_DAY_AGO      = datetime.now(timezone.utc) - timedelta(days=1)
 TOP_N            = 5
@@ -191,6 +194,7 @@ def curate_with_claude(items: list[dict], now: datetime) -> list[dict]:
     "rank": 1,
     "headline": "見出し（日本語・35文字以内）",
     "summary": "要約（日本語・2〜3文・60〜100文字）",
+    "detail": "詳細解説（日本語・5〜8文・200〜400文字。背景・影響・技術的なポイントを含む）",
     "url": "元記事URL（候補リストのURLをそのまま使用）",
     "source": "情報源名"
   }}
@@ -208,7 +212,7 @@ def curate_with_claude(items: list[dict], now: datetime) -> list[dict]:
     client = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
     resp = client.chat.completions.create(
         model="deepseek-chat",
-        max_tokens=1500,
+        max_tokens=3000,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = resp.choices[0].message.content.strip()
@@ -225,23 +229,54 @@ def curate_with_claude(items: list[dict], now: datetime) -> list[dict]:
 
 
 # ── Discord 送信 ───────────────────────────────────────────────────────────────
-def send_discord(payload: dict) -> None:
+def send_via_bot(payload: dict) -> None:
+    """Bot APIでインタラクティブボタン付きメッセージを送信。"""
+    url  = f"https://discord.com/api/v10/channels/{CHANNEL_ID}/messages"
+    hdrs = {
+        "Authorization":  f"Bot {BOT_TOKEN}",
+        "Content-Type":   "application/json",
+        "User-Agent":     "DiscordBot (https://example.com, 1.0)",
+    }
     data = json.dumps(payload, ensure_ascii=False).encode()
-    req  = urllib.request.Request(WEBHOOK, data=data, headers=DISCORD_HEADERS)
+    req  = urllib.request.Request(url, data=data, headers=hdrs)
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            print(f"Discord: {r.status}")
+            print(f"Discord Bot API: {r.status}")
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="ignore")
-        print(f"Discord ERROR {e.code}: {body}")
-        # ボタンが原因の可能性 → Embedだけ再送
+        print(f"Discord Bot ERROR {e.code}: {body}")
         if e.code == 400 and "components" in payload:
             print("ボタン除去して再送...")
             payload.pop("components", None)
-            data2 = json.dumps(payload, ensure_ascii=False).encode()
-            req2  = urllib.request.Request(WEBHOOK, data=data2, headers=DISCORD_HEADERS)
-            with urllib.request.urlopen(req2, timeout=30) as r2:
-                print(f"Discord (no buttons): {r2.status}")
+            send_via_bot(payload)
+
+
+def send_via_webhook(payload: dict) -> None:
+    """Webhook でフォールバック送信（ボタンなし）。"""
+    payload.pop("components", None)
+    data = json.dumps(payload, ensure_ascii=False).encode()
+    req  = urllib.request.Request(WEBHOOK, data=data, headers=DISCORD_HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        print(f"Discord Webhook: {r.status}")
+
+
+def send_discord(payload: dict) -> None:
+    """Bot API 優先、失敗時は Webhook フォールバック。"""
+    if BOT_TOKEN and CHANNEL_ID:
+        send_via_bot(payload)
+    else:
+        print("BOT_TOKEN/CHANNEL_ID 未設定 → Webhookで送信（ボタンなし）")
+        send_via_webhook(payload)
+
+
+def save_details(top_items: list[dict]) -> None:
+    """詳細データを data/latest.json に保存（Worker が参照する）。"""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    out = {"details": top_items}
+    path = os.path.join(DATA_DIR, "latest.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"詳細データ保存: {path}")
 
 
 # ── メイン ─────────────────────────────────────────────────────────────────────
@@ -277,36 +312,37 @@ def main():
     all_items = deduplicate(all_items)
     print(f"\n重複排除後: {len(all_items)}件 → Claude APIでTop{TOP_N}厳選中...")
 
-    # Claude APIで厳選・要約
+    # DeepSeek APIで厳選・要約・詳細生成
     top5 = curate_with_claude(all_items, now)
     print(f"厳選完了: {len(top5)}件")
+
+    # 詳細データを保存（Cloudflare Worker が参照）
+    save_details(top5)
 
     # Embed フィールド構築
     numbers = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧"]
     fields  = []
     for item in top5:
-        n       = numbers[item["rank"] - 1]
-        source  = item.get("source", "")
+        n      = numbers[item["rank"] - 1]
+        source = item.get("source", "")
         fields.append({
             "name":   f"{n}  {item['headline']}",
             "value":  f"{item['summary']}\n*出典: {source}*",
             "inline": False,
         })
 
-    # ボタン行（URL ボタン、最大5個）
+    # インタラクティブボタン（「詳しく」→ Worker が応答）
     buttons = []
     for item in top5:
-        url = item.get("url", "").strip()
-        if url.startswith("http") and len(url) <= 512:
-            rank = item["rank"]
-            if rank <= len(numbers):
-                buttons.append({
-                    "type":  2,
-                    "style": 5,
-                    "label": f"{numbers[rank-1]} 詳細を見る",
-                    "url":   url,
-                })
-    buttons = buttons[:5]  # Discord上限
+        rank = item["rank"]
+        if rank <= len(numbers):
+            buttons.append({
+                "type":      2,
+                "style":     1,  # Primary (blurple)
+                "label":     f"{numbers[rank-1]} 詳しく",
+                "custom_id": f"detail_{rank - 1}",
+            })
+    buttons = buttons[:5]
 
     payload = {
         "embeds": [{
