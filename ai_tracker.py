@@ -25,8 +25,13 @@ from duckduckgo_search import DDGS
 WEBHOOK          = os.environ["DISCORD_WEBHOOK"]
 DEEPSEEK_KEY     = os.environ["DEEPSEEK_API_KEY"]
 JST              = timezone(timedelta(hours=9))
-TWO_DAYS_AGO     = datetime.now(timezone.utc) - timedelta(days=2)
+ONE_DAY_AGO      = datetime.now(timezone.utc) - timedelta(days=1)
 TOP_N            = 5
+
+# ── 最優先サービス（普段使っているツール）──────────────────────────────────────
+PRIORITY_SERVICES = [
+    "Claude", "Claude Code", "ChatGPT", "Gemini", "Manus", "DeepSeek",
+]
 
 DISCORD_HEADERS  = {
     "Content-Type": "application/json",
@@ -38,12 +43,17 @@ WEB_HEADERS      = {
 
 # ── 1位: X(Twitter) 検索クエリ ────────────────────────────────────────────────
 X_QUERIES = [
-    'site:x.com AI "just released" OR "just launched" OR "announcing" -is:retweet',
-    'site:x.com (Claude OR ChatGPT OR Gemini OR Grok OR DeepSeek) new OR update OR release',
+    # 最優先: 普段使っているサービス
+    'site:x.com "Claude Code" OR "claude code" new OR update OR release OR feature',
+    'site:x.com @AnthropicAI OR "Claude" new OR update OR release 2026',
+    'site:x.com ChatGPT new OR update OR feature OR release 2026',
+    'site:x.com Gemini Google AI new OR update OR release 2026',
+    'site:x.com Manus AI agent OR update OR release 2026',
+    'site:x.com DeepSeek new OR update OR model OR release 2026',
+    # 一般AI
+    'site:x.com AI "just released" OR "just launched" OR "announcing"',
     'site:x.com AI "game changer" OR "breakthrough" OR "mind-blowing"',
-    'site:x.com 生成AI リリース OR 公開 OR 新機能 OR ローンチ',
-    'site:x.com (Cursor OR Windsurf OR Devin OR Copilot) update OR release 2026',
-    'site:x.com (Midjourney OR Sora OR Runway OR ElevenLabs) new OR update 2026',
+    'site:x.com 生成AI リリース OR 公開 OR 新機能',
 ]
 
 # ── 2位: 公式ブログ ────────────────────────────────────────────────────────────
@@ -132,7 +142,7 @@ def fetch_rss(url: str) -> list[dict]:
             pub_dt = parsedate_to_datetime(pub).astimezone(timezone.utc)
         except Exception:
             pub_dt = datetime.now(timezone.utc)
-        if title and pub_dt >= TWO_DAYS_AGO:
+        if title and pub_dt >= ONE_DAY_AGO:
             items.append({
                 "title":    title,
                 "url":      link,
@@ -186,11 +196,14 @@ def curate_with_claude(items: list[dict], now: datetime) -> list[dict]:
   }}
 ]
 
-選定基準:
-- X公式アカウントの発表・バズ投稿を最優先
-- 新モデル・新機能・価格変更など実際の行動に影響するニュース
-- 同じニュースの重複は1件にまとめる
-- 日本語圏のAI実務者にとって有益かどうかで判断"""
+選定基準（優先度順）:
+1. 【最優先】Claude / Claude Code / ChatGPT / Gemini / Manus / DeepSeek に関するニュースは、小さなアップデートでも必ず含める
+2. X公式アカウントの発表・バズ投稿を優先
+3. 新モデル・新機能・価格変更など実際の行動に影響するニュース
+4. 同じニュースの重複は1件にまとめる
+5. 日本語圏のAI実務者にとって有益かどうかで判断
+
+上記サービスのニュースが5件以上あれば、すべてそれで埋めてよい。"""
 
     client = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
     resp = client.chat.completions.create(
@@ -222,7 +235,7 @@ def send_discord(payload: dict) -> None:
 # ── メイン ─────────────────────────────────────────────────────────────────────
 def main():
     now      = datetime.now(JST)
-    next_run = (now + timedelta(days=2)).strftime("%Y-%m-%d 09:00 JST")
+    next_run = (now + timedelta(days=1)).strftime("%Y-%m-%d 09:00 JST")
     print(f"収集開始: {now.strftime('%Y-%m-%d %H:%M JST')}")
 
     all_items: list[dict] = []
