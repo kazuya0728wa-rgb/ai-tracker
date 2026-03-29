@@ -1,13 +1,15 @@
-"""AI最新情報ダイジェスト — GitHub Actions版
+"""AI最新情報ダイジェスト — GitHub Actions版（統合版）
 
 情報収集:
   1位: DuckDuckGo site:x.com 検索（バズっているX投稿）
   2位: 公式ブログ（Anthropic / OpenAI / Google AI 等）
   3位: TechCrunch / The Verge RSS
 
-Claude API で Top5 厳選・日本語要約 → Discord Embed + ボタン送信
+差分検出（SHA256ハッシュ）で既出ニュースを除外
+DeepSeek API で Top5 厳選・日本語要約 → Discord Embed + ボタン送信
 """
 
+import hashlib
 import json
 import os
 import re
@@ -17,6 +19,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse
 
 from openai import OpenAI
 from duckduckgo_search import DDGS
@@ -27,6 +30,8 @@ BOT_TOKEN        = os.environ.get("DISCORD_BOT_TOKEN", "")
 CHANNEL_ID       = os.environ.get("DISCORD_CHANNEL_ID", "")
 DEEPSEEK_KEY     = os.environ["DEEPSEEK_API_KEY"]
 DATA_DIR         = os.path.join(os.path.dirname(__file__), "data")
+HISTORY_FILE     = os.path.join(DATA_DIR, "history.json")
+HISTORY_RETENTION_DAYS = 30
 JST              = timezone(timedelta(hours=9))
 ONE_DAY_AGO      = datetime.now(timezone.utc) - timedelta(days=1)
 TOP_N            = 5
@@ -34,6 +39,22 @@ TOP_N            = 5
 # ── 最優先サービス（普段使っているツール）──────────────────────────────────────
 PRIORITY_SERVICES = [
     "Claude", "Claude Code", "ChatGPT", "Gemini", "Manus", "DeepSeek",
+]
+
+# ── カテゴリ定義 ──────────────────────────────────────────────────────────────
+CATEGORIES = [
+    {"name": "LLM",       "emoji": "\U0001f9e0",
+     "services": ["Claude", "ChatGPT", "GPT-5", "GPT-4o", "Gemini", "Grok",
+                   "DeepSeek", "Llama", "Mistral", "Command R", "Phi", "Qwen"]},
+    {"name": "コーディング", "emoji": "\U0001f4bb",
+     "services": ["GitHub Copilot", "Claude Code", "Cursor", "Windsurf",
+                   "Codeium", "Devin", "Replit Agent", "Bolt", "v0"]},
+    {"name": "画像/動画",  "emoji": "\U0001f3a8",
+     "services": ["Midjourney", "DALL-E", "Stable Diffusion", "Imagen",
+                   "Adobe Firefly", "Flux", "Sora", "Veo", "Runway", "Kling", "Pika"]},
+    {"name": "音声",       "emoji": "\U0001f3b5",
+     "services": ["ElevenLabs", "Suno", "Udio", "NotebookLM", "Whisper"]},
+    {"name": "新規/その他", "emoji": "\U0001f195", "services": []},
 ]
 
 DISCORD_HEADERS  = {
@@ -166,7 +187,66 @@ def deduplicate(items: list[dict]) -> list[dict]:
     return result
 
 
-# ── Claude API で厳選・要約 ────────────────────────────────────────────────────
+# ── 差分検出（履歴ベース） ────────────────────────────────────────────────────
+def _make_hash(title: str, url: str = "") -> str:
+    """ニュースアイテムの一意ハッシュキー"""
+    normalized = re.sub(r"[^\w\s]", "", title.lower())
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    domain = ""
+    try:
+        domain = urlparse(url).netloc
+    except Exception:
+        pass
+    key = normalized + domain
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()[:12]
+
+
+def load_history() -> dict:
+    if not os.path.exists(HISTORY_FILE):
+        return {"last_run": None, "items": {}}
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, IOError):
+        return {"last_run": None, "items": {}}
+
+
+def save_history(history: dict) -> None:
+    os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def filter_new_items(items: list[dict], history: dict) -> list[dict]:
+    """既出ニュースを除外し、新規のみ返す。historyも更新する。"""
+    now = datetime.now(JST).isoformat()
+    new_items = []
+    for item in items:
+        h = _make_hash(item.get("title", ""), item.get("url", ""))
+        if h in history["items"]:
+            history["items"][h]["last_seen"] = now
+        else:
+            history["items"][h] = {
+                "title": item.get("title", ""),
+                "first_seen": now,
+                "last_seen": now,
+            }
+            new_items.append(item)
+    history["last_run"] = now
+    return new_items
+
+
+def cleanup_history(history: dict) -> int:
+    """古いアイテムを削除。削除件数を返す。"""
+    cutoff = (datetime.now(JST) - timedelta(days=HISTORY_RETENTION_DAYS)).isoformat()
+    to_remove = [h for h, item in history["items"].items()
+                 if item.get("last_seen", "") < cutoff]
+    for h in to_remove:
+        del history["items"][h]
+    return len(to_remove)
+
+
+# ── DeepSeek API で厳選・要約 ─────────────────────────────────────────────────
 def curate_with_claude(items: list[dict], now: datetime) -> list[dict]:
     """Claude API に候補を渡してTop5を選定・日本語要約させる。"""
 
@@ -310,10 +390,23 @@ def main():
         all_items.extend(results)
 
     all_items = deduplicate(all_items)
-    print(f"\n重複排除後: {len(all_items)}件 → Claude APIでTop{TOP_N}厳選中...")
+    print(f"\n重複排除後: {len(all_items)}件")
+
+    # 差分検出: 既出ニュースを除外
+    history = load_history()
+    new_items = filter_new_items(all_items, history)
+    removed = cleanup_history(history)
+    save_history(history)
+    print(f"差分検出: {len(new_items)}件が新規 / {len(all_items) - len(new_items)}件が既出 / {removed}件を履歴から削除")
+
+    if not new_items:
+        print("新規ニュースなし → 送信スキップ")
+        return
+
+    print(f"→ DeepSeek APIでTop{TOP_N}厳選中...")
 
     # DeepSeek APIで厳選・要約・詳細生成
-    top5 = curate_with_claude(all_items, now)
+    top5 = curate_with_claude(new_items, now)
     print(f"厳選完了: {len(top5)}件")
 
     # 詳細データを保存（Cloudflare Worker が参照）
