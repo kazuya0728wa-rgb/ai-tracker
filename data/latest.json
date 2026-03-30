@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "OpenAIがGPT-5.3-Codexを発表",
-      "summary": "OpenAIが新しいコード生成モデル「GPT-5.3-Codex」を正式リリース。プログラミング支援機能を大幅に強化し、開発者向けに最適化された性能を提供。",
-      "detail": "OpenAIはGPT-5.3シリーズの新たな派生モデルとしてGPT-5.3-Codexを発表しました。このモデルは特にコード生成とプログラミング支援に特化しており、従来のCodexモデルを大幅に進化させています。技術的には、より長いコンテキスト長の処理能力と、複雑なコードベースの理解・生成精度が向上しています。AI実務者にとっては、ソフトウェア開発の効率化や自動化ツールの性能向上に直接影響する重要なアップデートです。企業向けAPIの提供も予定されており、開発者エコシステム全体に波及効果が期待されます。",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
-      "source": "OpenAI"
-    },
-    {
-      "rank": 2,
-      "headline": "ClaudeがExcel・PowerPoint統合機能を拡充",
-      "summary": "AnthropicがClaude for ExcelとClaude for PowerPointを新たに提供開始。Office作業の自動化と生産性向上を実現するAI統合ツール。",
-      "detail": "Anthropicはビジネス向けClaudeの機能拡張として、Microsoft Officeとの統合を強化しました。Claude for Excelではデータ分析・数式生成・レポート作成を支援し、Claude for PowerPointではプレゼンテーションの作成・デザイン提案・コンテンツ生成を自動化します。これらの機能は特に日本のビジネス現場で広く使用されているOffice環境への直接統合という点で実用性が高く、AI実務者にとって重要なツールとなります。企業向けプランでの提供が中心で、セキュリティとプライバシー対策も強化されています。",
-      "url": "https://claude.com/claude-for-excel",
-      "source": "Anthropic"
-    },
-    {
-      "rank": 3,
-      "headline": "Meta AIがTRIBE v2を発表、脳処理モデルを進化",
-      "summary": "MetaがTRIBE v2を公開。人間の脳が複雑な刺激を処理する仕組みを学習した予測基盤モデルで、神経科学とAIの融合を推進。",
-      "detail": "Meta AIはTRIBE（Task-Residual Brain Encoding）モデルの第2版を発表しました。このモデルはfMRIデータを用いて、人間の脳が視覚・聴覚などの複合刺激を処理する神経活動パターンを予測するように訓練されています。技術的にはマルチモーダル表現学習と神経科学データの大規模な統合が特徴で、AIの認知能力理解に新たな道筋を示しています。応用分野としては、より人間らしいAIインタラクションの開発や、脳科学に基づいたAIアーキテクチャの設計に影響を与える可能性があります。研究コミュニティにとって重要な進展です。",
+      "headline": "Meta AI、TRIBE v2発表：脳処理を理解する基盤モデル",
+      "summary": "Meta AIがTRIBE v2を発表。人間の脳が複雑な刺激を処理する仕組みを理解するための予測基盤モデル。脳科学とAIの融合が進展。",
+      "detail": "Meta AIは、人間の脳が複雑な刺激を処理するプロセスを理解するために設計された予測基盤モデル「TRIBE v2」を発表した。このモデルは、脳神経活動の予測を通じて、認知プロセスの理解を深めることを目的としている。背景には、脳科学とAIの相互理解を深め、より人間らしいAIシステムの開発を目指す動きがある。技術的には、脳イメージングデータと大規模言語モデルを組み合わせたアプローチが特徴。この研究は、AIの透明性と説明可能性の向上に貢献し、神経科学分野への応用も期待される。医療診断や脳疾患の研究への応用可能性も示唆されており、学際的研究の重要な進展と言える。",
       "url": "https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/",
       "source": "Meta AI"
     },
     {
+      "rank": 2,
+      "headline": "Meta AI、SAM 3.1発表：高速なリアルタイム動画検出",
+      "summary": "Meta AIがSegment Anything Model 3.1を公開。マルチプレキシングとグローバル推論により、リアルタイム動画検出・追跡を高速化。",
+      "detail": "Meta AIは、Segment Anything Model（SAM）の最新版「SAM 3.1」を発表した。このモデルは、マルチプレキシングとグローバル推論技術を導入し、リアルタイムでの動画オブジェクト検出と追跡の性能を大幅に向上させている。背景には、動画コンテンツの急増と、より精密な映像解析への需要の高まりがある。技術的には、複数フレーム間での情報共有を効率化し、処理速度と精度の両立を実現。この進化は、自動運転、監視システム、コンテンツ制作など、幅広い産業応用に影響を与える。特に、リアルタイム性が求められるアプリケーションでの実用化が加速すると見込まれる。",
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "source": "Meta AI"
+    },
+    {
+      "rank": 3,
+      "headline": "Meta、2年で4種のMTIAチップ開発：AI体験を拡大",
+      "summary": "Metaが2年間で4種類のMTIAチップを開発。数十億ユーザー向けのAI体験をスケールするための独自インフラを強化。",
+      "detail": "Metaは、自社開発のAI推論アクセラレーターチップ「MTIA」シリーズを2年間で4種類開発したことを発表した。これは、数十億ユーザーに提供するAI体験を効率的にスケールするためのインフラ戦略の一環。背景には、クラウド依存のコスト削減と、特定ワークロードに最適化されたハードウェアの需要がある。技術的には、推論処理の効率化と電力消費の最適化が焦点。この取り組みは、MetaのAIサービス（Meta AIなど）の応答速度と信頼性向上に直結する。業界全体として、大手テック企業の独自チップ開発競争が激化していることを示す事例である。",
+      "url": "https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/",
+      "source": "Meta AI"
+    },
+    {
       "rank": 4,
-      "headline": "Claude Code Enterprise版を本格提供開始",
-      "summary": "Anthropicが企業向けコード生成ツール「Claude Code Enterprise」の提供を開始。セキュリティ強化とカスタマイズ機能を備えた業務用AIコーディング支援。",
-      "detail": "Anthropicは企業向けに特化したコード生成AI「Claude Code Enterprise」の本格提供を開始しました。このサービスは既存のClaude Codeを基に、企業固有のコードベースへの適応、厳格なセキュリティ基準、コンプライアンス要件への対応を強化しています。技術的には、プライベートなコードリポジトリからの学習と、社内開発規範への適合機能が特徴です。日本の企業ではソースコードのセキュリティと知的財産保護が重要な課題となっており、こうした企業向けソリューションの登場は実務現場でのAI導入を加速させる要因となります。",
-      "url": "https://claude.com/product/claude-code/enterprise",
+      "headline": "Claude、Excel・PowerPoint・Slack統合機能を拡充",
+      "summary": "AnthropicがClaude for Excel、PowerPoint、Slackなどの統合機能を強化。生産性ツールへのAI組み込みが本格化。",
+      "detail": "Anthropicは、Claudeの各種統合機能を拡充している。Claude for Excel、PowerPoint、Slackなど、主要な生産性ツールへの組み込みを推進。背景には、AIを日常業務にシームレスに統合する需要の高まりがある。技術的には、各アプリケーションのAPIを活用した高度な連携が特徴。これにより、データ分析、プレゼン作成、チームコミュニケーションなど、具体的な業務効率化が期待される。企業向けプラン（Enterprise plan）との連携も強化されており、業務活用の本格化が進む。競合するCopilotなどに対抗する、重要な戦略的展開と言える。",
+      "url": "https://claude.com/claude-for-excel",
       "source": "Anthropic"
     },
     {
       "rank": 5,
-      "headline": "xAIがGrok Enterpriseを提供、ビジネス向け拡充",
-      "summary": "xAIが企業向けAIアシスタント「Grok Enterprise」を正式リリース。ビジネスユースケースに特化した機能とカスタマイズ性を提供。",
-      "detail": "Elon Musk率いるxAIは、企業向けAIアシスタント「Grok Enterprise」の提供を開始しました。このサービスは一般向けGrokを基に、ビジネス環境での利用に必要なセキュリティ、統合機能、管理ツールを追加しています。技術的には、企業データとの安全な連携、カスタムナレッジベースの構築、チームコラボレーション機能が強化されています。競合他社の企業向けソリューションが充実する中、xAIの参入は市場の多様性を高め、企業の選択肢を広げることになります。特にスタートアップやテクノロジー企業を中心に導入が進むことが期待されます。",
-      "url": "https://x.ai/grok/business",
-      "source": "xAI"
+      "headline": "Sora終了の可能性、AI動画市場に現実的な見方",
+      "summary": "TechCrunchがSoraの終了可能性を報道。AI動画生成市場の過熱にブレーキか。企業戦略か、業界全体の後退か注目。",
+      "detail": "TechCrunchは、OpenAIの動画生成モデル「Sora」のサービス終了可能性について報じた。これは通常の企業戦略なのか、それともAI生成動画市場全体の後退の兆候なのか、議論を呼んでいる。背景には、生成AIの実用化におけるコスト、品質、著作権問題などの課題がある。技術的には、高品質な動画生成には莫大な計算資源とデータが必要で、持続可能性が問われている。この動向は、AI動画スタートアップの資金調達や事業計画に影響を与える可能性がある。業界関係者は、過剰な期待と現実のギャップを認識し始めている。今後の動向が、生成AI市場全体の健全性を示す指標となる。",
+      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "source": "techcrunch.com"
     }
   ]
 }
