@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Meta AI、TRIBE v2発表：脳処理を理解する基盤モデル",
-      "summary": "Meta AIがTRIBE v2を発表。人間の脳が複雑な刺激を処理する仕組みを理解するための予測基盤モデル。脳科学とAIの融合が進展。",
-      "detail": "Meta AIは、人間の脳が複雑な刺激を処理するプロセスを理解するために設計された予測基盤モデル「TRIBE v2」を発表した。このモデルは、脳神経活動の予測を通じて、認知プロセスの理解を深めることを目的としている。背景には、脳科学とAIの相互理解を深め、より人間らしいAIシステムの開発を目指す動きがある。技術的には、脳イメージングデータと大規模言語モデルを組み合わせたアプローチが特徴。この研究は、AIの透明性と説明可能性の向上に貢献し、神経科学分野への応用も期待される。医療診断や脳疾患の研究への応用可能性も示唆されており、学際的研究の重要な進展と言える。",
-      "url": "https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/",
-      "source": "Meta AI"
+      "headline": "OpenAI、Soraを公開6ヶ月で突然終了",
+      "summary": "OpenAIがAI動画生成ツール「Sora」を公開からわずか6ヶ月で終了。突然の決定に疑問の声が上がっている。",
+      "detail": "OpenAIは先週、AI動画生成ツール「Sora」の公開をわずか6ヶ月で終了することを発表しました。この突然の決定は業界に衝撃を与え、様々な憶測を呼んでいます。技術的な課題、著作権問題、あるいはより強力な後継モデルへの移行など、複数の要因が考えられます。Soraは高品質な動画生成で注目を集めていましたが、その短い寿命は生成AI市場の急速な変化を示しています。この決定は、AI企業が最先端技術をどのように管理・展開するかについての重要な議論を引き起こすでしょう。",
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "Meta AI、SAM 3.1発表：高速なリアルタイム動画検出",
-      "summary": "Meta AIがSegment Anything Model 3.1を公開。マルチプレキシングとグローバル推論により、リアルタイム動画検出・追跡を高速化。",
-      "detail": "Meta AIは、Segment Anything Model（SAM）の最新版「SAM 3.1」を発表した。このモデルは、マルチプレキシングとグローバル推論技術を導入し、リアルタイムでの動画オブジェクト検出と追跡の性能を大幅に向上させている。背景には、動画コンテンツの急増と、より精密な映像解析への需要の高まりがある。技術的には、複数フレーム間での情報共有を効率化し、処理速度と精度の両立を実現。この進化は、自動運転、監視システム、コンテンツ制作など、幅広い産業応用に影響を与える。特に、リアルタイム性が求められるアプリケーションでの実用化が加速すると見込まれる。",
-      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
-      "source": "Meta AI"
+      "headline": "Mistral AI、8.3億ドル調達でパリ近郊にデータセンター建設",
+      "summary": "フランスのMistral AIが8億3000万ドルの債務調達を実施。2026年第2四半期までにパリ近郊にデータセンターを建設予定。",
+      "detail": "フランスを代表するAIスタートアップMistral AIが8億3000万ドルの債務調達に成功し、パリ近郊に新しいデータセンターを建設する計画を明らかにしました。同社は2026年第2四半期までのデータセンター稼働開始を目指しています。この大規模投資は、欧州におけるAIインフラの自立を目指す動きの一環です。NVIDIAへの依存度低減とデータ主権の確保が背景にあります。Mistralは欧州のAI競争力を高める重要なプレイヤーとして注目されており、この投資は同地域のAIエコシステム強化に大きく寄与するでしょう。",
+      "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 3,
-      "headline": "Meta、2年で4種のMTIAチップ開発：AI体験を拡大",
-      "summary": "Metaが2年間で4種類のMTIAチップを開発。数十億ユーザー向けのAI体験をスケールするための独自インフラを強化。",
-      "detail": "Metaは、自社開発のAI推論アクセラレーターチップ「MTIA」シリーズを2年間で4種類開発したことを発表した。これは、数十億ユーザーに提供するAI体験を効率的にスケールするためのインフラ戦略の一環。背景には、クラウド依存のコスト削減と、特定ワークロードに最適化されたハードウェアの需要がある。技術的には、推論処理の効率化と電力消費の最適化が焦点。この取り組みは、MetaのAIサービス（Meta AIなど）の応答速度と信頼性向上に直結する。業界全体として、大手テック企業の独自チップ開発競争が激化していることを示す事例である。",
-      "url": "https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/",
-      "source": "Meta AI"
+      "headline": "AIチップ新興Rebellions、4億ドル調達で23億ドル評価",
+      "summary": "AIチップスタートアップのRebellionsが4億ドルを調達し、評価額23億ドルに。年内のIPOを計画、NVIDIAへの挑戦続く。",
+      "detail": "韓国のAIチップスタートアップRebellionsが、プレIPOラウンドで4億ドルの資金調達に成功し、評価額は23億ドルに達しました。同社は特にAI推論に特化したチップを設計しており、NVIDIAの支配的な地位に挑戦する新興企業の一角です。年内のIPOを計画しており、AIハードウェア市場の多様化が進んでいます。エネルギー効率の高い推論チップへの需要増加が背景にあり、データセンターやエッジコンピューティングでの応用が期待されます。この調達は、AIインフラ市場における競争激化を示す重要な指標です。",
+      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 4,
-      "headline": "Claude、Excel・PowerPoint・Slack統合機能を拡充",
-      "summary": "AnthropicがClaude for Excel、PowerPoint、Slackなどの統合機能を強化。生産性ツールへのAI組み込みが本格化。",
-      "detail": "Anthropicは、Claudeの各種統合機能を拡充している。Claude for Excel、PowerPoint、Slackなど、主要な生産性ツールへの組み込みを推進。背景には、AIを日常業務にシームレスに統合する需要の高まりがある。技術的には、各アプリケーションのAPIを活用した高度な連携が特徴。これにより、データ分析、プレゼン作成、チームコミュニケーションなど、具体的な業務効率化が期待される。企業向けプラン（Enterprise plan）との連携も強化されており、業務活用の本格化が進む。競合するCopilotなどに対抗する、重要な戦略的展開と言える。",
-      "url": "https://claude.com/claude-for-excel",
-      "source": "Anthropic"
+      "headline": "AnthropicのAIモデル「Mythos」流出でサイバーセキュリティリスク懸念",
+      "summary": "AnthropicのAIモデル「Mythos」が流出し、サイバーセキュリティ上の重大なリスクが指摘されている。悪用可能性が専門家により警告。",
+      "detail": "Anthropicが開発中のAIモデル「Mythos」の情報が流出し、サイバーセキュリティ上の重大なリスクが専門家から指摘されています。流出したモデル詳細が悪意のある行為者に利用される可能性があり、特に高度な言語モデルの悪用が懸念されます。AIモデルのセキュリティ保護とオープン性のバランスが改めて問われる事態となりました。企業の内部情報管理の重要性が浮き彫りになるとともに、AI開発における倫理的枠組みの強化が急務です。この事件は、AI業界全体のセキュリティ基準見直しを促す契機となるでしょう。",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZEZ0TjZrNU11dk5pUEltcW9HT3hiSTVLV1FxUFRjNDR1RnFKTmZzV0tLaWxLc0dxWjhmTW9FSmh4bExlQWY1LWV0c3lPemU5SzJEbEVIbkVZRFdLMGtJRFdPWVc1SklHUXNfUF9SYlRHeHN5X05kY05xM2ctbm9YWmpLd1RDeUhJNEV6a0N6UGh1RzV3cDJ1SjZBVjZhTExkM2d2eWVZUVVCcTVwajRhVDhSWlVNSVlLcVhSaWlmVE9CV1lYazhuY1FnQQ?oc=5",
+      "source": "news.google.com"
     },
     {
       "rank": 5,
-      "headline": "Sora終了の可能性、AI動画市場に現実的な見方",
-      "summary": "TechCrunchがSoraの終了可能性を報道。AI動画生成市場の過熱にブレーキか。企業戦略か、業界全体の後退か注目。",
-      "detail": "TechCrunchは、OpenAIの動画生成モデル「Sora」のサービス終了可能性について報じた。これは通常の企業戦略なのか、それともAI生成動画市場全体の後退の兆候なのか、議論を呼んでいる。背景には、生成AIの実用化におけるコスト、品質、著作権問題などの課題がある。技術的には、高品質な動画生成には莫大な計算資源とデータが必要で、持続可能性が問われている。この動向は、AI動画スタートアップの資金調達や事業計画に影響を与える可能性がある。業界関係者は、過剰な期待と現実のギャップを認識し始めている。今後の動向が、生成AI市場全体の健全性を示す指標となる。",
-      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "headline": "AIコーディング急増でQodoが7000万ドル調達、コード検証に注力",
+      "summary": "AIによるコード生成の急増を受け、Qodoが7000万ドルを調達。生成コードの品質保証と検証技術の開発を加速。",
+      "detail": "AIを活用したコード生成の急増に伴い、コード検証スタートアップのQodoが7000万ドルの資金調達に成功しました。同社はAIが生成するコードの品質保証と機能検証に特化した技術を開発しています。GitHub Copilotや類似ツールの普及で、開発プロセスにおけるAI生成コードの割合が急増する中、その信頼性確保が重要な課題となっています。Qodoの技術は、自動生成されたコードのバグ検出、セキュリティ脆弱性の特定、パフォーマンス最適化を支援します。この投資は、AI支援開発の成熟段階への移行を示しており、ソフトウェア開発の未来形を形作る重要な動きです。",
+      "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
       "source": "techcrunch.com"
     }
   ]
