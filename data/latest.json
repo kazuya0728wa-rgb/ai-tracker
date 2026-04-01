@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "OpenAI、Soraを公開6ヶ月で突然終了",
-      "summary": "OpenAIがAI動画生成ツール「Sora」を公開からわずか6ヶ月で終了。突然の決定に疑問の声が上がっている。",
-      "detail": "OpenAIは先週、AI動画生成ツール「Sora」の公開をわずか6ヶ月で終了することを発表しました。この突然の決定は業界に衝撃を与え、様々な憶測を呼んでいます。技術的な課題、著作権問題、あるいはより強力な後継モデルへの移行など、複数の要因が考えられます。Soraは高品質な動画生成で注目を集めていましたが、その短い寿命は生成AI市場の急速な変化を示しています。この決定は、AI企業が最先端技術をどのように管理・展開するかについての重要な議論を引き起こすでしょう。",
-      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "headline": "OpenAIが1220億ドル調達、8520億ドル評価でIPO間近",
+      "summary": "OpenAIがアマゾン、NVIDIA、ソフトバンク主導で1220億ドルの資金調達を実施。小口投資家からも30億ドルを調達し、評価額は8520億ドルに達した。IPOが近いとみられる。",
+      "detail": "OpenAIは史上最大規模の資金調達ラウンドを完了し、AI業界で最も価値のある非上場企業となった。アマゾン、NVIDIA、ソフトバンクが主導したこの調達では、小口投資家向けの枠も設けられ、30億ドルが集まった。評価額8520億ドルは、従来の評価額を大幅に上回るもので、AI市場の急成長を反映している。この調達により、OpenAIは大規模なインフラ投資や研究開発を加速できる。IPO計画が具体化しており、市場への影響が注目される。AI業界全体の資金調達環境にも好影響を与える可能性がある。",
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
       "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "Mistral AI、8.3億ドル調達でパリ近郊にデータセンター建設",
-      "summary": "フランスのMistral AIが8億3000万ドルの債務調達を実施。2026年第2四半期までにパリ近郊にデータセンターを建設予定。",
-      "detail": "フランスを代表するAIスタートアップMistral AIが8億3000万ドルの債務調達に成功し、パリ近郊に新しいデータセンターを建設する計画を明らかにしました。同社は2026年第2四半期までのデータセンター稼働開始を目指しています。この大規模投資は、欧州におけるAIインフラの自立を目指す動きの一環です。NVIDIAへの依存度低減とデータ主権の確保が背景にあります。Mistralは欧州のAI競争力を高める重要なプレイヤーとして注目されており、この投資は同地域のAIエコシステム強化に大きく寄与するでしょう。",
-      "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
-      "source": "techcrunch.com"
+      "headline": "Anthropic、2度目のセキュリティ侵害で自社AIツールのソースコード流出",
+      "summary": "Anthropicが今週2度目のセキュリティインシデントを発生。自社のAIコーディングツールのソースコードが流出した。人的ミスが原因とみられる。",
+      "detail": "Anthropicは短期間で2度目の重大なセキュリティ侵害を経験した。今回のインシデントでは、同社が開発中のAIコーディングツールのソースコードが外部に流出した。Fortuneの報道によれば、人的ミスが原因とされている。これは今週発生した2件目のセキュリティ問題であり、同社の内部管理体制に懸念が生じている。AI企業にとって知的財産の保護は競争力の核心であり、この流出は技術的優位性を損なう可能性がある。セキュリティ対策の強化が急務となっており、業界全体のセキュリティ基準にも影響を与える事例となった。",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU0x6OU5WOXZKVkNZQUEzakU1TmdYNGI5THZESkF4aFZBTWZISGItRExDQUoxN24xa0REN0R5cTNfUTdOZlRDRldkMjNjeVdFWElZSTVqMlVBOTlRY1FQemlIY3lwOFdtN1BuM0pmMVJhTmticld1RUMtZDVrSFVYQTdGcWNQYy15ZmwtbF9FWDNVR3U2TTR5b2EwczlHMWdJdkd5d0hDdjZtRW5YaDA0d0ZCNk5tSDFmTkN4TWt2RGpRU0szU0RFUnhVQ19xVlFzRzJGeA?oc=5",
+      "source": "Fortune via news.google.com"
     },
     {
       "rank": 3,
-      "headline": "AIチップ新興Rebellions、4億ドル調達で23億ドル評価",
-      "summary": "AIチップスタートアップのRebellionsが4億ドルを調達し、評価額23億ドルに。年内のIPOを計画、NVIDIAへの挑戦続く。",
-      "detail": "韓国のAIチップスタートアップRebellionsが、プレIPOラウンドで4億ドルの資金調達に成功し、評価額は23億ドルに達しました。同社は特にAI推論に特化したチップを設計しており、NVIDIAの支配的な地位に挑戦する新興企業の一角です。年内のIPOを計画しており、AIハードウェア市場の多様化が進んでいます。エネルギー効率の高い推論チップへの需要増加が背景にあり、データセンターやエッジコンピューティングでの応用が期待されます。この調達は、AIインフラ市場における競争激化を示す重要な指標です。",
-      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "headline": "Salesforce、SlackにAI機能30種を追加し大規模刷新",
+      "summary": "SalesforceがSlackにAI機能を30種類追加する大規模アップデートを発表。生産性向上を目的としたAI統合により、Slackの実用性が大幅に向上する。",
+      "detail": "SalesforceはSlackプラットフォームの大規模なAI刷新を発表した。30種類の新機能が追加され、ワークフローの自動化や情報検索の効率化が図られる。これにより、Slackは単なるコミュニケーションツールから、AIを活用したインテリジェントなワークスペースへと進化する。具体的には、会話の要約、タスクの自動生成、文書のスマート検索などの機能が含まれる。SalesforceのAI技術「Einstein」との統合も強化され、CRMデータとの連携がよりシームレスになる。企業の生産性向上に直接寄与する実用的なAI導入事例として注目される。",
+      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
       "source": "techcrunch.com"
     },
     {
       "rank": 4,
-      "headline": "AnthropicのAIモデル「Mythos」流出でサイバーセキュリティリスク懸念",
-      "summary": "AnthropicのAIモデル「Mythos」が流出し、サイバーセキュリティ上の重大なリスクが指摘されている。悪用可能性が専門家により警告。",
-      "detail": "Anthropicが開発中のAIモデル「Mythos」の情報が流出し、サイバーセキュリティ上の重大なリスクが専門家から指摘されています。流出したモデル詳細が悪意のある行為者に利用される可能性があり、特に高度な言語モデルの悪用が懸念されます。AIモデルのセキュリティ保護とオープン性のバランスが改めて問われる事態となりました。企業の内部情報管理の重要性が浮き彫りになるとともに、AI開発における倫理的枠組みの強化が急務です。この事件は、AI業界全体のセキュリティ基準見直しを促す契機となるでしょう。",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZEZ0TjZrNU11dk5pUEltcW9HT3hiSTVLV1FxUFRjNDR1RnFKTmZzV0tLaWxLc0dxWjhmTW9FSmh4bExlQWY1LWV0c3lPemU5SzJEbEVIbkVZRFdLMGtJRFdPWVc1SklHUXNfUF9SYlRHeHN5X05kY05xM2ctbm9YWmpLd1RDeUhJNEV6a0N6UGh1RzV3cDJ1SjZBVjZhTExkM2d2eWVZUVVCcTVwajRhVDhSWlVNSVlLcVhSaWlmVE9CV1lYazhuY1FnQQ?oc=5",
-      "source": "news.google.com"
+      "headline": "Runway、1000万ドル基金でAIビデオスタートアップを支援",
+      "summary": "AIビデオ生成のRunwayが1000万ドルの基金を設立。自社のAIビデオモデルを活用する初期スタートアップを支援する。インタラクティブなリアルタイム生成に向けたエコシステム構築を目指す。",
+      "detail": "AIビデオ生成プラットフォームのRunwayは、1000万ドルの投資基金「Builders program」を立ち上げた。このプログラムは、RunwayのAIビデオモデルを活用する初期段階のスタートアップを資金面と技術面で支援する。Runwayはインタラクティブでリアルタイムなビデオ生成技術の開発を進めており、そのエコシステムの拡大を図る。投資対象はビデオ編集、コンテンツ制作、教育ツールなど多岐にわたる。AIビデオ市場は急成長しており、Runwayは自社プラットフォームの優位性を強化する戦略を取っている。スタートアップ支援を通じて、業界全体のイノベーションを促進する役割も期待される。",
+      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 5,
-      "headline": "AIコーディング急増でQodoが7000万ドル調達、コード検証に注力",
-      "summary": "AIによるコード生成の急増を受け、Qodoが7000万ドルを調達。生成コードの品質保証と検証技術の開発を加速。",
-      "detail": "AIを活用したコード生成の急増に伴い、コード検証スタートアップのQodoが7000万ドルの資金調達に成功しました。同社はAIが生成するコードの品質保証と機能検証に特化した技術を開発しています。GitHub Copilotや類似ツールの普及で、開発プロセスにおけるAI生成コードの割合が急増する中、その信頼性確保が重要な課題となっています。Qodoの技術は、自動生成されたコードのバグ検出、セキュリティ脆弱性の特定、パフォーマンス最適化を支援します。この投資は、AI支援開発の成熟段階への移行を示しており、ソフトウェア開発の未来形を形作る重要な動きです。",
-      "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+      "headline": "LiteLLMオープンソース侵害がMercorのサイバー攻撃原因に",
+      "summary": "AI採用スタートアップのMercorがサイバー攻撃を受け、データが窃取された。攻撃はオープンソースプロジェクトLiteLLMの侵害に関連している。セキュリティ対策の重要性が再認識される。",
+      "detail": "AI採用スタートアップのMercorは、オープンソースプロジェクトLiteLLMの侵害に関連したサイバー攻撃を受けたことを確認した。脅迫的なハッキンググループが同社システムからのデータ窃取を主張している。LiteLLMは複数のLLMを統合するオープンソースツールで、多くのAIアプリケーションで使用されている。オープンソースソフトウェアのセキュリティリスクが現実の脅威となった事例である。AI企業はサプライチェーン攻撃に対して脆弱であり、依存関係の管理が重要となっている。この事件は、AI業界全体のセキュリティ対策の再評価を促すきっかけとなるだろう。",
+      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
       "source": "techcrunch.com"
     }
   ]
