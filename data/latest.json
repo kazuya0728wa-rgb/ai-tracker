@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Microsoft、Copilotは「娯楽目的のみ」と利用規約で明記",
-      "summary": "MicrosoftがCopilotの利用規約に「娯楽目的のみ」との文言を追加。AI企業自身が出力の盲信を警告する姿勢を示し、責任範囲を限定する動きが注目される。",
-      "detail": "MicrosoftがAIアシスタント「Copilot」の利用規約に「娯楽目的のみ」との文言を追加した。これはAI企業自身が、生成AIの出力を無批判に信頼しないようユーザーに警告する動きの一環。法的責任の範囲を限定する意図があると見られる。背景には、AIの誤情報やハルシネーションによる訴訟リスクの高まりがある。この動きは他のAI企業にも波及する可能性が高く、AIサービスの利用条件の見直しが進む見込み。実務的には、企業でのAI導入時に規約の確認がより重要になる。",
-      "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+      "headline": "OpenAI、AI経済への影響と対策を公式文書で発表",
+      "summary": "OpenAIがAIの経済的影響に関する公式文書を発表。AI利益への課税、公共富ファンド、4日労働制などを提案し、雇用喪失と格差拡大への対策を示した。",
+      "detail": "OpenAIは、AIの急速な発展がもたらす経済的影響と社会的課題に対処するための包括的なビジョンを公式文書として発表した。提案の中心は、AI企業の利益に対する課税（ロボット税の一種）、その税収を原資とした公共富ファンドの設立、そして4日労働制の導入である。これにより、AIによる生産性向上の恩恵を広く分配し、雇用喪失の緩和と経済格差の是正を目指す。背景には、生成AIの普及が特定の職種を急速に置き換え、社会的不安を増大させている現状がある。OpenAIは自社の技術が社会に与える責任を認識し、政策提言という形で積極的な関与を開始した。この動きは、AI業界のリーダーが技術開発だけでなく、その社会的統合にも責任を持つという新たな段階に入ったことを示している。",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
       "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "日本、労働力不足で物理AIを実用化へ",
-      "summary": "深刻な労働力不足を背景に、日本が物理AIの実用化を加速。パイロットプロジェクトから実世界展開へ移行し、ロボットが人間の代わりに作業を担う事例が増加。",
-      "detail": "日本の労働力不足が、物理AI（身体性を持つAIロボット）の実用化を後押ししている。これまで実験段階だったプロジェクトが、実際の職場環境での導入段階に移行し始めた。特に単純作業や危険作業、人手不足が深刻な分野での導入が進んでいる。技術的には、環境適応性の向上とコスト削減が実用化の鍵となった。この動きは、日本の少子高齢化社会における労働力確保のモデルケースとして世界から注目されている。他国でも同様の課題を抱える地域への展開が期待される。",
-      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "headline": "ChatGPTアプリ連携機能の使い方解説",
+      "summary": "ChatGPTの新機能「アプリ連携」の具体的な使い方が公開。Spotify、DoorDash、Uber、Canva、Expediaなど様々なサービスをChatGPT内で直接操作可能に。",
+      "detail": "OpenAIのChatGPTが導入したアプリ連携機能の詳細な使用方法が明らかになった。ユーザーはChatGPTのインターフェース内で、Spotifyの音楽再生、DoorDashでの食事注文、Uberの配車、Canvaでのデザイン作成、Expediaでの旅行計画など、多様なサードパーティサービスを直接操作できる。この機能は、ChatGPTを単なるチャットボットから、各種サービスへの統合窓口（プラットフォーム）へと進化させる重要な一歩である。技術的には、各サービス提供社が開発した専用の「アクション」をChatGPTが呼び出す仕組みで、ユーザーは自然言語で複雑なタスクを実行できる。これにより、アプリ間を行き来する手間が省け、作業効率が大幅に向上する見込み。AIアシスタントの実用性と日常への浸透度が一段と高まる重要なアップデートと言える。",
+      "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
       "source": "techcrunch.com"
     },
     {
       "rank": 3,
-      "headline": "AIによる声クローンと著作権トラブルが増加",
-      "summary": "フォークミュージシャンの声がAIでクローンされ、著作権トロールに悪用される事例が発生。AI生成コンテンツの権利関係が複雑化し、新たな法的課題が浮上。",
-      "detail": "AIによる声のクローン技術が進歩する中、無断でクローンされた声を著作権トロールが悪用する事例が報告された。被害を受けたフォークミュージシャンのケースでは、自身の声に似せたAI生成コンテンツの権利を第三者が主張する事態に。背景には、AI生成物の著作権帰属に関する法整備の遅れがある。この問題は音楽業界に限らず、あらゆるクリエイターに影響を与える可能性が高い。技術的対策と法的整備の両面での対応が急務となっている。",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMDFUNzY3d2N4NzNpRlhXNzlwcnlLbEVWd3JJcTJ0Y0F2NTBXNFg1dnhYM0U3SU5CSFEwZkFRSWxXR0J1YV9wTHNRaU40MlJtX2k0MVY1UUNzQndiV0F2QXc4VVhxV0cyNF9POVBtbnZPZk5VWm94d1VwOTE5NWRMdU5jdTBGM3ByU2xzV2RVLWNtMEg5aWt2RWxVYjA2MERBLXVubkdPTF9ORzFraVVvbWtDekZYREgtRTFmei1TQUlyU091OXNhTzRSX3VqRmx3clBJS3FvY21tQmVaczlJ?oc=5",
-      "source": "musicbusinessworldwide.com"
+      "headline": "Google、Gemmaモデル搭載のオフラインAI音声入力アプリをiOSで公開",
+      "summary": "GoogleがGemma AIモデルを活用したオフライン音声入力アプリをiOS向けに静かにリリース。Wispr Flowなどの競合に対抗し、プライバシーと低遅延を強調。",
+      "detail": "Googleは、オンデバイスで動作するAI音声入力アプリをiOS向けに公開した。最大の特徴は、インターネット接続が不要な「オフラインファースト」設計であり、ユーザーのプライバシー保護と超低遅延の入力を実現している。このアプリの核心技術は、Googleが開発した軽量オープンモデル「Gemma」シリーズで、スマートフォン上で高精度な音声認識とテキスト変換を行う。競合としては、Wispr Flowなどの専用音声入力アプリが挙げられる。Googleのこの動きは、クラウド依存からオンデバイスAIへの大きな戦略転換を示すと同時に、Appleの強固なプライバシー政策を持つiOSプラットフォームへの積極的な参入を意味する。データを端末内に留めることでセキュリティを向上させ、通信環境に依存しない利便性を提供する、今後のAIアプリの重要な方向性を示す事例である。",
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 4,
-      "headline": "AI駆動の「一人会社」が起業ブームを喚起",
-      "summary": "AIを活用した「一人会社」の設立が新たな起業ブームを引き起こしている。AIが業務の大半を担うことで、個人でも大規模な事業運営が可能に。",
-      "detail": "AI技術の進歩により、個人がAIを活用して会社全体の業務をまかなう「一人会社」の設立が増加している。この動きは新たな起業ブームを生み出しており、伝統的なビジネスモデルを変革する可能性がある。AIが顧客対応、マーケティング、開発などの業務を自動化することで、人的リソースが限られる個人でも事業規模を拡大できる。背景には、AIエージェント技術の成熟とクラウドサービスの低廉化がある。今後は規制や倫理面での課題も浮上する見込み。",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb05fdWc3RXZhWjNTYzVNUlFMb1kyczRNMDJGU0QyQ3RHQ05qeGdQMzdKYnhXcTRhVktJWUJsSzlWVlkxMVBvOU1JZ3FtY2I2V2dXcVEzNmxlNWg1bmVfeDhVRkF3VnFybnlaM2hQcGptQ0cyYXFxN0ticjFEWjRMOE9ZSk1BYWpheWZUYzdIRXowcXpMQlNFRFNFeVBobTA2MHdFUw?oc=5",
-      "source": "Borneo Post"
+      "headline": "OpenAI出身者ら、新VCファンド「Zero Shot」で最大1億ドル調達へ",
+      "summary": "OpenAIの元関係者らが運営する新ベンチャーファンド「Zero Shot」が、最大1億ドルの資金調達を目指していることが判明。既にいくつかの投資を実行済み。",
+      "detail": "OpenAIの元従業員や深い関わりを持つ人物らが、新たなベンチャーキャピタルファンド「Zero Shot」を設立し、その第1号ファンドとして最大1億ドルの資金調達を進めていることが明らかになった。同ファンドは既に複数のスタートアップへの投資を実行している。この動きは、生成AIの第一波をリードしたOpenAIの内部知識とネットワークが、次なるAIスタートアップへの投資という形で市場に流出し始めたことを意味する。ファンドの設立メンバーは、技術トレンドの詳細や業界の課題を深く理解しており、次世代のAI企業を選別する上で有利な立場にある。これは、AIエコシステムが成熟段階に入り、初期の技術開発者たちが投資家や育成者として次の役割を担い始めた典型的なパターンを示している。シリコンバレーのAI投資の風景を変える可能性のある重要な動きである。",
+      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 5,
-      "headline": "SpaceX、軌道上データセンター構想で評価向上目指す",
-      "summary": "SpaceXが軌道上データセンター構想を発表。宇宙空間でのAI計算処理により、地上の制約を超えた大規模計算が可能になると期待。",
-      "detail": "SpaceXが軌道上データセンターの構想を明らかにし、これが同社の評価向上に寄与する可能性が議論されている。宇宙空間でのデータセンターは、冷却コストの削減や太陽光発電の効率化など、地上にはない利点がある。特にAIの大規模計算処理において、電力消費と発熱の問題を解決する手段として注目されている。技術的には、ロケット打ち上げコストの低下が実現性を高めている。実現すれば、AI研究開発の地理的制約が緩和され、グローバルな競争環境が変化する可能性がある。",
-      "url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
-      "source": "techcrunch.com"
+      "headline": "MetaのSegment Anything、ファッションアプリでデジタルクローゼットを再構築",
+      "summary": "ファッションアプリ「Alta Daily」がMetaの画像分割モデル「Segment Anything」を活用。ユーザーの服を自動識別・分類し、デジタルクローゼット体験を革新。",
+      "detail": "ファッションアプリ「Alta Daily」が、Metaが開発した汎用画像セグメンテーションモデル「Segment Anything Model (SAM)」を応用し、デジタルクローゼット機能を革新している。ユーザーがアップロードした写真から、SAMが衣服のアイテムを高精度で自動的に切り出し（セグメンテーション）、分類し、仮想クローゼットを構築する。これにより、ユーザーは所有する服を簡単にデジタル管理し、コーディネートを計画できる。背景には、Eコマースやソーシャルメディアで膨大な画像が生成される中、そのコンテンツを理解し構造化する需要の高まりがある。SAMは、特定の訓練データがなくても多様な物体を分割できる「ゼロショット」能力が特徴で、ファッションのような特定ドメインへの応用可能性を示した好例である。この活用事例は、基盤モデルが特定の産業向けにカスタマイズされ、実用的な消費者向けアプリケーションを生み出す流れを象徴している。",
+      "url": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
+      "source": "Meta AI"
     }
   ]
 }
