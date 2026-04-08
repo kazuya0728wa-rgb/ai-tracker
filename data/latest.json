@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "OpenAI、AI経済への影響と対策を公式文書で発表",
-      "summary": "OpenAIがAIの経済的影響に関する公式文書を発表。AI利益への課税、公共富ファンド、4日労働制などを提案し、雇用喪失と格差拡大への対策を示した。",
-      "detail": "OpenAIは、AIの急速な発展がもたらす経済的影響と社会的課題に対処するための包括的なビジョンを公式文書として発表した。提案の中心は、AI企業の利益に対する課税（ロボット税の一種）、その税収を原資とした公共富ファンドの設立、そして4日労働制の導入である。これにより、AIによる生産性向上の恩恵を広く分配し、雇用喪失の緩和と経済格差の是正を目指す。背景には、生成AIの普及が特定の職種を急速に置き換え、社会的不安を増大させている現状がある。OpenAIは自社の技術が社会に与える責任を認識し、政策提言という形で積極的な関与を開始した。この動きは、AI業界のリーダーが技術開発だけでなく、その社会的統合にも責任を持つという新たな段階に入ったことを示している。",
-      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "headline": "Anthropic、強力すぎるAIモデルMythosを限定公開",
+      "summary": "Anthropicが新AIモデル「Mythos」を発表。サイバーセキュリティ防御に特化した強力なモデルだが、悪用リスクを懸念し限定公開。一部企業のみが利用可能。",
+      "detail": "Anthropicは新たなAIモデル「Mythos」のプレビューを発表しました。このモデルはサイバーセキュリティ防御作業に特化して設計されており、高度な脅威検知や脆弱性分析が可能とされています。しかし、その強力さゆえに悪用リスクが懸念され、ハッカーによる攻撃ツールとして利用される可能性があるため、公開範囲を厳しく制限しています。現在は一部の高プロファイル企業のみがアクセス可能で、厳格な利用規約の下で運用されます。この決定は、AIの安全性と倫理的配慮に関する業界の議論をさらに活発化させるでしょう。AnthropicはClaudeシリーズに続く新たなモデル群としてMythosを位置づけており、専門領域特化型AIの新たな潮流を示しています。",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
       "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "ChatGPTアプリ連携機能の使い方解説",
-      "summary": "ChatGPTの新機能「アプリ連携」の具体的な使い方が公開。Spotify、DoorDash、Uber、Canva、Expediaなど様々なサービスをChatGPT内で直接操作可能に。",
-      "detail": "OpenAIのChatGPTが導入したアプリ連携機能の詳細な使用方法が明らかになった。ユーザーはChatGPTのインターフェース内で、Spotifyの音楽再生、DoorDashでの食事注文、Uberの配車、Canvaでのデザイン作成、Expediaでの旅行計画など、多様なサードパーティサービスを直接操作できる。この機能は、ChatGPTを単なるチャットボットから、各種サービスへの統合窓口（プラットフォーム）へと進化させる重要な一歩である。技術的には、各サービス提供社が開発した専用の「アクション」をChatGPTが呼び出す仕組みで、ユーザーは自然言語で複雑なタスクを実行できる。これにより、アプリ間を行き来する手間が省け、作業効率が大幅に向上する見込み。AIアシスタントの実用性と日常への浸透度が一段と高まる重要なアップデートと言える。",
-      "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
+      "headline": "Anthropic、Google・Broadcomと大規模計算契約を拡大",
+      "summary": "AnthropicがGoogleとBroadcomとの計算リソース契約を大幅に拡大。年間収益300億ドル規模に急成長し、需要増に対応するためTPUリソースを増強。",
+      "detail": "Anthropicは急増する需要に対応するため、GoogleとBroadcomとの計算リソース契約を大幅に拡大しました。同社の年間収益は300億ドル規模に急成長しており、これに伴い必要な計算能力が飛躍的に増加しています。この契約拡大により、GoogleのTPU（Tensor Processing Unit）リソースへのアクセスが強化され、大規模モデルのトレーニングと推論能力が向上します。BroadcomはカスタムAIチップの設計・製造面で協力しており、ハードウェア最適化も進められています。この動きは、AI企業とクラウドプロバイダー・チップメーカー間の戦略的提携の重要性を示しています。計算リソースの確保は現代のAI競争における決定的要因となっており、Anthropicの成長持続性を支える基盤整備と言えます。",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
       "source": "techcrunch.com"
     },
     {
       "rank": 3,
-      "headline": "Google、Gemmaモデル搭載のオフラインAI音声入力アプリをiOSで公開",
-      "summary": "GoogleがGemma AIモデルを活用したオフライン音声入力アプリをiOS向けに静かにリリース。Wispr Flowなどの競合に対抗し、プライバシーと低遅延を強調。",
-      "detail": "Googleは、オンデバイスで動作するAI音声入力アプリをiOS向けに公開した。最大の特徴は、インターネット接続が不要な「オフラインファースト」設計であり、ユーザーのプライバシー保護と超低遅延の入力を実現している。このアプリの核心技術は、Googleが開発した軽量オープンモデル「Gemma」シリーズで、スマートフォン上で高精度な音声認識とテキスト変換を行う。競合としては、Wispr Flowなどの専用音声入力アプリが挙げられる。Googleのこの動きは、クラウド依存からオンデバイスAIへの大きな戦略転換を示すと同時に、Appleの強固なプライバシー政策を持つiOSプラットフォームへの積極的な参入を意味する。データを端末内に留めることでセキュリティを向上させ、通信環境に依存しない利便性を提供する、今後のAIアプリの重要な方向性を示す事例である。",
-      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-      "source": "techcrunch.com"
+      "headline": "Meta、次期AIモデルをオープンソース化へ",
+      "summary": "Metaが次世代AIモデルのオープンソース版をリリース予定と報道。Llamaシリーズに続く戦略で、オープンAIエコシステムをさらに推進。",
+      "detail": "Axiosの報道によると、Metaは次世代AIモデルのオープンソース版をリリースする計画です。これは同社のLlamaシリーズに続く戦略で、クローズドモデルが主流となる中、オープンなAIエコシステムの推進を強化する意図があります。MetaはこれまでLlama 2、Llama 3などでオープンソース戦略を採り、研究コミュニティや企業からの評価を得てきました。次期モデルでは性能面での大幅な向上が期待され、オープンソースとして公開されれば、企業や開発者によるカスタマイズや応用範囲がさらに拡大します。この動きは、AI民主化の流れを加速させ、中小企業や研究機関のAI活用を促進する可能性があります。ただし、オープンソース化に伴う安全性や悪用リスクへの対応も課題となるでしょう。",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pY0NnYlFFS0pOMmpUb0doYlRiT0NmYnVuYkZJOTZPZEVuSXhkSnVfdlMxMDFRYWpzT3hwNzZ3SVg0ajM0RXVoVmN1WVY1MjIta0w0TXM5eTk4N0s2WUI4empvRnJ2UEVScWdr?oc=5",
+      "source": "Axios via Google News"
     },
     {
       "rank": 4,
-      "headline": "OpenAI出身者ら、新VCファンド「Zero Shot」で最大1億ドル調達へ",
-      "summary": "OpenAIの元関係者らが運営する新ベンチャーファンド「Zero Shot」が、最大1億ドルの資金調達を目指していることが判明。既にいくつかの投資を実行済み。",
-      "detail": "OpenAIの元従業員や深い関わりを持つ人物らが、新たなベンチャーキャピタルファンド「Zero Shot」を設立し、その第1号ファンドとして最大1億ドルの資金調達を進めていることが明らかになった。同ファンドは既に複数のスタートアップへの投資を実行している。この動きは、生成AIの第一波をリードしたOpenAIの内部知識とネットワークが、次なるAIスタートアップへの投資という形で市場に流出し始めたことを意味する。ファンドの設立メンバーは、技術トレンドの詳細や業界の課題を深く理解しており、次世代のAI企業を選別する上で有利な立場にある。これは、AIエコシステムが成熟段階に入り、初期の技術開発者たちが投資家や育成者として次の役割を担い始めた典型的なパターンを示している。シリコンバレーのAI投資の風景を変える可能性のある重要な動きである。",
-      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+      "headline": "小型スタートアップArcee、高性能オープンソースLLMで注目",
+      "summary": "26人規模の米スタートアップArceeが高性能オープンソース大規模言語モデルを開発。OpenClawユーザー間で人気急上昇し、小規模チームの可能性を示す。",
+      "detail": "わずか26人の米国スタートアップArceeが、高性能なオープンソースの大規模言語モデルを開発し注目を集めています。同社のモデルはOpenClawユーザーコミュニティで急速に人気を獲得しており、リソースが限られた小規模チームでもイノベーションを起こせることを実証しました。この成功は、AI開発が超大企業だけの領域ではなくなったことを示しています。Arceeのアプローチは、計算リソースの効率的な活用と、コミュニティ駆動型の開発モデルに特徴があります。オープンソースモデルの性能向上は、企業のAI導入コストを下げ、多様なユースケースでの活用を可能にします。今後の動向が注目される中、スタートアップによるAIイノベーションの新たな可能性を示す事例となっています。",
+      "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
       "source": "techcrunch.com"
     },
     {
       "rank": 5,
-      "headline": "MetaのSegment Anything、ファッションアプリでデジタルクローゼットを再構築",
-      "summary": "ファッションアプリ「Alta Daily」がMetaの画像分割モデル「Segment Anything」を活用。ユーザーの服を自動識別・分類し、デジタルクローゼット体験を革新。",
-      "detail": "ファッションアプリ「Alta Daily」が、Metaが開発した汎用画像セグメンテーションモデル「Segment Anything Model (SAM)」を応用し、デジタルクローゼット機能を革新している。ユーザーがアップロードした写真から、SAMが衣服のアイテムを高精度で自動的に切り出し（セグメンテーション）、分類し、仮想クローゼットを構築する。これにより、ユーザーは所有する服を簡単にデジタル管理し、コーディネートを計画できる。背景には、Eコマースやソーシャルメディアで膨大な画像が生成される中、そのコンテンツを理解し構造化する需要の高まりがある。SAMは、特定の訓練データがなくても多様な物体を分割できる「ゼロショット」能力が特徴で、ファッションのような特定ドメインへの応用可能性を示した好例である。この活用事例は、基盤モデルが特定の産業向けにカスタマイズされ、実用的な消費者向けアプリケーションを生み出す流れを象徴している。",
-      "url": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
-      "source": "Meta AI"
+      "headline": "Uber、AWSのAIチップ採用を拡大",
+      "summary": "UberがAWS契約を拡大し、ライドシェア機能の多くをAmazonのAIチップで実行へ。OracleやGoogleへの対抗措置として注目される動き。",
+      "detail": "UberはAWSとの契約を拡大し、ライドシェア機能の多くをAmazonのAIチップで実行する計画です。これはOracleやGoogleクラウドへの対抗措置と見られ、クラウドベンダー間のAIチップ競争の激化を反映しています。AmazonのカスタムAIチップ（Inferentia、Trainiumなど）は、コスト効率と性能面で競争力を高めており、大規模な推論ワークロードを持つ企業にとって魅力的な選択肢となっています。Uberの決定は、実運用レベルのAIアプリケーションにおけるチップ選択の重要性を示しています。この動きは、企業がベンダーロックインを避けつつ、最適なAIインフラを構築する戦略の一環です。業界全体として、専用AIチップの採用が加速し、クラウドサービスの差別化要因として重要性を増しています。",
+      "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+      "source": "techcrunch.com"
     }
   ]
 }
