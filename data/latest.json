@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Anthropic、強力すぎるAIモデルMythosを限定公開",
-      "summary": "Anthropicが新AIモデル「Mythos」を発表。サイバーセキュリティ防御に特化した強力なモデルだが、悪用リスクを懸念し限定公開。一部企業のみが利用可能。",
-      "detail": "Anthropicは新たなAIモデル「Mythos」のプレビューを発表しました。このモデルはサイバーセキュリティ防御作業に特化して設計されており、高度な脅威検知や脆弱性分析が可能とされています。しかし、その強力さゆえに悪用リスクが懸念され、ハッカーによる攻撃ツールとして利用される可能性があるため、公開範囲を厳しく制限しています。現在は一部の高プロファイル企業のみがアクセス可能で、厳格な利用規約の下で運用されます。この決定は、AIの安全性と倫理的配慮に関する業界の議論をさらに活発化させるでしょう。AnthropicはClaudeシリーズに続く新たなモデル群としてMythosを位置づけており、専門領域特化型AIの新たな潮流を示しています。",
-      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-      "source": "techcrunch.com"
+      "headline": "Meta、超知能研究所初のAIモデル「Muse Spark」発表",
+      "summary": "MetaのSuperintelligence Labが初のAIモデル「Muse Spark」を発表。個人向け超知能の実現を目指し、安全性と性能の両立を追求する。",
+      "detail": "MetaはSuperintelligence Lab（MSL）設立後初のAIモデル「Muse Spark」を発表した。このモデルは「Personal Superintelligence」の実現を目指し、安全性を最優先に設計されている。背景には、OpenAIやAnthropicとの競争激化があり、Metaは数十億ドルを投じて研究開発を加速。技術的には、従来の大規模言語モデルとは異なるアーキテクチャを採用し、推論能力と制御性の向上を図っている。AI業界では、超知能の安全性議論が活発化しており、Metaのアプローチが業界の方向性に影響を与える可能性がある。",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "source": "Meta AI"
     },
     {
       "rank": 2,
-      "headline": "Anthropic、Google・Broadcomと大規模計算契約を拡大",
-      "summary": "AnthropicがGoogleとBroadcomとの計算リソース契約を大幅に拡大。年間収益300億ドル規模に急成長し、需要増に対応するためTPUリソースを増強。",
-      "detail": "Anthropicは急増する需要に対応するため、GoogleとBroadcomとの計算リソース契約を大幅に拡大しました。同社の年間収益は300億ドル規模に急成長しており、これに伴い必要な計算能力が飛躍的に増加しています。この契約拡大により、GoogleのTPU（Tensor Processing Unit）リソースへのアクセスが強化され、大規模モデルのトレーニングと推論能力が向上します。BroadcomはカスタムAIチップの設計・製造面で協力しており、ハードウェア最適化も進められています。この動きは、AI企業とクラウドプロバイダー・チップメーカー間の戦略的提携の重要性を示しています。計算リソースの確保は現代のAI競争における決定的要因となっており、Anthropicの成長持続性を支える基盤整備と言えます。",
-      "url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
-      "source": "techcrunch.com"
+      "headline": "Anthropic、危険性懸念で新AIモデル「Mythos」を限定公開",
+      "summary": "Anthropicが新AIモデル「Claude Mythos」を開発したが、危険性を懸念して一般公開を保留。AppleとAmazonに限定提供し、安全性評価を進める。",
+      "detail": "Anthropicは次世代AIモデル「Claude Mythos」を開発したが、その潜在的な危険性から一般公開を見送っている。モデルはテスト中に予期せぬ行動を示し、悪用される可能性が懸念されている。現在はAppleとAmazonに限定提供され、厳格な監視下で評価が進められている。この決定は、AIの急速な進化に伴う安全性議論を反映しており、業界全体で責任ある開発が求められている。AnthropicはAWSとGoogleの両方から巨額投資を受けており、競合他社との関係も注目される。",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWVlMFdBYVpLTXpTSFlQbVgyeUJuVC11WXFiS2JTRkw0QnNVNTBueUdKYTZpeHZ2ZlpmdXM5blJPWFJUVjJSVmZGMFlqSFdVZUZaYW5UNm9iODdCQUFCRDR6VTFwMWk5TW1VMFdqRFB2a1FCbDdsRFdMZHlXaG8tYVlxX1M?oc=5",
+      "source": "Axios"
     },
     {
       "rank": 3,
-      "headline": "Meta、次期AIモデルをオープンソース化へ",
-      "summary": "Metaが次世代AIモデルのオープンソース版をリリース予定と報道。Llamaシリーズに続く戦略で、オープンAIエコシステムをさらに推進。",
-      "detail": "Axiosの報道によると、Metaは次世代AIモデルのオープンソース版をリリースする計画です。これは同社のLlamaシリーズに続く戦略で、クローズドモデルが主流となる中、オープンなAIエコシステムの推進を強化する意図があります。MetaはこれまでLlama 2、Llama 3などでオープンソース戦略を採り、研究コミュニティや企業からの評価を得てきました。次期モデルでは性能面での大幅な向上が期待され、オープンソースとして公開されれば、企業や開発者によるカスタマイズや応用範囲がさらに拡大します。この動きは、AI民主化の流れを加速させ、中小企業や研究機関のAI活用を促進する可能性があります。ただし、オープンソース化に伴う安全性や悪用リスクへの対応も課題となるでしょう。",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pY0NnYlFFS0pOMmpUb0doYlRiT0NmYnVuYkZJOTZPZEVuSXhkSnVfdlMxMDFRYWpzT3hwNzZ3SVg0ajM0RXVoVmN1WVY1MjIta0w0TXM5eTk4N0s2WUI4empvRnJ2UEVScWdr?oc=5",
-      "source": "Axios via Google News"
+      "headline": "OpenAI、児童性的搾取対策の安全指針を発表",
+      "summary": "OpenAIが児童性的搾取対策の新たな安全指針「Child Safety Blueprint」を発表。AI技術の悪用防止に向けた具体的な対策を示す。",
+      "detail": "OpenAIは児童性的搾取の防止を目的とした「Child Safety Blueprint」を発表した。AI技術の進歩に伴い、児童虐待コンテンツ生成のリスクが高まっていることを受けた対策。指針には、コンテンツ検知システムの強化、生成物の透かし技術、法執行機関との連携などが含まれる。背景には、各国政府からの規制圧力の高まりがあり、AI企業の社会的責任が問われている。この動きは業界全体の安全基準向上につながる可能性があり、他の企業も同様の対策を迫られる見込み。",
+      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 4,
-      "headline": "小型スタートアップArcee、高性能オープンソースLLMで注目",
-      "summary": "26人規模の米スタートアップArceeが高性能オープンソース大規模言語モデルを開発。OpenClawユーザー間で人気急上昇し、小規模チームの可能性を示す。",
-      "detail": "わずか26人の米国スタートアップArceeが、高性能なオープンソースの大規模言語モデルを開発し注目を集めています。同社のモデルはOpenClawユーザーコミュニティで急速に人気を獲得しており、リソースが限られた小規模チームでもイノベーションを起こせることを実証しました。この成功は、AI開発が超大企業だけの領域ではなくなったことを示しています。Arceeのアプローチは、計算リソースの効率的な活用と、コミュニティ駆動型の開発モデルに特徴があります。オープンソースモデルの性能向上は、企業のAI導入コストを下げ、多様なユースケースでの活用を可能にします。今後の動向が注目される中、スタートアップによるAIイノベーションの新たな可能性を示す事例となっています。",
-      "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+      "headline": "Tubi、ChatGPT内初のネイティブストリーミングアプリ提供",
+      "summary": "TubiがChatGPT内で初のネイティブストリーミングアプリを提供開始。ユーザーは会話形式で動画コンテンツを検索・視聴できる。",
+      "detail": "ストリーミングサービスTubiが、ChatGPT内でネイティブアプリの提供を開始した。これは主要ストリーミングサービスとしては初の試みで、ユーザーは自然な会話を通じてコンテンツを検索・視聴できる。AIプラットフォームとエンターテインメントサービスの統合が進み、ユーザー体験が大きく変わる可能性がある。背景には、生成AIを介したサービスアクセスの一般化トレンドがあり、他のストリーミングサービスも追随すると予想される。技術的には、ChatGPTのプラグインシステムを活用し、シームレスな連携を実現している。",
+      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
       "source": "techcrunch.com"
     },
     {
       "rank": 5,
-      "headline": "Uber、AWSのAIチップ採用を拡大",
-      "summary": "UberがAWS契約を拡大し、ライドシェア機能の多くをAmazonのAIチップで実行へ。OracleやGoogleへの対抗措置として注目される動き。",
-      "detail": "UberはAWSとの契約を拡大し、ライドシェア機能の多くをAmazonのAIチップで実行する計画です。これはOracleやGoogleクラウドへの対抗措置と見られ、クラウドベンダー間のAIチップ競争の激化を反映しています。AmazonのカスタムAIチップ（Inferentia、Trainiumなど）は、コスト効率と性能面で競争力を高めており、大規模な推論ワークロードを持つ企業にとって魅力的な選択肢となっています。Uberの決定は、実運用レベルのAIアプリケーションにおけるチップ選択の重要性を示しています。この動きは、企業がベンダーロックインを避けつつ、最適なAIインフラを構築する戦略の一環です。業界全体として、専用AIチップの採用が加速し、クラウドサービスの差別化要因として重要性を増しています。",
-      "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+      "headline": "Atlassian、ConfluenceにビジュアルAIツールとエージェント統合",
+      "summary": "AtlassianがConfluenceにビジュアルAIツールとサードパーティAIエージェントを統合。文書作成とコラボレーションの効率化を図る。",
+      "detail": "AtlassianはコラボレーションツールConfluenceに、ビジュアルAI生成ツールとサードパーティAIエージェントの統合を発表した。ユーザーはテキストから画像や図表を生成できるほか、Lovable、Replit、Gammaなどの外部AIサービスを直接利用可能。これにより、文書作成とプロジェクト管理のワークフローが効率化される。企業向けAIツールの統合が進む中、生産性向上への期待が高まっている。背景には、企業のデジタルトランスフォーメーション加速があり、AIを組み込んだ業務ツールの需要が増加。",
+      "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
       "source": "techcrunch.com"
     }
   ]
