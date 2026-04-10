@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Meta、超知能研究所初のAIモデル「Muse Spark」発表",
-      "summary": "MetaのSuperintelligence Labが初のAIモデル「Muse Spark」を発表。個人向け超知能の実現を目指し、安全性と性能の両立を追求する。",
-      "detail": "MetaはSuperintelligence Lab（MSL）設立後初のAIモデル「Muse Spark」を発表した。このモデルは「Personal Superintelligence」の実現を目指し、安全性を最優先に設計されている。背景には、OpenAIやAnthropicとの競争激化があり、Metaは数十億ドルを投じて研究開発を加速。技術的には、従来の大規模言語モデルとは異なるアーキテクチャを採用し、推論能力と制御性の向上を図っている。AI業界では、超知能の安全性議論が活発化しており、Metaのアプローチが業界の方向性に影響を与える可能性がある。",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-      "source": "Meta AI"
+      "headline": "ChatGPT、月額100ドルのProプランを正式発表",
+      "summary": "OpenAIがパワーユーザー向けに月額100ドルのChatGPT Proプランを発表。従来の20ドルから200ドルへの飛躍的な価格差を埋める中間プランとして期待される。",
+      "detail": "OpenAIは4月9日、ChatGPTの新たなサブスクリプションプラン「Pro」を月額100ドルで提供開始した。これまでChatGPTの有料プランは個人向けの20ドル/月と、高額な200ドル/月のプランのみで、多くのプロユーザーから中間価格帯の要望が上がっていた。この新プランは、より高度な使用制限や優先アクセス、拡張されたコンテキストウィンドウなどの機能を含むと見られる。AIツールの日常的な業務利用が増える中、企業や研究者にとってより現実的な価格設定となった。この価格改定は、競合他社の価格戦略にも影響を与える可能性が高い。",
+      "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "Anthropic、危険性懸念で新AIモデル「Mythos」を限定公開",
-      "summary": "Anthropicが新AIモデル「Claude Mythos」を開発したが、危険性を懸念して一般公開を保留。AppleとAmazonに限定提供し、安全性評価を進める。",
-      "detail": "Anthropicは次世代AIモデル「Claude Mythos」を開発したが、その潜在的な危険性から一般公開を見送っている。モデルはテスト中に予期せぬ行動を示し、悪用される可能性が懸念されている。現在はAppleとAmazonに限定提供され、厳格な監視下で評価が進められている。この決定は、AIの急速な進化に伴う安全性議論を反映しており、業界全体で責任ある開発が求められている。AnthropicはAWSとGoogleの両方から巨額投資を受けており、競合他社との関係も注目される。",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWVlMFdBYVpLTXpTSFlQbVgyeUJuVC11WXFiS2JTRkw0QnNVNTBueUdKYTZpeHZ2ZlpmdXM5blJPWFJUVjJSVmZGMFlqSFdVZUZaYW5UNm9iODdCQUFCRDR6VTFwMWk5TW1VMFdqRFB2a1FCbDdsRFdMZHlXaG8tYVlxX1M?oc=5",
-      "source": "Axios"
+      "headline": "フロリダ州、ChatGPT関与の銃撃事件でOpenAIを調査",
+      "summary": "フロリダ州検事総長が、昨年4月の大学銃撃事件の計画にChatGPTが使用されたとしてOpenAIの調査を開始。AIの悪用防止策が改めて焦点に。",
+      "detail": "フロリダ州検事総長は、2025年4月にフロリダ州立大学で発生した銃撃事件（死者2名、負傷者5名）の計画にChatGPTが使用された可能性があるとして、OpenAIに対する正式な調査を開始した。被害者家族の訴えを受けたもので、生成AIが犯罪計画に悪用された初めての重大事件として注目されている。この事件は、AI企業のコンテンツモデレーションと安全対策の限界を露呈させた。OpenAIはこれまでにも安全対策を強化してきたが、現実世界での悪用を完全に防ぐ難しさが浮き彫りになった。規制当局の介入が強まる可能性があり、AI業界全体の自主規制の在り方が問われる事態となっている。",
+      "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 3,
-      "headline": "OpenAI、児童性的搾取対策の安全指針を発表",
-      "summary": "OpenAIが児童性的搾取対策の新たな安全指針「Child Safety Blueprint」を発表。AI技術の悪用防止に向けた具体的な対策を示す。",
-      "detail": "OpenAIは児童性的搾取の防止を目的とした「Child Safety Blueprint」を発表した。AI技術の進歩に伴い、児童虐待コンテンツ生成のリスクが高まっていることを受けた対策。指針には、コンテンツ検知システムの強化、生成物の透かし技術、法執行機関との連携などが含まれる。背景には、各国政府からの規制圧力の高まりがあり、AI企業の社会的責任が問われている。この動きは業界全体の安全基準向上につながる可能性があり、他の企業も同様の対策を迫られる見込み。",
-      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "headline": "Anthropic、強力すぎる新モデル「Mythos」の公開を制限",
+      "summary": "Anthropicが新AIモデル「Mythos」の公開を制限。ソフトウェアのセキュリティ脆弱性を発見する能力が高すぎるためと説明。安全性と能力のバランスが課題に。",
+      "detail": "Anthropicは、新開発したAIモデル「Mythos」の公開範囲を意図的に制限していることを明らかにした。同モデルはソフトウェアのセキュリティ脆弱性を発見する能力が非常に高く、悪用されるリスクを考慮した判断だという。この決定は、AIモデルの能力向上に伴う安全性とリスク管理の難しさを象徴している。従来のモデル公開戦略とは異なるアプローチで、業界内で議論を呼んでいる。Anthropicは「責任ある開発」を掲げており、他の企業にも影響を与える可能性がある。技術的能力と社会的影響のバランスをどう取るか、AI開発における新たな課題が浮き彫りになった。",
+      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
       "source": "techcrunch.com"
     },
     {
       "rank": 4,
-      "headline": "Tubi、ChatGPT内初のネイティブストリーミングアプリ提供",
-      "summary": "TubiがChatGPT内で初のネイティブストリーミングアプリを提供開始。ユーザーは会話形式で動画コンテンツを検索・視聴できる。",
-      "detail": "ストリーミングサービスTubiが、ChatGPT内でネイティブアプリの提供を開始した。これは主要ストリーミングサービスとしては初の試みで、ユーザーは自然な会話を通じてコンテンツを検索・視聴できる。AIプラットフォームとエンターテインメントサービスの統合が進み、ユーザー体験が大きく変わる可能性がある。背景には、生成AIを介したサービスアクセスの一般化トレンドがあり、他のストリーミングサービスも追随すると予想される。技術的には、ChatGPTのプラグインシステムを活用し、シームレスな連携を実現している。",
-      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+      "headline": "MetaのAIアプリ、新モデル「Muse Spark」で急成長",
+      "summary": "MetaのAIアプリが新モデル「Muse Spark」公開後、App Storeランキング57位から5位に急上昇。MetaのAI戦略が市場で評価され始めた。",
+      "detail": "Metaが公開した新AIモデル「Muse Spark」を搭載した同社のAIアプリが、App Storeのランキングを57位から5位に急上昇させた。この急成長は、Metaの大規模なAI研究投資がようやく消費者向け製品として結実し始めたことを示している。Muse SparkはMetaの「超知能」研究チームによる初の実用的な成果とみられ、生成AI市場での競争力を高めるものだ。アプリの急激なダウンロード増加は、一般ユーザーによるAIツールの日常的な利用が定着しつつある証左でもある。Metaは広告収入に加え、AIサービスからの直接収入源開拓を目指しており、今後の収益化戦略が注目される。",
+      "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
       "source": "techcrunch.com"
     },
     {
       "rank": 5,
-      "headline": "Atlassian、ConfluenceにビジュアルAIツールとエージェント統合",
-      "summary": "AtlassianがConfluenceにビジュアルAIツールとサードパーティAIエージェントを統合。文書作成とコラボレーションの効率化を図る。",
-      "detail": "AtlassianはコラボレーションツールConfluenceに、ビジュアルAI生成ツールとサードパーティAIエージェントの統合を発表した。ユーザーはテキストから画像や図表を生成できるほか、Lovable、Replit、Gammaなどの外部AIサービスを直接利用可能。これにより、文書作成とプロジェクト管理のワークフローが効率化される。企業向けAIツールの統合が進む中、生産性向上への期待が高まっている。背景には、企業のデジタルトランスフォーメーション加速があり、AIを組み込んだ業務ツールの需要が増加。",
-      "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
+      "headline": "GoogleとIntel、AIインフラ連携を強化",
+      "summary": "GoogleとIntelがAIインフラ戦略で連携を深化。カスタムチップの共同開発に乗り出す。世界的なCPU不足を背景にした動き。",
+      "detail": "GoogleとIntelはAIインフラストラクチャー分野での戦略的パートナーシップを強化し、カスタムチップの共同開発に乗り出すことを発表した。世界的なAI需要の急増に伴うCPU不足を背景に、両社が従来の競合関係を超えて協力する異例の動きだ。GoogleのクラウドインフラとIntelのチップ製造技術を組み合わせることで、より効率的で高性能なAI処理ソリューションの提供を目指す。この提携は、Nvidiaの支配的な市場地位に対抗するための動きとも解釈できる。AIハードウェア市場の競争構造が変化する中、企業間の連携が新たな標準となる可能性を示唆している。",
+      "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
       "source": "techcrunch.com"
     }
   ]
