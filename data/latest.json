@@ -2,19 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "サム・アルトマンCEO、自宅襲撃と批判記事に応答",
-      "summary": "OpenAIのサム・アルトマンCEOが、自宅への襲撃事件とニューヨーカー誌の批判的プロフィール記事に対して公式ブログで応答。両方の出来事についてコメントを発表した。",
-      "detail": "OpenAIのサム・アルトマンCEOが、自宅への物理的攻撃と同時に、ニューヨーカー誌による批判的な人物プロフィール記事の公開という二重の挑戦に直面している。アルトマンは公式ブログを通じて両方の出来事に応答し、記事の内容に対する反論とともに、自宅襲撃事件についての見解を示した。この出来事は、AI業界のリーダーに対する社会的緊張と批判の高まりを反映している。ニューヨーカー記事では、アルトマンの信頼性やリーダーシップスタイルに疑問が投げかけられており、これがAI開発の透明性とガバナンスに関する広範な議論を引き起こしている。自宅襲撃事件の詳細は明らかになっていないが、AI技術の急速な発展に伴う社会的対立の深刻化を示唆している。",
-      "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "headline": "Anthropicの新AIモデル「Mythos」、米政府が銀行にテスト推奨",
+      "summary": "トランプ政権関係者が銀行に対し、Anthropicの新モデル「Mythos」のテストを推奨していると報道。国防総省はAnthropicをサプライチェーンリスクと指定しており、政策の矛盾が浮き彫りに。",
+      "detail": "米国政府内でAI政策の一貫性が問われる事態が発生している。国防総省は先日、Anthropicをサプライチェーンリスクとして指定したが、一方で政権関係者が金融機関に対し同社の新モデル「Mythos」のテストを推奨しているという。これは、安全保障上の懸念と経済競争力の確保という政府の板挟み状態を示唆している。MythosはClaudeシリーズの次世代モデルと見られ、金融分野での高度な推論能力が期待されている。規制環境が不透明な中、企業のAI導入計画に影響を与える可能性が高い。米国のAI産業政策の方向性が注目される。",
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
       "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "ENCO、NABショーでAI動的コンテンツ挿入技術を展示",
-      "summary": "ENCOがNAB Show 2026で、放送・自動化システム向けの動的AI生成コンテンツ挿入技術を発表。ラジオ・テレビ業界向けの自動化ソリューションを展示。",
-      "detail": "ENCOがNAB Show 2026において、放送および自動化システム向けの動的AI生成コンテンツ挿入技術を発表した。この技術は、ラジオやテレビの放送システムにおいて、AIがリアルタイムでコンテンツを生成・挿入することを可能にする。従来の放送自動化にAI技術を組み合わせることで、パーソナライズされたコンテンツ配信や効率的な番組制作が実現できる。業界では、AIを活用したコンテンツ制作・配信の自動化が急速に進んでおり、ENCOの発表はこのトレンドの一環として位置づけられる。この技術は特に、ローカル放送局や小規模メディア企業にとって、制作コスト削減とコンテンツの多様化に貢献すると期待されている。AI生成コンテンツの品質管理や著作権問題など、実装上の課題も議論されている。",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPU295eXV6Nko4VUZWaWtVSHF3ZWNaZnJqZlV4RjJRb0JRYmlmeEc3VkhVS0VhdzVRckZoMVV3dFoyMFF1Q09RRW9vQXlzeko3UUlEcWhTb012dWlyeWU4UXJmR1pCUmFLTFRRQ0hlbThwdW1OVG14VzhBNXlRTkRtUzFOX0ZyQTZSTS0wcmNUMkVlaHBFVW4wUEZTNG9lM0RNUU1neW1tbWs5b09GbDl4Nk5MNDd3eVV3SDRPQ3ZEbEVhdnlIU3N2c3F3VUJYSVZwR0oxOHNFci04MzdHRjdrMQ?oc=5",
-      "source": "news.google.com"
+      "headline": "HumanXカンファレンスでClaudeが話題沸騰、Anthropicが注目集める",
+      "summary": "サンフランシスコで開催されたHumanXカンファレンスで、AnthropicのClaudeが参加者の最大の関心事となった。同社の技術的優位性と倫理的アプローチが高く評価されている。",
+      "detail": "AI分野の主要カンファレンス「HumanX」で、AnthropicのClaudeが圧倒的な注目を集めた。これは同社の技術的進歩だけでなく、安全性を重視した開発方針が業界関係者に支持されている証左である。Claudeは最近のアップデートで長文処理能力と推論精度を向上させており、企業導入が加速している。カンファレンスでは、Claudeの Constitutional AI（憲法AI）アプローチについての議論も活発に行われた。競合他社との差別化要因として、安全性と性能の両立が評価されている。今後の市場展開と技術的進化が期待される。",
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "source": "techcrunch.com"
+    },
+    {
+      "rank": 3,
+      "headline": "Anthropic、強力すぎる新AIモデルの公開を保留か",
+      "summary": "Anthropicが開発した新AIモデルが強力すぎるため、安全性を考慮して公開を保留していると報道。複数のメディアが同様の情報を伝えている。",
+      "detail": "複数の国際メディアが、Anthropicが開発した新AIモデルの公開を保留していると報じている。その理由として、モデルの能力が非常に高く、悪用リスクや予期せぬ影響が懸念されるためとされている。これは同社が一貫して主張する「安全性を最優先する」開発哲学の実践である。具体的なモデル仕様は明らかになっていないが、現在のClaudeを大幅に上回る性能を持つと推測される。AI業界では、能力向上と安全性のバランスが常に課題となっており、Anthropicの判断は業界全体の議論を喚起するだろう。今後の公開時期と条件設定が注目される。",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmNtRlItTnF5WXlVU0ZTaWtCbHVXWHdOSnZBTlZiRTVhaHBqRFk0TTBObzJES2x2Q3owc2dNVldia1FhUkZlamM5Vm1RSzRYeW41Um01d0gzYXFzcE5aUzVPcDByRTlpOTdYOU9yeHlRQ2pRZzdlSTNsZEFxRnVmMk5RZHhYRzBVVC02d0pB?oc=5",
+      "source": "France 24 via Google News"
+    },
+    {
+      "rank": 4,
+      "headline": "Metaが「Muse Spark」AIモデルを正式リリース",
+      "summary": "Meta Platformsが長らく開発を進めてきたAIモデル「Muse Spark」を正式にリリースした。待望のモデル公開により、生成AI市場の競争がさらに激化する見込み。",
+      "detail": "Meta PlatformsがAIモデル「Muse Spark」の正式リリースを発表した。同モデルは創造的なコンテンツ生成に特化しており、テキスト、画像、音楽などのマルチモーダル生成が可能とされる。開発期間が長かったことから、完成度の高さが期待されている。Metaは既存のLlamaシリーズとは異なるアプローチで、芸術的創造性を支援するツールとして位置付けている。企業向けAPI提供も計画されており、クリエイティブ産業への影響が大きい。OpenAI、Anthropic、Googleに加え、Metaの本格参入で生成AI市場の競争構造がさらに複雑化する。",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlJZZzdsT1U2QmthOHFMSUVNS2FCaE14MW5QNzhQYnNFQUh1Z0FfLUtPTTN0YnQ2dG15ZzVHT0g1UzZQUGRBNXlmVDRyQXc0N2VkUjY0dTNHdEo5Yms5R0o2ZTZ5R2hPNTZsTG50enZKaFlpOG9mQVNCT2kySDlfLTNCd2tOZHlndkVBUVBXWGdoVTdNRm42bXo0MWVEZl84cDRaWW9DcUVQcmVmSURMS29jWUE5VDZU?oc=5",
+      "source": "24/7 Wall St. via Google News"
+    },
+    {
+      "rank": 5,
+      "headline": "Apple、複数デザインのスマートグラスをテスト中と報道",
+      "summary": "Appleが少なくとも4種類のデザインのスマートグラスをテストしていると複数メディアが報道。当初計画より現実的なアプローチにシフトしている模様。",
+      "detail": "Appleが次世代ウェアラブルデバイスとして、複数デザインのスマートグラスを開発中であると報じられた。当初は複合現実（MR）や拡張現実（AR）を含む野心的な計画があったが、現在はより現実的なスマートグラスに焦点を絞っているとされる。4つのデザインは、ファッション性と機能性のバランスを探るためのものと考えられる。AppleはAIとハードウェアの統合に強みを持ち、Siriの進化版AIアシスタントとの連携が期待される。Metaのスマートグラスとの競合が予想され、AI搭載ウェアラブル市場の本格化が近づいている。",
+      "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "source": "techcrunch.com"
     }
   ]
 }
