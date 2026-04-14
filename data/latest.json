@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Anthropicの新AIモデル「Mythos」、米政府が銀行にテスト推奨",
-      "summary": "トランプ政権関係者が銀行に対し、Anthropicの新モデル「Mythos」のテストを推奨していると報道。国防総省はAnthropicをサプライチェーンリスクと指定しており、政策の矛盾が浮き彫りに。",
-      "detail": "米国政府内でAI政策の一貫性が問われる事態が発生している。国防総省は先日、Anthropicをサプライチェーンリスクとして指定したが、一方で政権関係者が金融機関に対し同社の新モデル「Mythos」のテストを推奨しているという。これは、安全保障上の懸念と経済競争力の確保という政府の板挟み状態を示唆している。MythosはClaudeシリーズの次世代モデルと見られ、金融分野での高度な推論能力が期待されている。規制環境が不透明な中、企業のAI導入計画に影響を与える可能性が高い。米国のAI産業政策の方向性が注目される。",
-      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "headline": "OpenAIが個人財務AIスタートアップHiroを買収",
+      "summary": "OpenAIがAI個人財務スタートアップHiroを買収。ChatGPTに金融計画機能を組み込む能力構築を示唆。",
+      "detail": "OpenAIがAI個人財務スタートアップHiroを買収したことが明らかになりました。この買収は、ChatGPTに金融計画機能を組み込むための能力構築を示唆しています。AIが個人の財務管理や投資アドバイスまでカバーする領域に進出する重要な動きです。OpenAIはこれまでにも様々な垂直領域への展開を図ってきましたが、金融分野は特に信頼性と正確性が求められる領域です。この買収により、ChatGPTがよりパーソナライズされた財務アドバイスを提供できるようになる可能性があります。金融業界におけるAI活用の新たな段階を示す重要な出来事と言えるでしょう。",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
       "source": "techcrunch.com"
     },
     {
       "rank": 2,
-      "headline": "HumanXカンファレンスでClaudeが話題沸騰、Anthropicが注目集める",
-      "summary": "サンフランシスコで開催されたHumanXカンファレンスで、AnthropicのClaudeが参加者の最大の関心事となった。同社の技術的優位性と倫理的アプローチが高く評価されている。",
-      "detail": "AI分野の主要カンファレンス「HumanX」で、AnthropicのClaudeが圧倒的な注目を集めた。これは同社の技術的進歩だけでなく、安全性を重視した開発方針が業界関係者に支持されている証左である。Claudeは最近のアップデートで長文処理能力と推論精度を向上させており、企業導入が加速している。カンファレンスでは、Claudeの Constitutional AI（憲法AI）アプローチについての議論も活発に行われた。競合他社との差別化要因として、安全性と性能の両立が評価されている。今後の市場展開と技術的進化が期待される。",
-      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "headline": "MicrosoftがOpenClaw風エージェントを開発中",
+      "summary": "MicrosoftがOpenClaw風の新エージェントを開発中。企業顧客向けにセキュリティ強化版を提供予定。",
+      "detail": "MicrosoftがOpenClawに似た新たなAIエージェントを開発中であることが報じられました。この新機能は企業顧客向けに設計され、オープンソースのOpenClawエージェントよりも優れたセキュリティコントロールを備えています。OpenClawはその強力な機能で知られていますが、リスクの高さも指摘されていました。Microsoftは企業向けAIソリューションの強化を進めており、セキュリティ面での懸念を解消した製品を提供しようとしています。この動きは、企業向けAIエージェント市場の競争激化を示しています。MicrosoftのAzure AIサービスとの統合も期待され、企業の業務自動化に新たな選択肢を提供することになるでしょう。",
+      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
       "source": "techcrunch.com"
     },
     {
       "rank": 3,
-      "headline": "Anthropic、強力すぎる新AIモデルの公開を保留か",
-      "summary": "Anthropicが開発した新AIモデルが強力すぎるため、安全性を考慮して公開を保留していると報道。複数のメディアが同様の情報を伝えている。",
-      "detail": "複数の国際メディアが、Anthropicが開発した新AIモデルの公開を保留していると報じている。その理由として、モデルの能力が非常に高く、悪用リスクや予期せぬ影響が懸念されるためとされている。これは同社が一貫して主張する「安全性を最優先する」開発哲学の実践である。具体的なモデル仕様は明らかになっていないが、現在のClaudeを大幅に上回る性能を持つと推測される。AI業界では、能力向上と安全性のバランスが常に課題となっており、Anthropicの判断は業界全体の議論を喚起するだろう。今後の公開時期と条件設定が注目される。",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmNtRlItTnF5WXlVU0ZTaWtCbHVXWHdOSnZBTlZiRTVhaHBqRFk0TTBObzJES2x2Q3owc2dNVldia1FhUkZlamM5Vm1RSzRYeW41Um01d0gzYXFzcE5aUzVPcDByRTlpOTdYOU9yeHlRQ2pRZzdlSTNsZEFxRnVmMk5RZHhYRzBVVC02d0pB?oc=5",
-      "source": "France 24 via Google News"
+      "headline": "スタンフォード報告：AI専門家と一般の認識格差拡大",
+      "summary": "スタンフォードAI指数で専門家と一般の認識格差が拡大。雇用・医療・経済への不安が高まる。",
+      "detail": "スタンフォード大学の最新AI指数報告書によると、AI専門家と一般市民の間の認識格差が拡大していることが明らかになりました。報告書は、雇用、医療、経済への不安が高まっていることを指摘しています。AI技術の急速な進歩に対して、一般市民の理解が追いついていない状況が浮き彫りになりました。この格差は政策決定や技術導入に影響を与える可能性があります。専門家はAIの可能性を強調する一方、一般市民はそのリスクをより強く懸念しているようです。効果的なAIガバナンスと教育の重要性が改めて示される結果となりました。",
+      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 4,
-      "headline": "Metaが「Muse Spark」AIモデルを正式リリース",
-      "summary": "Meta Platformsが長らく開発を進めてきたAIモデル「Muse Spark」を正式にリリースした。待望のモデル公開により、生成AI市場の競争がさらに激化する見込み。",
-      "detail": "Meta PlatformsがAIモデル「Muse Spark」の正式リリースを発表した。同モデルは創造的なコンテンツ生成に特化しており、テキスト、画像、音楽などのマルチモーダル生成が可能とされる。開発期間が長かったことから、完成度の高さが期待されている。Metaは既存のLlamaシリーズとは異なるアプローチで、芸術的創造性を支援するツールとして位置付けている。企業向けAPI提供も計画されており、クリエイティブ産業への影響が大きい。OpenAI、Anthropic、Googleに加え、Metaの本格参入で生成AI市場の競争構造がさらに複雑化する。",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlJZZzdsT1U2QmthOHFMSUVNS2FCaE14MW5QNzhQYnNFQUh1Z0FfLUtPTTN0YnQ2dG15ZzVHT0g1UzZQUGRBNXlmVDRyQXc0N2VkUjY0dTNHdEo5Yms5R0o2ZTZ5R2hPNTZsTG50enZKaFlpOG9mQVNCT2kySDlfLTNCd2tOZHlndkVBUVBXWGdoVTdNRm42bXo0MWVEZl84cDRaWW9DcUVQcmVmSURMS29jWUE5VDZU?oc=5",
-      "source": "24/7 Wall St. via Google News"
+      "headline": "Vercel CEOがIPO準備を表明、AIエージェントで収益急増",
+      "summary": "Vercel CEOがIPO準備を表明。AIエージェント需要で収益が急増、10年目の同社がAI時代に適応。",
+      "detail": "VercelのCEOギジェルモ・ラウチがIPO準備が整っていることを示唆しました。同社はAIエージェント需要の高まりにより収益が急増しています。ChatGPT登場以前に設立された多くのスタートアップがAI時代への適応に苦労する中、10年目のVercelは開発ツールとしての地位を確立しています。AIエージェントの普及が開発プラットフォームの需要を押し上げているようです。VercelのNext.jsやEdge FunctionsなどのサービスがAIアプリケーション開発に適している点が評価されています。この成功は、AI時代においても基盤技術を提供する企業の重要性を示しています。",
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+      "source": "techcrunch.com"
     },
     {
       "rank": 5,
-      "headline": "Apple、複数デザインのスマートグラスをテスト中と報道",
-      "summary": "Appleが少なくとも4種類のデザインのスマートグラスをテストしていると複数メディアが報道。当初計画より現実的なアプローチにシフトしている模様。",
-      "detail": "Appleが次世代ウェアラブルデバイスとして、複数デザインのスマートグラスを開発中であると報じられた。当初は複合現実（MR）や拡張現実（AR）を含む野心的な計画があったが、現在はより現実的なスマートグラスに焦点を絞っているとされる。4つのデザインは、ファッション性と機能性のバランスを探るためのものと考えられる。AppleはAIとハードウェアの統合に強みを持ち、Siriの進化版AIアシスタントとの連携が期待される。Metaのスマートグラスとの競合が予想され、AI搭載ウェアラブル市場の本格化が近づいている。",
-      "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "headline": "最大の軌道計算クラスターが運用開始、宇宙に40GPU",
+      "summary": "Kepler Communicationsが地球軌道上に40GPUの計算クラスターを設置。Sophia Spaceが最初の顧客に。",
+      "detail": "Kepler Communicationsが地球軌道上で最大の軌道計算クラスターの運用を開始しました。同社は40基のGPUを地球軌道上に設置し、宇宙空間での高性能計算を実現しています。最初の顧客としてSophia Spaceが名を連ねています。宇宙空間での計算処理は、遅延の低減やデータのローカル処理など、地上では実現できないメリットがあります。この技術は衛星データのリアルタイム処理や宇宙ミッションの自律性向上に貢献するでしょう。宇宙産業とAI技術の融合が新たな段階に入ったことを示す画期的な取り組みです。将来的には宇宙探査や地球観測のあり方を変える可能性を秘めています。",
+      "url": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
       "source": "techcrunch.com"
     }
   ]
