@@ -1,70 +1,70 @@
 {
-  "last_run": "2026-04-21T11:52:15.544605+09:00",
+  "last_run": "2026-04-22T11:50:51.126051+09:00",
   "items": {
     "bf65d2ceced6": {
       "title": "Skip to main content",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "a6d78a8207a7": {
       "title": "Skip to footer",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "958c7efd7fad": {
       "title": "Economic Futures",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "24b8842d479c": {
       "title": "Try Claude",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d49c5708fc23": {
       "title": "Claude Code",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "8bd6d26de924": {
       "title": "Claude Code Enterprise",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "0060695652ce": {
       "title": "Claude Cowork",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "fabd647ffced": {
       "title": "Claude for Chrome",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "e03607f480ef": {
       "title": "Claude for Excel",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "ff5904b5d578": {
       "title": "Claude for PowerPoint",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "1a099ace33e3": {
       "title": "Claude for Slack",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "16b0f1e1e605": {
       "title": "Enterprise plan",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "434532ae5be8": {
       "title": "Download app",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d6b062534146": {
       "title": "Log in to Claude",
@@ -74,132 +74,132 @@
     "73c0305c6c86": {
       "title": "Claude Code Security",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "e7f8d92c7f0e": {
       "title": "Google DeepMind",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d9391cafb71e": {
       "title": "Google Research",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "3dd389ef659a": {
       "title": "Google Labs",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d7f5d34269ea": {
       "title": "Gemini models",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "b4c5281878b5": {
       "title": "Developer tools",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "ce35fd5c954c": {
       "title": "Gemini app",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "9b66e6135703": {
       "title": "Global network",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "abe264db4d7e": {
       "title": "Google Cloud",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "4ca16a7cd902": {
       "title": "Grok Enterprise",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "179d6f2d2895": {
       "title": "Grokipedia",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "21cc0ff48850": {
       "title": "Imagine API",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "5cb8541f5350": {
       "title": "API Console Login",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "19ed08d1d22d": {
       "title": "Documentation",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "e2da8828ead8": {
       "title": "Privacy policy",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d041bace1fe2": {
       "title": "Privacy portal",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "8affc9fe04cc": {
       "title": "Try Studio",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "a511d78db771": {
       "title": "Our customers",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "2d4e05f0fae9": {
       "title": "Contact us",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "9e0bbe017b80": {
       "title": "AI solutions",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "a0c676f65aa6": {
       "title": "Mistral Compute",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "8ca62ff6e9bf": {
       "title": "Terms of service",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "dfcf5e4121b6": {
       "title": "Data processing agreement",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "27a3dd7e0921": {
       "title": "Legal notice",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "3099706b0f95": {
       "title": "AI Research",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "3c94d2bb818d": {
       "title": "The Latest",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "363434666e95": {
       "title": "Try Meta AI",
@@ -214,12 +214,12 @@
     "689758e550f8": {
       "title": "SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "714ccb0fdd6e": {
       "title": "Four MTIA Chips in Two Years: Scaling AI Experiences for Billions",
       "first_seen": "2026-03-30T11:47:41.625259+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "8a53e10b1e9c": {
       "title": "Mapping the World&#039;s Forests with Greater Precision: Introducing Canopy Height Maps v2",
@@ -584,32 +584,32 @@
     "a3095d24db4d": {
       "title": "Engineering",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "fd504b77e523": {
       "title": "Global Affairs",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "ff42499e1a34": {
       "title": "AI Adoption",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "38cd3f55c819": {
       "title": "Research Index",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "2d747fcdb73a": {
       "title": "Research Overview",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d52c13698dba": {
       "title": "Research Residency",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "acc60eed839e": {
       "title": "OpenAI for Science",
@@ -619,37 +619,37 @@
     "e7c15dce222d": {
       "title": "Economic Research",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "2dce3dc1a38d": {
       "title": "GPT-5.3 Instant",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "f01ae963f0ef": {
       "title": "GPT-5.3-Codex",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "6b341d8bc218": {
       "title": "Safety Approach",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "bc55a4f4f6f4": {
       "title": "Security &amp; Privacy",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "821b2dc051e8": {
       "title": "Trust &amp; Transparency",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "b58c73cdf608": {
       "title": "Enterprise",
       "first_seen": "2026-04-05T11:47:27.178264+09:00",
-      "last_seen": "2026-04-17T11:51:12.510464+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "82b9ca5925dd": {
       "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
@@ -704,7 +704,7 @@
     "e4387eb027e5": {
       "title": "How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet",
       "first_seen": "2026-04-07T11:42:31.957249+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "b76a40460c65": {
       "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
@@ -889,17 +889,17 @@
     "196f1d807c7a": {
       "title": "Try Meta AI",
       "first_seen": "2026-04-09T11:37:29.476252+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "2e2be8f38dba": {
       "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
       "first_seen": "2026-04-09T11:37:29.476252+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "c38902d127e3": {
       "title": "Scaling How We Build and Test Our Most Advanced AI",
       "first_seen": "2026-04-09T11:37:29.476252+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "14191ff6bc2c": {
       "title": "Poke makes using AI agents as easy as sending a text",
@@ -1039,7 +1039,7 @@
     "92fea7f597f2": {
       "title": "NotebookLM",
       "first_seen": "2026-04-10T11:50:11.593797+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "7e7ea0b88e3f": {
       "title": "ChatGPT finally offers $100/month Pro plan",
@@ -1124,7 +1124,7 @@
     "b344032f1600": {
       "title": "Claude for Word",
       "first_seen": "2026-04-11T11:33:48.525810+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "436f41a3ff7a": {
       "title": "Anthropic temporarily banned OpenClaw’s creator from accessing Claude",
@@ -1249,7 +1249,7 @@
     "356b891286cb": {
       "title": "Quantum computing",
       "first_seen": "2026-04-14T11:50:45.319773+09:00",
-      "last_seen": "2026-04-21T11:52:15.544605+09:00"
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     },
     "d474766a5285": {
       "title": "OpenAI has bought AI personal finance startup Hiro",
@@ -1725,6 +1725,106 @@
       "title": "Pony.ai eyes 2026 commercial robotaxi launch in Dubai - Automotive World",
       "first_seen": "2026-04-21T11:52:15.544605+09:00",
       "last_seen": "2026-04-21T11:52:15.544605+09:00"
+    },
+    "4433d990ad92": {
+      "title": "Sora Overview",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "11ac502b7a47": {
+      "title": "Meta will record employees’ keystrokes and use it to train its AI models",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "8e51b44476c2": {
+      "title": "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "51bf26d597eb": {
+      "title": "SpaceX is working with Cursor and has an option to buy the startup for $60B",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "45a7512e3a2e": {
+      "title": "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "2deafbfd6c94": {
+      "title": "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "c89d4084abdd": {
+      "title": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "4e8de3a7521b": {
+      "title": "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "a7b878cafa52": {
+      "title": "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "ba771292e786": {
+      "title": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "c18a91cd2ea5": {
+      "title": "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "abd0bfa98bd8": {
+      "title": "YouTube expands its AI likeness detection technology to celebrities",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "a279866768ca": {
+      "title": "GRAI believes AI can make music more social, not replace artists",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "690d7db179dd": {
+      "title": "AI.cc Launches Unified API Access to 400+ AI Models: How Enterprises Can Cut Costs by Up to 80% in 2026 - FinancialContent",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "b7a5389427cb": {
+      "title": "BigBear.ai to Report First Quarter 2026 Results on May 5, 2026 - Business Wire",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "443c0904b9ad": {
+      "title": "China's micro-drama boom meets AI as industry shifts toward quality - People's Daily Online",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "b2504142589f": {
+      "title": "Blueprint AI Drives Pega Cloud Momentum in Q1 2026 - Yahoo Finance UK",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "5f497c2b9720": {
+      "title": "iQIYI Charts New Course for the AI Era: Decentralized Content Model and Nadou Pro Launched at World Conference 2026 – Company Announcement - FT.com - Financial Times",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "be30d556b68c": {
+      "title": "BST Global Opens Registration for Third Annual AI Summit, November 10–12, 2026, Palm Beach, FL - Business Wire",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
+    },
+    "fb334f33cbca": {
+      "title": "HCLTech Q4: Revenue dips 3.3% QoQ, flags AI deflation - The Times of India",
+      "first_seen": "2026-04-22T11:50:51.126051+09:00",
+      "last_seen": "2026-04-22T11:50:51.126051+09:00"
     }
   }
 }
