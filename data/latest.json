@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "OpenAIがGPT-5.5をリリース、スーパーアプリへ前進",
-      "summary": "OpenAIは最新モデルGPT-5.5を公開。多岐にわたるカテゴリで能力が向上し、ChatGPTを軸としたAIスーパーアプリ構想に一歩近づいた。",
-      "detail": "OpenAIは2026年4月23日、GPT-5.5を正式リリースした。同モデルはGPT-5からの改良版で、文章生成、推論、コード作成など幅広いタスクで性能が向上。特にマルチモーダル対応や応答速度の改善が注目される。CNBCやNewYork Timesなど主要メディアが一斉に報じ、Fortuneは「AIモデルの発表がソフトウェアアップデートのように日常化した」と指摘。OpenAIはChatGPTを単なるチャットボットから、検索・文書作成・画像生成・エージェント機能を統合した「スーパーアプリ」に進化させる戦略を継続しており、GPT-5.5はその中核を担う。同社はこれにより競合のGeminiやClaudeに対抗し、個人・企業ユーザーのさらなる囲い込みを狙う。",
-      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "headline": "DeepSeek、V4モデルプレビュー公開 中国AI勢力拡大",
+      "summary": "DeepSeekが待望のV4モデルをリリース。Huaweiチップ対応で中国の技術的自立を推進し、低価格で高性能なモデルを提供する。",
+      "detail": "DeepSeekが新たなフラッグシップモデルV4のプレビュー版を公開した。昨年のV3ブレイクスルーから約1年ぶりの大型アップデートで、アーキテクチャ改善によりDeepSeek V3.2とのギャップをほぼ解消したと主張している。特に注目すべきは、Huawei製チップに最適化され、中国の技術的自立（自給自足）を強く推進する点である。Fortuneの報道によれば、非常に低価格で提供され、CNBCなど国際メディアもAI競争の激化を報じている。MIT Technology Reviewもその意義を強調しており、同モデルがオープンソースAI勢力を拡大する可能性がある。",
+      "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "SierraがYC出身のAIスタートアップFragmentを買収",
-      "summary": "Bret Taylor率いるAIカスタマーサービス企業Sierraが、Yコンビネーター出身のフランス法人Fragmentを買収した。Fragmentの技術統合により、エージェント機能を強化する狙い。",
-      "detail": "Sierraは、Salesforceの元共同CEOであるBret Taylorが創業したAIカスタマーサービスエージェントスタートアップ。今回、YCバックのフランス法人Fragmentを買収した。Fragmentは会話型AIの高度な自律エージェント技術を持ち、Sierraはこれを取り込むことで、顧客対応の自動化・高度化を加速させる。Taylorは「企業向けAIエージェントのエコシステム構築が目的」とコメント。Fragmentの技術は、複雑な問い合わせの文脈理解やマルチステップ対応に強みがあり、Sierraのプラットフォームに組み込まれることで、従来のルールベースのチャットボットから真のAIエージェントへの移行を促進する。企業のカスタマーサポート現場への影響は大きく、特に大規模な問い合わせ対応効率の向上が期待される。",
-      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "headline": "Google、Anthropicに最大400億ドル投資へ",
+      "summary": "GoogleがAI競争でAnthropicに現金と計算資源で最大400億ドル投資を計画。巨大な計算能力確保が目的。",
+      "detail": "GoogleがAnthropicに対して最大400億ドル規模の投資を計画していることが報じられた。この投資は現金と計算資源（コンピュート）の両方を含むもので、AI業界におけるハイパースケーラーの巨額投資競争を象徴する。ライバル各社が巨大な計算能力確保に狂奔する中、GoogleはAnthropicとの提携を深めることで、Claudeシリーズの更なるスケールアップと製品展開を支援する狙いがあるとみられる。投資規模は過去最大級であり、業界再編や計算資源の寡占化に拍車をかける可能性がある。",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
       "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "EraがAIガジェット向けプラットフォームの資金調達",
-      "summary": "Eraが1100万ドルを調達し、メガネやリングなど様々な形状のAIハードウェア向けソフトウェア基盤を構築する。今後のAIウェアラブル普及の鍵となる可能性。",
-      "detail": "Era社は、AIガジェット向けのソフトウェアプラットフォームを開発するため、1100万ドルの資金調達を完了した。同社は、AIハードウェアのフォームファクターがメガネ、リング、ペンダントなど多様化すると予測し、それらを統一的に制御・連携させる基盤の提供を目指す。現状、AIグラスやスマートリングなど個別製品はあるが、デバイス間の連携や開発の標準化が進んでいない。Eraのプラットフォームは、開発者が様々なガジェット向けにAIアプリを容易に構築できる環境を提供し、エコシステムの成長を促進する。投資家は、スマートフォン以来の新たなコンピューティングプラットフォームと見て期待を寄せており、ウェアラブルAI市場の本格的な拡大の幕開けとして注目される。",
-      "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
-      "source": "TechCrunch"
+      "headline": "OpenAI、GPT-5.5「Spud」をリリース",
+      "summary": "OpenAIが新モデル「Spud」ことGPT-5.5を発表。AIモデルそのものを改善する能力に優れ、新たな学習パラダイムを示す。",
+      "detail": "OpenAIがGPT-5.5、コードネーム「Spud」をリリースした。Axiosが報じたところによれば、このモデルはAIそのものをより賢くする能力に特化しており、自己改善型AIの新たなマイルストーンとなる。具体的には、モデルが自らの出力を評価し、より良い回答を生成するためのトレーニング手法を向上させる。経済紙Economic Timesも同様の機能を報じており、AI研究のフロンティアが単なる応答精度から、AIの自己進化能力へとシフトしていることを示唆する。OpenAIはこのモデルで競合に対する優位性を維持しようとしている。",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZUGxueklxTlY4RC1CSVRyZnhmV1dGWFdjLWxWNXFSYTFPbzNQV2stT19yMDB0NlFhMHh6bkVaMUdsdExWSE1uRkdLQWdyQmpXcmF5N1R1UTRyc1ZSUm1VN1NBV0tQeTA4S2pQMXFYX2w?oc=5",
+      "source": "Axios"
     },
     {
       "rank": 4,
-      "headline": "AIの迷いスクロールを自動化するボット「Noscroll」",
-      "summary": "Noscrollは、ユーザーに代わってインターネットを巡回・要約するAIボットを提供。ドゥームスクローリングを防止し、必要な情報だけを効率的に入手できる。",
-      "detail": "スタートアップのNoscrollは、ユーザーの代わりにウェブやSNSを巡回し、重要な情報だけを要約して報告するAIボット「Noscroll」を発表した。現代人の多くが陥る「ドゥームスクローリング」（ネガティブな情報を延々と見続ける行為）を解決する狙い。ユーザーは興味があるトピックを設定するだけで、AIが自動で関連記事を収集・分析し、カスタマイズされたダイジェストを提供する。これにより、情報過多に悩むビジネスパーソンや研究者にとって、時間の節約と精神的な負荷軽減が期待される。背景には、大規模言語モデルの要約能力の飛躍的な向上がある。類似サービスは複数存在するが、Noscrollは「能動的な情報収集から解放される」体験を強調しており、AIエージェントの身近な活用例として注目を集めている。",
-      "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+      "headline": "ComfyUIが5億ドル評価、クリエイター主権のAIツール台頭",
+      "summary": "AI画像・動画生成ツールComfyUIが3,000万ドル調達で評価額5億ドルに。クリエイターの制御権重視が追い風に。",
+      "detail": "ComfyUIが3,000万ドルの資金調達により、評価額5億ドルを達成した。同社のツールはAIによる画像、動画、音声生成において、クリエイターにより高度な制御権を提供する点が評価され、急速に成長している。従来の「お任せ型」生成AIとは一線を画し、ノードベースのワークフローで細かなパラメータ調整を可能にする。この動きは、AIメディア生成におけるプラットフォーム依存からの脱却と、クリエイター主権の流れを象徴しており、プロフェッショナルユースでの採用が拡大している。GPU需要の高まりとも相まって、AIツールの民主化を加速させる可能性がある。",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
       "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "AI銀河ハンターがGPU不足を加速",
-      "summary": "天文学者が銀河探索にGPUを活用する「AI銀河ハンター」が急増。世界中で深刻化するGPU不足に拍車をかけ、AI産業全体のリソース逼迫を招いている。",
-      "detail": "宇宙の膨大な観測データから銀河や天体を自動検出する「AI銀河ハンター」の利用が天文学界で急拡大している。従来、天文学者は人手による画像解析に頼っていたが、AIとGPUの組み合わせにより解析速度が格段に向上。しかし、この需要が世界的なGPU不足に新たな圧力をかけている。AIトレーニングだけでなく、科学計算分野でもGPU需要が高まっており、半導体の供給制約が深刻化。業界では「天文学者までもがGPU争奪戦に参入した」との声も上がる。この傾向は、AIモデルの大規模化と相まって、GPU調達コストの上昇やクラウド利用料の高騰を招き、スタートアップや研究機関への影響が懸念される。GPUメーカーやクラウドプロバイダーは、より効率的なリソース配分や専用アクセラレータの開発を急ぐ必要に迫られている。",
-      "url": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
+      "headline": "Meta、Amazon製AI CPUを大量調達 新たなチップ競争激化",
+      "summary": "MetaがAmazonの自社開発CPUを数百万単位で調達。エージェント処理向けで、GPUではない新たなチップ戦争を示唆。",
+      "detail": "MetaがAmazon Web Servicesの自社開発CPU（Trainium等の推論向けチップ）を大規模に調達する契約を結んだ。特筆すべきはGPUではなくCPUをAIエージェント処理に活用する点で、これまでのAIチップ市場の常識を覆す動きだ。AIエージェントは単なる推論よりも軽量で多様なタスクを要求するため、コスト効率の良いCPUが適しているとの判断がある。この契約により、NVIDIA一極集中だったAIチップ市場に新たな競争軸が生まれ、Metaのインフラ戦略にも大きな影響を与える。同日発表されたMac miniの品不足（ローカルAI需要）とも合わせ、多様なAIチップ需要の高まりが顕在化している。",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
       "source": "TechCrunch"
     }
   ]
