@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "DeepSeek、V4モデルプレビュー公開 中国AI勢力拡大",
-      "summary": "DeepSeekが待望のV4モデルをリリース。Huaweiチップ対応で中国の技術的自立を推進し、低価格で高性能なモデルを提供する。",
-      "detail": "DeepSeekが新たなフラッグシップモデルV4のプレビュー版を公開した。昨年のV3ブレイクスルーから約1年ぶりの大型アップデートで、アーキテクチャ改善によりDeepSeek V3.2とのギャップをほぼ解消したと主張している。特に注目すべきは、Huawei製チップに最適化され、中国の技術的自立（自給自足）を強く推進する点である。Fortuneの報道によれば、非常に低価格で提供され、CNBCなど国際メディアもAI競争の激化を報じている。MIT Technology Reviewもその意義を強調しており、同モデルがオープンソースAI勢力を拡大する可能性がある。",
-      "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+      "headline": "Anthropic、エージェント間取引のテスト市場を構築",
+      "summary": "AnthropicがAIエージェント同士が売買を行う分類広告市場を実験。エージェントが実際の取引を自律的に成立させた。</summary>",
+      "detail": "Anthropicは実験的な試みとして、AIエージェントが買い手と売り手の両方を担うクラシファイドマーケットプレイスを作成した。エージェント同士が交渉し、実際の取引を成立させる能力を検証。これはエージェント間経済（agent-on-agent commerce）の可能性を示唆し、将来のAIエコシステムにおける自律的な商取引の実現に向けた重要な一歩となる。Claudeの高度な推論能力を活かした実証実験であり、AIエージェントの実用化が加速する兆しと捉えられる。</summary>",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "Google、Anthropicに最大400億ドル投資へ",
-      "summary": "GoogleがAI競争でAnthropicに現金と計算資源で最大400億ドル投資を計画。巨大な計算能力確保が目的。",
-      "detail": "GoogleがAnthropicに対して最大400億ドル規模の投資を計画していることが報じられた。この投資は現金と計算資源（コンピュート）の両方を含むもので、AI業界におけるハイパースケーラーの巨額投資競争を象徴する。ライバル各社が巨大な計算能力確保に狂奔する中、GoogleはAnthropicとの提携を深めることで、Claudeシリーズの更なるスケールアップと製品展開を支援する狙いがあるとみられる。投資規模は過去最大級であり、業界再編や計算資源の寡占化に拍車をかける可能性がある。",
-      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "source": "TechCrunch"
+      "headline": "Google、Anthropicに400億ドル追加投資へ",
+      "summary": "GoogleがAnthropicに約400億ドルを追加投資すると報じられる。大規模な資金注入でAI開発競争がさらに激化する見通し。</summary>",
+      "detail": "報道によると、GoogleはAnthropicに対して総額400億ドル規模の追加投資を行う方針。これによりAnthropicはClaudeの次世代モデル開発やインフラ拡大を加速できる。Google Cloudとの連携強化も期待され、OpenAIやMicrosoftに対抗する勢力図が鮮明に。AI業界最大級の資金調達となり、長期的な競争優位を狙う動きとして注目される。</summary>",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUDNlVkotb3pVZ1dBUEdwaUFzaE9mV1lZdnhuUG0wZnZzOFBsZ2c3NmFNdUFhSG5rTVQ2UXpZSm5FbV83bVJCQjFVdWFXNEc5SXUxMzVfaURDYW84YzVTWnExYU1OcTBuVFNiczFoQmxsb3ljclF0UEJWT3hjYzhOcE1mMmRydTNJTGptZWZFdDEwZ2hxQ1Ffem9BOUJlUzVrUVVPVEpR?oc=5",
+      "source": "The Standard (HK)"
     },
     {
       "rank": 3,
-      "headline": "OpenAI、GPT-5.5「Spud」をリリース",
-      "summary": "OpenAIが新モデル「Spud」ことGPT-5.5を発表。AIモデルそのものを改善する能力に優れ、新たな学習パラダイムを示す。",
-      "detail": "OpenAIがGPT-5.5、コードネーム「Spud」をリリースした。Axiosが報じたところによれば、このモデルはAIそのものをより賢くする能力に特化しており、自己改善型AIの新たなマイルストーンとなる。具体的には、モデルが自らの出力を評価し、より良い回答を生成するためのトレーニング手法を向上させる。経済紙Economic Timesも同様の機能を報じており、AI研究のフロンティアが単なる応答精度から、AIの自己進化能力へとシフトしていることを示唆する。OpenAIはこのモデルで競合に対する優位性を維持しようとしている。",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZUGxueklxTlY4RC1CSVRyZnhmV1dGWFdjLWxWNXFSYTFPbzNQV2stT19yMDB0NlFhMHh6bkVaMUdsdExWSE1uRkdLQWdyQmpXcmF5N1R1UTRyc1ZSUm1VN1NBV0tQeTA4S2pQMXFYX2w?oc=5",
-      "source": "Axios"
+      "headline": "OpenAI CEO、カナダのコミュニティに謝罪",
+      "summary": "OpenAIのSam Altman CEOがTumbler Ridge住民へ謝罪。同社が法執行機関への通報を怠ったことを深く遺憾とした。</summary>",
+      "detail": "OpenAIのSam Altman CEOはカナダ・Tumbler Ridgeの住民宛ての書簡で、同社が法執行機関への通報を適切に行わなかったことを「深く謝罪」した。具体的な事件の詳細は不明だが、AI製品に関連した安全上の問題が背景にある可能性。Altmanは地域社会との信頼回復を約束し、今後の透明性向上を強調。AI企業の社会的責任とコミュニケーションの重要性を改めて浮き彫りにした。</summary>",
+      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "headline": "ComfyUIが5億ドル評価、クリエイター主権のAIツール台頭",
-      "summary": "AI画像・動画生成ツールComfyUIが3,000万ドル調達で評価額5億ドルに。クリエイターの制御権重視が追い風に。",
-      "detail": "ComfyUIが3,000万ドルの資金調達により、評価額5億ドルを達成した。同社のツールはAIによる画像、動画、音声生成において、クリエイターにより高度な制御権を提供する点が評価され、急速に成長している。従来の「お任せ型」生成AIとは一線を画し、ノードベースのワークフローで細かなパラメータ調整を可能にする。この動きは、AIメディア生成におけるプラットフォーム依存からの脱却と、クリエイター主権の流れを象徴しており、プロフェッショナルユースでの採用が拡大している。GPU需要の高まりとも相まって、AIツールの民主化を加速させる可能性がある。",
-      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "headline": "Cohere、独Aleph Alphaと合併へ",
+      "summary": "カナダのAIスタートアップCohereがドイツのAleph Alphaを買収。Lidl傘下のSchwarz Groupが支援し、欧州AI市場での存在感を強める。</summary>",
+      "detail": "CohereはドイツのAI企業Aleph Alphaを、LidlオーナーのSchwarz Groupの支援を受けて買収する。両政府の承認も得ており、欧州におけるAIの主権と競争力強化が狙い。Cohereはエンタープライズ向け大規模言語モデルで知られ、Aleph Alphaの技術と人材を活用し、EU圏での事業拡大を加速。独仏を中心とした欧州AIエコシステムの再編が進む。</summary>",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
       "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "Meta、Amazon製AI CPUを大量調達 新たなチップ競争激化",
-      "summary": "MetaがAmazonの自社開発CPUを数百万単位で調達。エージェント処理向けで、GPUではない新たなチップ戦争を示唆。",
-      "detail": "MetaがAmazon Web Servicesの自社開発CPU（Trainium等の推論向けチップ）を大規模に調達する契約を結んだ。特筆すべきはGPUではなくCPUをAIエージェント処理に活用する点で、これまでのAIチップ市場の常識を覆す動きだ。AIエージェントは単なる推論よりも軽量で多様なタスクを要求するため、コスト効率の良いCPUが適しているとの判断がある。この契約により、NVIDIA一極集中だったAIチップ市場に新たな競争軸が生まれ、Metaのインフラ戦略にも大きな影響を与える。同日発表されたMac miniの品不足（ローカルAI需要）とも合わせ、多様なAIチップ需要の高まりが顕在化している。",
-      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "headline": "東京が2026年最重要テクノロジー都市に",
+      "summary": "SusHi Tech Tokyo 2026が4つの技術領域を定義。ライブデモや専用展示でAI・ロボティクスなど先端技術を集結し、世界の注目を集める。</summary>",
+      "detail": "東京がSusHi Tech Tokyo 2026を通じて、2026年最も重要なテクノロジー都市として浮上している。4つの厳選された技術領域を中心に、ライブデモや専用展示フロア、セッションを展開。AI、ロボティクス、量子コンピューティングなど最先端分野の実証とネットワーキングの場として国際的な関心を集める。日本のAI・技術戦略の方向性を示す象徴的なイベントとなりつつある。</summary>",
+      "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
       "source": "TechCrunch"
     }
   ]
