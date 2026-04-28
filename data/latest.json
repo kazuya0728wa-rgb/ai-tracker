@@ -2,42 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "不動産購入にAnthropic株式が必要な異例の条件",
-      "summary": "サンフランシスコ近郊の高級物件で、購入条件にAnthropicの株式保有が求められる異例の取引が浮上。AI企業の急成長が不動産市場にも影響。",
-      "detail": "TechCrunchが報じたこのニュースは、ミルバレーの13エーカーの物件を購入する際に、現金や融資ではなくAnthropicの株式を保有していることが条件となる異例の取引。AIスタートアップの成功が富裕層の間で資産評価の新たな基準となりつつある背景が浮き彫りに。特にAnthropicはClaudeシリーズで急成長しており、その株式が実質的な通貨として機能し始めた象徴的な事例。技術業界の富の集中が不動産市場に波及し、投資家やAI企業の従業員にとって新たな資産流動性の形を示唆している。",
-      "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+      "headline": "中国、MetaのManus買収を阻止",
+      "summary": "中国がMetaによる20億ドルのManus買収を無効化。ザッカーバーグのAIエージェント戦略に大きな打撃。",
+      "detail": "中国当局は数カ月にわたる調査の末、MetaによるAIエージェント企業Manusの20億ドル買収を阻止した。Manusは自律型AIエージェント技術で注目されており、Metaはこれを自社のAI戦略の中核に据える計画だった。中国の規制当局は国家安全保障とデータ主権を理由に買収を取り消し。Metaは既に投資した資金の回収が困難になる可能性が高い。この決定は、中国市場における海外テック企業のM&Aに対する厳格な姿勢を改めて示すもの。AIエージェント競争が激化する中、Metaの戦略に遅れが生じることは避けられない。",
+      "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "サムスン、2026年AI搭載テレビ新技術を欧州セミナーで披露",
-      "summary": "サムスンが市場投入前の最新AI搭載テレビの技術を欧州テクニカルセミナーで公開。映像処理や音声認識にAIを本格導入。",
-      "detail": "サムスンは欧州テクニカルセミナーで、2026年発売予定のAI搭載テレビの革新的機能を展示。AIによるリアルタイム映像最適化、視聴者の嗜好を学習するパーソナライズ推薦、音声アシスタントの高度化などが発表された。特に注目は、AIがコンテンツのジャンルやシーンを自動識別し、画質・音質を最適化する技術。これにより従来の画質設定が不要になり、ユーザー体験が飛躍的に向上。家電分野でのAI統合が加速し、テレビが単なる表示端末からインテリジェントハブへ進化する流れを示す。",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYWtVTUdrMl82dndtNXBrSzJweFREcVJMd0pqV1p5MjBDbTd2c1FTeHlDS2gzZ1JlaDl5eFBaeWVlYS1rcGhISTVtaWVlQW1nVV9uXzFuNW45NHJnZWlLZVJ6VEJvZWRsVjAwSlBuMmdIMW5WUm4tZzBKc19HeTJDQ0JMSDRseG5yOUI4Z1lqVFVDWjJvaVp1NC0xVU9PTml5Y0ZQSkdSX1l2clJFZXlWaU5vc0JWOFVSR19DRWhtajkteGpSSUY5R0V1QVJKb2FvYmc?oc=5",
-      "source": "Google News / Samsung"
+      "headline": "DeepMindのDavid Silver、11億ドル調達",
+      "summary": "元DeepMind研究者David Silverが、人間データなしで学習するAIを開発するため11億ドルを調達。Inffeable Intelligence設立。",
+      "detail": "DeepMindの共同研究者であるDavid Silverが設立したIneffable Intelligenceが、わずか数カ月で11億ドルの大型資金調達に成功。同社は強化学習を極限まで推し進め、人間のデータやラベルに一切依存しないAIの構築を目指す。SilverはAlphaGoやAlphaZeroの開発者として知られ、自己対戦による学習の第一人者。今回の資金は、大規模な計算リソースと研究チームの拡充に充てられる。既存のLLM依存型AIとは一線を画すアプローチであり、次世代の基盤技術となる可能性がある。今後の成果次第ではAGIへの最短ルートとなる可能性も。",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "AI信頼危機が深刻化、消費者は本物のビジネスを要求",
-      "summary": "WFMZ.comの報道によると、AI生成コンテンツの氾濫により消費者の信頼が急速に低下。多くのユーザーがオンライン上の情報に対して「人間が作ったものか」「実在する企業か」を厳しく確認するようになった。企業はAI利用の開示や認証システムの導入を迫られ、特にEコマースやカスタマーサポート分野で影響が顕著。今後はAI生成物のラベル表示義務化や、ブロックチェーンによる真正性証明の需要が高まると予想される。AIの普及と倫理的な課題のバランスが問われる年となった。",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPcGh0WmstOEdEOERrejhCbjdXWTJpX1NPS3NodGRZV0xJY0Qwc1ZQZlhyNTNnVU1kNDN6cWo0ajNoc0RLQks1T010LS1tRWZuVkZtWHpyaGZfQWUyTGpOZl90M09ZR0hOc2NpMUtiNVFMamN5VnZBNFZ0V2psZ3pIbE9vUGV5cHhSZ2ROVnhqdXFld1dGaUNEZUJfd3JFcXdCMzNzOW8zNDR6MG9xNkp0bkZDeFpGOUhlRW85cjktZlZRMExzUFNxbmFzVHFhVHduM1laRHNEQXMxLXZDcDRlSVZHNDZWZFhPaTMzekgyeGFwdzJTaHgtVG9xZ2J2M2F6MUd0bUZURXFFcEdTekpSeU9ORDN5cjBVRGZV?oc=5",
-      "source": "WFMZ.com"
+      "headline": "DeepSeek新モデル、市場に響かず",
+      "summary": "DeepSeek最新モデルの発表が市場から冷ややかな反応。急速に変化する業界で期待に応えられず。",
+      "detail": "中国のAI企業DeepSeekが新たな大規模言語モデルを発表したが、市場の反応は鈍い。前回のモデルが大きな話題を呼んだのに対し、今回は性能向上の度合いが限定的で、他社との差別化が不十分と評価された。特にOpenAIやGoogleの最新モデルとの比較で、ベンチマークスコアの伸び悩みが指摘されている。AI業界の進化スピードが加速する中、ユーザーの期待値も急上昇しており、小幅な改善では注目を集めにくくなっている。DeepSeekの今後の戦略見直しが迫られる可能性がある。",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmhwV2MxZG42b05HZkZXa0VBNktwZVN5Rkp5WnJqQThpOW04MENqUV9SdFA4YlREUDlTeVpHcVhRbFpaUVllYjZGcnotUnVkNTFuMmN3dTVBQ1JfSmpQRXFpNUxrbDB6N1hRM0FDMWNKdVd0LTFlbXBPWG5DZ09jeUpqTHZZYjRsNEdtQlZPNkJEVnB1ZERKMDJmS2FwZ3JEclB2LXphY2s1Q3YydzUyREpYak4?oc=5",
+      "source": "Reuters"
     },
     {
       "rank": 4,
-      "headline": "サンディスク株、2026年最大のAI勝者か",
-      "summary": "The Globe and Mailがサンディスク株を2026年のAI関連で最大の上昇銘柄の一つとして指摘。ストレージ需要の高まりが背景。",
-      "detail": "AIモデルの学習・推論に必要な大規模データストレージの需要拡大を受け、サンディスク株が急上昇。同社のNANDフラッシュメモリはAIデータセンターやエッジデバイスで不可欠な部品となっており、NVIDIAやAMDといったGPU銘柄ほどの注目は集めないものの、着実な成長を見せている。特にAIモデルの巨大化に伴うデータ保存需要は今後も拡大が見込まれ、半導体ストレージ分野がAI投資の新たなフロンティアになりつつある。投資家はAI関連銘柄の多様化を模索しており、バリュエーションの観点からも注目。",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObkRwbm02N0RUZ1UtQUZJVUlMVXAwOWFEVlZqdXJGWUlILVpmYzFBZkdmd05lTXp0QzVDYV94aGxyWnZvTWgzbklncEJJcXJyT2hkNjRFbXgtenQ3Q1BMUFRfaldRU1dvci0tZXB4N1dWSXJTZ2Via3V0ZGs2MFdFTGd2QlZYWmxxd0dJNzNpZjRhS1dwS1d6anRZVmpTRFh2Qm5zblR0MzZrbEVrdUw1ZnR5cXI0aVc1bjl1WC1CSVZsVHRMZkNKRXl1YVg?oc=5",
-      "source": "The Globe and Mail"
+      "headline": "OpenAI、Microsoftとの契約を大幅緩和",
+      "summary": "OpenAIがMicrosoftから重要な譲歩を勝ち取り、AWSでの製品販売が可能に。Microsoftは追加資金を得る。",
+      "detail": "OpenAIは最大株主であるMicrosoftとの間で契約条件の大幅な緩和に成功。これによりOpenAIはAmazon Web Services（AWS）上で自社製品を販売できるようになり、クラウド戦略の自由度が大幅に向上。一方のMicrosoftはより多くの現金を受け取ることで合意した。この合意は、OpenAIが昨年発表した500億ドルのAmazonとの契約を巡る法的リスクを解消するもの。OpenAIのマルチクラウド展開が加速し、AI業界の競争構図がさらに複雑化する。特にAIエージェント向けのインフラ戦略に影響を与える。",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "AI信頼危機で消費者が「本物証明」を要求",
-      "summary": "AIコンテンツへの不信感が2026年にピークに達し、企業は透明性向上と認証システム導入を迫られている。消費者行動の変化が顕著に。",
-      "detail": "AI生成コンテンツが急増する中、消費者は「本物の人間が運営するビジネス」かどうかを厳しくチェックする傾向が強まっている。この信頼危機は、偽情報やディープフェイクの拡大が引き金となり、特にオンラインショッピングや金融サービスで顕著。企業はAI利用の明示や、第三者機関による認証取得を進めざるを得なくなった。長期的にはAI生成物の法的規制や、ウォーターマーク技術の標準化が進むと見られ、AI業界全体の透明性向上が喫緊の課題に。",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPcGh0WmstOEdEOERrejhCbjdXWTJpX1NPS3NodGRZV0xJY0Qwc1ZQZlhyNTNnVU1kNDN6cWo0ajNoc0RLQks1T010LS1tRWZuVkZtWHpyaGZfQWUyTGpOZl90M09ZR0hOc2NpMUtiNVFMamN5VnZBNFZ0V2psZ3pIbE9vUGV5cHhSZ2ROVnhqdXFld1dGaUNEZUJfd3JFcXdCMzNzOW8zNDR6MG9xNkp0bkZDeFpGOUhlRW85cjktZlZRMExzUFNxbmFzVHFhVHduM1laRHNEQXMxLXZDcDRlSVZHNDZWZFhPaTMzekgyeGFwdzJTaHgtVG9xZ2J2M2F6MUd0bUZURXFFcEdTekpSeU9ORDN5cjBVRGZV?oc=5",
-      "source": "WFMZ.com"
+      "headline": "OpenAI、AIエージェント搭載スマホ開発か",
+      "summary": "業界アナリストがOpenAIのスマホ計画をリーク。AIエージェントが従来のアプリを置き換える可能性。",
+      "detail": "著名アナリストのMing-Chi Kuoが、OpenAIがAIエージェントを中心としたスマートフォンの開発を検討していると報告。従来のアプリランチャーを廃し、AIエージェントがすべての操作を仲介する全く新しいユーザー体験を目指す。同時に自社製イヤホンの発売も噂されており、ハードウェア戦略が本格化。OpenAIはすでに元AppleデザイナーのJony Iveとの協業を進めており、今回の情報はその延長線上にある。AIネイティブデバイスの市場が現実味を帯びてきた。",
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "source": "TechCrunch"
     }
   ]
 }
