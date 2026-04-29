@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "中国、MetaのManus買収を阻止",
-      "summary": "中国がMetaによる20億ドルのManus買収を無効化。ザッカーバーグのAIエージェント戦略に大きな打撃。",
-      "detail": "中国当局は数カ月にわたる調査の末、MetaによるAIエージェント企業Manusの20億ドル買収を阻止した。Manusは自律型AIエージェント技術で注目されており、Metaはこれを自社のAI戦略の中核に据える計画だった。中国の規制当局は国家安全保障とデータ主権を理由に買収を取り消し。Metaは既に投資した資金の回収が困難になる可能性が高い。この決定は、中国市場における海外テック企業のM&Aに対する厳格な姿勢を改めて示すもの。AIエージェント競争が激化する中、Metaの戦略に遅れが生じることは避けられない。",
-      "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+      "headline": "Amazon、AWSでOpenAI新製品を提供開始",
+      "summary": "Microsoftとの独占契約終了を受け、AWSがOpenAIモデルを提供。エージェントサービスも含む。",
+      "detail": "Microsoftとの独占契約が解消された翌日、AWSがOpenAIの新製品を自社クラウドで提供開始した。これにより、企業ユーザーはAWS上でGPTシリーズや新たなエージェントサービスを利用可能に。Microsoft以外のクラウドでOpenAIモデルが本格的に使える初めての事例であり、AIモデルのマルチクラウド展開が加速する契機となる。競合他社の追随も予想される。",
+      "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "DeepMindのDavid Silver、11億ドル調達",
-      "summary": "元DeepMind研究者David Silverが、人間データなしで学習するAIを開発するため11億ドルを調達。Inffeable Intelligence設立。",
-      "detail": "DeepMindの共同研究者であるDavid Silverが設立したIneffable Intelligenceが、わずか数カ月で11億ドルの大型資金調達に成功。同社は強化学習を極限まで推し進め、人間のデータやラベルに一切依存しないAIの構築を目指す。SilverはAlphaGoやAlphaZeroの開発者として知られ、自己対戦による学習の第一人者。今回の資金は、大規模な計算リソースと研究チームの拡充に充てられる。既存のLLM依存型AIとは一線を画すアプローチであり、次世代の基盤技術となる可能性がある。今後の成果次第ではAGIへの最短ルートとなる可能性も。",
-      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "headline": "Google、Anthropic拒否後に国防総省とのAI契約拡大",
+      "summary": "Anthropicが監視・兵器利用を拒否した後、Googleが新契約を締結。軍事AIの是非が論点に。",
+      "detail": "Anthropicが米国防総省によるAIの国内大量監視や自律兵器への利用を拒否した直後、Googleが同省との新たな契約を発表。これによりGoogleのAI技術が軍事・防衛分野でより広く活用される見通しとなった。AIの倫理と安全保障のバランスが改めて注目される中、企業ごとの方針の違いが鮮明になった。今後の業界全体の議論に影響を与える可能性が高い。",
+      "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
       "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "DeepSeek新モデル、市場に響かず",
-      "summary": "DeepSeek最新モデルの発表が市場から冷ややかな反応。急速に変化する業界で期待に応えられず。",
-      "detail": "中国のAI企業DeepSeekが新たな大規模言語モデルを発表したが、市場の反応は鈍い。前回のモデルが大きな話題を呼んだのに対し、今回は性能向上の度合いが限定的で、他社との差別化が不十分と評価された。特にOpenAIやGoogleの最新モデルとの比較で、ベンチマークスコアの伸び悩みが指摘されている。AI業界の進化スピードが加速する中、ユーザーの期待値も急上昇しており、小幅な改善では注目を集めにくくなっている。DeepSeekの今後の戦略見直しが迫られる可能性がある。",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmhwV2MxZG42b05HZkZXa0VBNktwZVN5Rkp5WnJqQThpOW04MENqUV9SdFA4YlREUDlTeVpHcVhRbFpaUVllYjZGcnotUnVkNTFuMmN3dTVBQ1JfSmpQRXFpNUxrbDB6N1hRM0FDMWNKdVd0LTFlbXBPWG5DZ09jeUpqTHZZYjRsNEdtQlZPNkJEVnB1ZERKMDJmS2FwZ3JEclB2LXphY2s1Q3YydzUyREpYak4?oc=5",
-      "source": "Reuters"
+      "headline": "YouTube、AI検索でガイド付き回答を提供開始",
+      "summary": "プレミアム会員向けに、AIが動画検索結果を要約・案内する新機能のテストを開始。",
+      "detail": "YouTubeは、米国のPremium会員を対象に、AIを活用した新しい検索機能の試験運用を開始した。ユーザーのクエリに対して、関連動画を単にリスト表示するだけでなく、AIがガイド付きの回答を生成し、知りたい情報を効率的に提供する。動画プラットフォームにおける検索体験の変革を目指す取り組みであり、今後の一般公開や他地域への展開が期待される。",
+      "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+      "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "headline": "OpenAI、Microsoftとの契約を大幅緩和",
-      "summary": "OpenAIがMicrosoftから重要な譲歩を勝ち取り、AWSでの製品販売が可能に。Microsoftは追加資金を得る。",
-      "detail": "OpenAIは最大株主であるMicrosoftとの間で契約条件の大幅な緩和に成功。これによりOpenAIはAmazon Web Services（AWS）上で自社製品を販売できるようになり、クラウド戦略の自由度が大幅に向上。一方のMicrosoftはより多くの現金を受け取ることで合意した。この合意は、OpenAIが昨年発表した500億ドルのAmazonとの契約を巡る法的リスクを解消するもの。OpenAIのマルチクラウド展開が加速し、AI業界の競争構図がさらに複雑化する。特にAIエージェント向けのインフラ戦略に影響を与える。",
-      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-      "source": "TechCrunch"
+      "headline": "メタの新AIモデル、投資家は戦略に注目",
+      "summary": "Metaの新モデルが初期成果を示すが、ザッカーバーグCEOのAI戦略に投資家の関心が集まる。",
+      "detail": "Metaが公開した新しいAIモデルが初期のベンチマークで有望な結果を示しているものの、投資家はザッカーバーグCEOの長期的なAI戦略に注目している。オープンソース戦略や収益化の道筋、競合との差別化が問われる中、MetaのAI投資がどのようなリターンをもたらすかが焦点。今後の決算や製品発表が株価を左右する可能性がある。",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONnpIZGlVLUM0LTN0YjVLdGVwR0I2VVFLOEhoN3o1NjVVamJzdlJCS3FpYjh4TDhCMjZHbzVLM21fV1EzcEM0VkZWYjhaRDMtaFJpQVAyR3NhcTQybDdtSkdoZV90NUVqZWhHNVZVY0RjdGV2aUlhUk84eFFoT1FXMUFDdzM4dEpYdVZ4dHlYY0czUVNiR281b09TZ2JLaElwcnBlb19qSTPSAa4BQVVfeXFMTVVNRmp3c1pmZGFIZ2RNQzZYanRHcHBiUmVfNlJIbmw0aU1Eb016ZTZJYzBKWXdVckNhSGd4SlZoRXdkeXU4cmVfSHl4LWVNTWtyX2E4QUZwX3o2RHM1MmZUVk5kMkhSTW9qYzljYUxMQzFzSDZQMGxXX2FCMFJDVVB1bTVOam41dFJrUW93WjhGRFlpSGpBMTh4WUI3eFhCQm4taTZpWHpFX3hEa0hR?oc=5",
+      "source": "CNBC"
     },
     {
       "rank": 5,
-      "headline": "OpenAI、AIエージェント搭載スマホ開発か",
-      "summary": "業界アナリストがOpenAIのスマホ計画をリーク。AIエージェントが従来のアプリを置き換える可能性。",
-      "detail": "著名アナリストのMing-Chi Kuoが、OpenAIがAIエージェントを中心としたスマートフォンの開発を検討していると報告。従来のアプリランチャーを廃し、AIエージェントがすべての操作を仲介する全く新しいユーザー体験を目指す。同時に自社製イヤホンの発売も噂されており、ハードウェア戦略が本格化。OpenAIはすでに元AppleデザイナーのJony Iveとの協業を進めており、今回の情報はその延長線上にある。AIネイティブデバイスの市場が現実味を帯びてきた。",
-      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-      "source": "TechCrunch"
+      "headline": "Xiaomi、長期間稼働AIエージェント用モデルをMITライセンスで公開",
+      "summary": "XiaomiがMITライセンスのMiMoモデルをリリース。長時間稼働するAIエージェント向け。",
+      "detail": "Xiaomiが、長時間にわたって自律的にタスクを実行できるAIエージェント向けの基盤モデル「MiMo」をMITライセンスで公開した。商用利用も可能なオープンなライセンスにより、開発者は自由にカスタマイズして長期稼働エージェントを構築できる。エッジデバイスやクラウド上のエージェントシステムへの応用が期待され、オープンなAIエージェント開発の新たな選択肢となる。",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1BuRmRMUmJvWDFTTWh6azA0QTdQV1VRbURtVUhPc2VSeWR2amJPWkhGWmxZVm1EUWJWTGQ4VnhfR2s3R1RHSmpaWlN2ZlV3bUIwUldQMGV2N0FlLWpMYjVjM09GN0k5V2JyQXpENl9KVFhBZWNYQXJuWDBVcmVVZ2sxanExY1EwSy1vUkVpRzQ3UDV2UW1Hd0RsdWRzaWZieUp1MzVfQm9MMDU4aUE1UU5NUVl4bTYzWkNzdVdCWVpSeThCZU5PNUhucjBJX3lIdlE?oc=5",
+      "source": "Computerworld"
     }
   ]
 }
