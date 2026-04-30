@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Amazon、AWSでOpenAI新製品を提供開始",
-      "summary": "Microsoftとの独占契約終了を受け、AWSがOpenAIモデルを提供。エージェントサービスも含む。",
-      "detail": "Microsoftとの独占契約が解消された翌日、AWSがOpenAIの新製品を自社クラウドで提供開始した。これにより、企業ユーザーはAWS上でGPTシリーズや新たなエージェントサービスを利用可能に。Microsoft以外のクラウドでOpenAIモデルが本格的に使える初めての事例であり、AIモデルのマルチクラウド展開が加速する契機となる。競合他社の追随も予想される。",
-      "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+      "headline": "Anthropicが9000億ドル評価で500億ドル調達か",
+      "summary": "Claude開発元のAnthropicに、8500億～9000億ドルの評価額で500億ドル調達の打診が複数寄せられている。AI業界最大級の資金調達となる可能性がある。",
+      "detail": "Anthropicは現在8500億～9000億ドルの評価額で、新たに500億ドルの資金調達を検討していると報じられた。これは、AIモデル「Claude」の急速な普及と、競合であるOpenAIやGoogleに対抗するための巨額投資が背景にある。すでに複数の投資家から事前オファーが届いており、調達が成立すれば、AIスタートアップとしては史上最大級のものとなる。この資金は主に次世代モデルの開発と、大規模な計算リソースの確保に充てられるとみられる。Anthropicの評価額はわずか1年で大きく跳ね上がっており、AI業界全体の過熱感を象徴するニュースである。今後のOpenAIとの競争激化は必至であり、業界地図を大きく変える可能性がある。",
+      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "Google、Anthropic拒否後に国防総省とのAI契約拡大",
-      "summary": "Anthropicが監視・兵器利用を拒否した後、Googleが新契約を締結。軍事AIの是非が論点に。",
-      "detail": "Anthropicが米国防総省によるAIの国内大量監視や自律兵器への利用を拒否した直後、Googleが同省との新たな契約を発表。これによりGoogleのAI技術が軍事・防衛分野でより広く活用される見通しとなった。AIの倫理と安全保障のバランスが改めて注目される中、企業ごとの方針の違いが鮮明になった。今後の業界全体の議論に影響を与える可能性が高い。",
-      "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+      "headline": "Microsoft、Copilot有料ユーザー2000万人突破",
+      "summary": "MicrosoftはCopilotの有料ユーザーが2000万人を超え、実際に活用されていると発表。AIアシスタントの定着が進んでいることを示す。",
+      "detail": "Microsoftは2026年第1四半期決算で、Copilotの有料ユーザーが2000万人を超えたと発表した。これは、従来「誰も使っていない」と揶揄されていたイメージを覆すものであり、実際のエンゲージメントも高いという。Microsoft 365全体のプレミアムサブスクリプションも増加しており、AI機能がユーザーの業務効率化に貢献していると分析される。特に、WordやExcel、TeamsでのAI支援機能が好評で、企業の導入が加速している。CEOのサティア・ナデラ氏は、OpenAIとの新たな契約により、同社の技術をクラウド顧客に無料で提供できると述べており、さらなる競争優位性を確保する狙いがある。Copilotの成功は、AIソフトウェアのビジネスモデルとしての持続可能性を示す好例と言える。",
+      "url": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
       "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "YouTube、AI検索でガイド付き回答を提供開始",
-      "summary": "プレミアム会員向けに、AIが動画検索結果を要約・案内する新機能のテストを開始。",
-      "detail": "YouTubeは、米国のPremium会員を対象に、AIを活用した新しい検索機能の試験運用を開始した。ユーザーのクエリに対して、関連動画を単にリスト表示するだけでなく、AIがガイド付きの回答を生成し、知りたい情報を効率的に提供する。動画プラットフォームにおける検索体験の変革を目指す取り組みであり、今後の一般公開や他地域への展開が期待される。",
-      "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+      "headline": "Google Cloud、初の四半期売上200億ドル突破",
+      "summary": "Google Cloudが四半期売上200億ドルを初達成。AI需要が牽引するも、GPUなどの容量制約によりさらなる成長が制限されている。",
+      "detail": "Google Cloudは2026年第1四半期に、四半期売上高として初めて200億ドルを突破した。この成長は、生成AI向けのクラウド需要の急増によるものだが、同社はGPUやTPUなどの計算リソース不足により、実際にはさらに多くの需要を取り逃がしていると明かした。つまり、供給制約さえなければ、さらに高い成長が可能だったという。このニュースは、AIインフラ市場全体の需給逼迫を象徴している。AWSやMicrosoft Azureも同様に容量拡大に巨額投資を続けており、クラウド業界全体でAI向けの設備投資競争が激化している。Googleは引き続きTPUやGeminiの強化を進めており、今後の容量拡大とともにさらなる市場シェア拡大を狙う。",
+      "url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
       "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "headline": "メタの新AIモデル、投資家は戦略に注目",
-      "summary": "Metaの新モデルが初期成果を示すが、ザッカーバーグCEOのAI戦略に投資家の関心が集まる。",
-      "detail": "Metaが公開した新しいAIモデルが初期のベンチマークで有望な結果を示しているものの、投資家はザッカーバーグCEOの長期的なAI戦略に注目している。オープンソース戦略や収益化の道筋、競合との差別化が問われる中、MetaのAI投資がどのようなリターンをもたらすかが焦点。今後の決算や製品発表が株価を左右する可能性がある。",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONnpIZGlVLUM0LTN0YjVLdGVwR0I2VVFLOEhoN3o1NjVVamJzdlJCS3FpYjh4TDhCMjZHbzVLM21fV1EzcEM0VkZWYjhaRDMtaFJpQVAyR3NhcTQybDdtSkdoZV90NUVqZWhHNVZVY0RjdGV2aUlhUk84eFFoT1FXMUFDdzM4dEpYdVZ4dHlYY0czUVNiR281b09TZ2JLaElwcnBlb19qSTPSAa4BQVVfeXFMTVVNRmp3c1pmZGFIZ2RNQzZYanRHcHBiUmVfNlJIbmw0aU1Eb016ZTZJYzBKWXdVckNhSGd4SlZoRXdkeXU4cmVfSHl4LWVNTWtyX2E4QUZwX3o2RHM1MmZUVk5kMkhSTW9qYzljYUxMQzFzSDZQMGxXX2FCMFJDVVB1bTVOam41dFJrUW93WjhGRFlpSGpBMTh4WUI3eFhCQm4taTZpWHpFX3hEa0hR?oc=5",
-      "source": "CNBC"
+      "headline": "Satya Nadella、OpenAI契約を「活用する」と明言",
+      "summary": "MicrosoftのCEOが、新たなOpenAI契約により同社の技術をクラウド顧客に無料提供できると述べ、積極的にビジネス化する方針を示した。",
+      "detail": "Microsoft CEOのサティア・ナデラ氏は、同社とOpenAIの新たな契約について、「われわれはこれを完全に活用するつもりだ」と明言した。この契約により、MicrosoftはOpenAIの最新技術をAzureクラウドの顧客に提供でき、しかもそのための追加コストが発生しないという。これは、Google CloudやAWSに対して大きな競争優位性をもたらす。ナデラ氏はさらに、AIモデルの性能向上とコスト低減が急速に進んでおり、ビジネスチャンスは拡大していると強調した。MicrosoftはすでにCopilotなどでAI収益を上げており、OpenAIとの提携を最大限に利用して、エンタープライズAI市場での支配的地位を固める狙いだ。この発言は、AI業界におけるプラットフォーム間の競争がさらに激化することを示唆している。",
+      "url": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+      "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "Xiaomi、長期間稼働AIエージェント用モデルをMITライセンスで公開",
-      "summary": "XiaomiがMITライセンスのMiMoモデルをリリース。長時間稼働するAIエージェント向け。",
-      "detail": "Xiaomiが、長時間にわたって自律的にタスクを実行できるAIエージェント向けの基盤モデル「MiMo」をMITライセンスで公開した。商用利用も可能なオープンなライセンスにより、開発者は自由にカスタマイズして長期稼働エージェントを構築できる。エッジデバイスやクラウド上のエージェントシステムへの応用が期待され、オープンなAIエージェント開発の新たな選択肢となる。",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS1BuRmRMUmJvWDFTTWh6azA0QTdQV1VRbURtVUhPc2VSeWR2amJPWkhGWmxZVm1EUWJWTGQ4VnhfR2s3R1RHSmpaWlN2ZlV3bUIwUldQMGV2N0FlLWpMYjVjM09GN0k5V2JyQXpENl9KVFhBZWNYQXJuWDBVcmVVZ2sxanExY1EwSy1vUkVpRzQ3UDV2UW1Hd0RsdWRzaWZieUp1MzVfQm9MMDU4aUE1UU5NUVl4bTYzWkNzdVdCWVpSeThCZU5PNUhucjBJX3lIdlE?oc=5",
-      "source": "Computerworld"
+      "headline": "Runway CEO「次は世界モデル」、AI映像の先へ",
+      "summary": "動画生成AIの先駆者RunwayのCEOが、次のステップは「世界モデル」だと語る。物理法則を理解するAIへの進化が目前に迫っている。",
+      "detail": "RunwayのCEOクリストバル・バレンズエラ氏は、AI生成ビデオは急速に「ノベルティからクリエイティブツール」へと進化したと振り返り、次なる段階として「ワールドモデル」の開発を挙げた。世界モデルとは、物理法則や因果関係を理解し、現実世界のシミュレーションを可能にするAIのことである。これは、単なる映像生成を超え、ロボティクスや自動運転、ゲーム開発などへの応用が期待される。RunwayはすでにAIビデオ分野でリーダー的存在であり、同社のGen-3 Alphaモデルは映画制作や広告業界で実際に使用されている。バレンズエラ氏は、世界モデルの実現によって、AIが「現実を理解する」時代が到来すると予測している。このビジョンは、AI業界の次なるフロンティアとして注目されている。",
+      "url": "https://techcrunch.com/podcast/equity-podcast-runway-ceo-cristobal-valenzuela-ai-video-world-models/",
+      "source": "TechCrunch"
     }
   ]
 }
