@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "OpenAI新モデル、計算能力巡り議論",
-      "summary": "OpenAIの新モデルがAIに必要な計算能力を巡る議論を引き起こしている。大規模なリソース消費と性能向上のジレンマが焦点に。",
-      "detail": "ニューヨーク・タイムズの報道によると、OpenAIがリリースした新モデルが、AI開発に必要な計算能力の規模を巡る業界全体の議論を活性化させている。同モデルは驚異的な性能を達成した一方、そのトレーニングに膨大なGPUリソースと電力を消費していることが明らかになり、スケーリング則の限界と持続可能性への懸念が再燃。特に中小企業や研究機関にとって、最先端AIへのアクセス格差が拡大する可能性が指摘されている。業界では、より効率的なアーキテクチャへのシフトや、計算資源の民主化が今後の重要なテーマとなると予想される。",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV3FhaTF0SFVYMEtqRF90Smc2cDYwMGlsMjdTbTdOUEFyWVpEdC12SFlzd2tTSG52amhqbS1RWk81UXV1MDA1X0NBVURNaHRjX1FfMHplN1VtaU1QSUJNOHlnZzhqNlFLSGhyZ2R2eDl4YjFidlBhQUFsZUdXMndlMTRsekpEQVg0a1E?oc=5",
-      "source": "The New York Times"
+      "headline": "アカデミー賞、AI生成俳優・脚本を選考対象外に",
+      "summary": "米アカデミー賞が、AI生成の俳優や脚本を選考対象から除外する新ルールを発表。業界のクリエイティブ保護が目的とされる。",
+      "detail": "米映画芸術科学アカデミーは、2026年のアカデミー賞からAIによって完全生成された俳優の演技や脚本を選考対象外とする新ルールを発表した。背景には、AI技術の急速な進歩により、人間の創造性や表現の価値を保護する必要性が高まったことがある。対象となるのは、プロンプトのみで生成された映像やテキストであり、人間による大幅な編集や芸術的判断を経た作品は、引き続き審査対象となる可能性がある。この決定は、ハリウッドのみならず、AIを活用した映像制作を行うスタートアップやクリエイターに大きな影響を与えると見られる。",
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+      "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "Meta、ヒューマノイドロボットAI強化へ買収",
-      "summary": "MetaがロボットスタートアップAssured Robot Intelligenceを買収。人型ロボット向けAIモデルの強化を目的としている。",
-      "detail": "Metaは、ヒューマノイドロボティクス分野のスタートアップ「Assured Robot Intelligence」を買収したと発表した。今回の買収は、Metaが推進する汎用人工知能（AGI）研究の一環であり、特に物理世界で動作するAIエージェントの基盤モデル開発を加速させる狙いがある。Metaは既に大規模言語モデルや画像生成モデルで強みを持つが、ロボット制御のような実世界インタラクションは新たなフロンティア。同社は買収を通じて、家庭用ロボットや産業用ロボットへの応用を視野に入れており、競合するGoogleやTeslaとの人型ロボット開発競争が一層激化すると見られる。",
-      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-      "source": "TechCrunch"
+      "headline": "中国裁判所、AIを理由とした解雇を禁止",
+      "summary": "中国の裁判所が、AI導入による人員削減を理由に従業員を解雇できないとする判決を下した。労働者保護の観点から注目される判断。",
+      "detail": "中国の裁判所は、企業がAIシステム導入に伴う業務効率化を理由に従業員を解雇することを認めない判決を下した。この判決は、AIによる雇用代替リスクが現実化しつつある中で、労働者の権利保護を優先する司法判断として注目される。具体的には、経営上の困難など正当な理由なく、AI化のみを根拠とした解雇は無効とされた。中国国内ではAI導入が急速に進む一方、雇用不安が社会問題化しており、今回の判決は今後のAI政策や企業の人事戦略に大きな影響を与える可能性がある。特に製造業やコールセンターなど、AIによる自動化が進む業界において、人材配置の見直しが迫られる。",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaVo3bkhLYk5FT3F1V2p1VWU3aVVCRHR2ZnpMeDlnVUV6bzZfQ2pacDZaRDBWYkl4QTlhRS1qNUZJQWdJZUZhRFBfZDkyZnE1RTdHWDVTRTRmc2lJUkUzOFAzQ0JQTHc4ZVlIMjRmSGptUGNhX0w5Q0F0UlNaVUZjdkxSSjNpcWFSM2lSY2tLdTZvYXhEbFJzbF9maWoyWUVlRGZFbEtMYy1DZk9lcHpPSU9ZdG9JNl82YlFXTXRpRmdiSVBOanN6c1VmTjViSEtpRnFrMm1pNmRLb1Z3bkcxdDRXZ0xuVWI0TXfSAe8BQVVfeXFMTm8teHNYMGxqUnBzZkc3TVpiODNuRGdBcGRCMWF4UGZHbnpiQXpRVUx1RUltczNUcWpnUDhJUkF5c1lQWS0taTZVUGJ3X0FvRHpWRHNyVDJYdHFmX294S3NUWkFjazJDb0RaRVdZOVZpeF8xRUtOYjl4NzlQTllhLTNvUlBzWlg3eVUzLUtnTDlZa1dGeE1xemcwVENxbjFnWE5hWDBIanA0TVJjbFhGdkdwTkhvSi13TndCWXFVdFVTa0dnaWc5OGhlTzNMYkwwWXhvZEpqcHdNTHM3akV6elZIRDBtNnEtSDlDQ1NGMzA?oc=5",
+      "source": "The Times of India"
     },
     {
       "rank": 3,
-      "headline": "ペンタゴン、Nvidia・MS・AWSとAI契約",
-      "summary": "米国防総省がNvidia、Microsoft、AWSと機密ネットワーク向けAI展開で契約。AIベンダー多様化を推進。",
-      "detail": "米国防総省（ペンタゴン）は、Nvidia、Microsoft、Amazon Web Services（AWS）と、機密ネットワーク上でAIを展開するための契約を締結した。これは、先に発生したAnthropicとの利用制限を巡る論争を受け、特定ベンダーへの依存リスクを回避し、AIサプライヤーの多様化を図る戦略の一環。各社は国防総省の厳格なセキュリティ要件に対応したAI基盤を提供し、分析、兵站、サイバー防御などの分野で活用される見通し。同省は今後も複数のテック大手との連携を強化し、軍事領域におけるAI活用の主導権を確保しようとしている。",
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-      "source": "TechCrunch"
+      "headline": "EUのAI規制法協議が決裂、8月期限は維持",
+      "summary": "EUのAI規制法をめぐる法案協議が難航し合意に至らず。2026年8月の施行期限は維持される見通しだが、内容の見直しが急務に。",
+      "detail": "EU（欧州連合）におけるAI規制法（AI Act）の成立を目指した協議が、主要加盟国間の意見対立により決裂したと報じられた。焦点となっているのは、ハイリスクAIシステムの定義や、生成AIに対する規制の範囲。特にフランスやドイツが、自国のAIスタートアップへの過度な規制を懸念し、慎重な姿勢を崩さなかったことが決裂の一因とされる。しかし、2026年8月に設定された最終施行期限は変更されない見通しで、EUは残り数ヶ月での再調整を迫られる。この混乱は、グローバル企業のAI開発戦略や、EU市場向けのコンプライアンス対応に遅れをもたらす可能性があり、日本企業にも無視できない影響を及ぼす。",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQblpZYld2SFJhcGdnSml1bWtoTUYyXzJRWnZBSy1zWTNKM05UR0MzRFV4dFhfcVlFYW9jV3Buay1xLWtGVkZDZW9MSGR0OFEyTnRjai02OE80Wk1zN1pFWExMaER4bFdXSzk1amxVQlB2bU5NMkUtN09ia0x6MWlsMTA5RHNmZjE5UFdj?oc=5",
+      "source": "PPC Land"
     },
     {
       "rank": 4,
-      "headline": "Replit CEO、Cursor買収とApple競争語る",
-      "summary": "ReplitのCEOがTechCrunchイベントでCursor買収の真意やAppleとの競争、売却しない戦略を語り、AIコーディング市場のリアルな攻防が明らかになった。",
-      "detail": "ReplitのCEO Amjad Masadは、TechCrunchのStrictlyVCイベントで、AIコーディングアシスタント「Cursor」の買収ディールについて詳細を語った。さらに、AppleがXcodeにAI機能を統合する動きに対抗する必要性を強調。Masadは、プラットフォームの独立性を重視しており、大型テック企業への売却よりも自社での成長を優先する意向を示した。この発言は、GitHub CopilotやCursorなど競合ひしめくAIコーディング市場において、独立系プレイヤーの戦略を占う上で重要な示唆を与えている。Replitはブラウザベースの開発環境として独自のポジションを活かし、コミュニティとエコシステムの拡大を目指す。",
-      "url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
+      "headline": "2025年おすすめAI音声入力アプリ比較ランキング",
+      "summary": "TechCrunchがAI音声入力アプリを徹底比較。メール返信やコーディング対応アプリの最新性能を評価し、実用的なランキングを発表。",
+      "detail": "米TechCrunchが、2025年版として最新のAI音声入力アプリをテスト・ランキング形式で紹介した。比較対象には、Otter.ai、Descript、Whisperベースのツールなどが含まれ、音声認識精度、対応言語、処理速度、コーディングへの対応力などが評価された。特に注目点は、単なる文字起こしだけでなく、音声によるコード生成やメールの自動返信など、業務効率化に直結する機能が充実している点。ランキング上位のアプリは日本語にも高精度で対応しており、日本のAI実務者にとっても導入検討の価値が高い。この記事は、具体的な比較データを基にしているため、ツール選定の参考として有用である。",
+      "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
       "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "マスク対オルトマン訴訟、激化の様相",
-      "summary": "Elon MuskのOpenAI訴訟で証言が行われ、内部メールが流出。非営利からの逸脱やAGI定義を巡る対立が露呈し、法廷闘争が長期化する見通し。",
-      "detail": "Elon MuskがOpenAIおよびSam Altmanを提訴した訴訟で、Muskが3日間にわたり証言台に立った。証言の中で、OpenAIが非営利の精神から逸脱し、Microsoftとの提携を通じて営利化した経緯や、AGI（汎用人工知能）の定義を巡る内部での激しい対立が暴露された。特に、MuskはOpenAIが本来の使命に反してAGIの商業化を急いでいると非難。一方、OpenAI側はMuskの主張は根拠薄弱で、同社の成長を妨害するためのものだと反論している。この裁判は、AI開発におけるオープン性と商業化のバランスに大きな影響を与える前例となる可能性があり、業界全体が注目している。",
-      "url": "https://techcrunch.com/2026/05/01/musk-v-altman-is-just-getting-started/",
-      "source": "TechCrunch"
+      "headline": "アカデミー賞、AI利用の新ルールを正式発表",
+      "summary": "アカデミー賞がAI利用に関する新ルールを公表。AIの使用範囲を明確化し、人間の創造性を重視する姿勢を鮮明にした。",
+      "detail": "アカデミー賞運営側は、AI技術の利用に関する新たなガイドラインを正式に公表した。ルールでは、脚本や出演者の生成にAIを全面的に使用した作品の選考除外に加え、VFXや編集など一部工程でのAI活用は許可される一方、その使用範囲の開示が義務化される。この動きは、全米脚本家組合（WGA）や俳優組合（SAG-AFTRA）の要求を受けたもので、ハリウッドにおけるAIと人間の役割分担を明確にする試みとして注目される。日本のアニメ・映像業界にも影響を及ぼす可能性があり、特にAIを積極活用するスタジオは今後の動向を注視する必要がある。",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vLUtWcGpVdTduc0lrNzhhSm9TeW42WWJ5bTFuRnJ1RGtHTW5FUlBuWER3WnBTQmYtSmRLcHI2RmpuOVBCbGRYREd5cEM2cXZ0UDZIM013T3BUVVQ3dTRXTGNqR0JLY1NDbFh5SEhxV1h0eXdWUmpscA?oc=5",
+      "source": "Taipei Times"
     }
   ]
 }
