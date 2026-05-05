@@ -2,27 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "AIによる救急診断、人間の医師2人より正確",
-      "summary": "ハーバード大学の研究で、AIが救急外来での診断において2人の医師よりも高い精度を示した。大規模言語モデルが医療現場で実用的な可能性を持つことが示された。",
-      "detail": "ハーバード大学が実施した研究によると、大規模言語モデル（LLM）を用いたAIが、実際の救急外来の症例において、2人の人間の医師よりも正確な診断を下したことが報告された。この研究はAIが医療診断の補助ツールとしてだけでなく、場合によっては既存の診断プロセスを改善しうることを示唆している。特に救急医療のような時間的制約が厳しい環境では、AIの迅速かつ広範な知識ベースが大きな強みとなる。ただし、著者らはAIの判断を完全に信頼するのではなく、人間の医師との協働が重要であると指摘している。この結果は、AIの医療応用における新たなマイルストーンとなる可能性が高い。",
-      "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+      "headline": "OpenAI共同企業でエンタープライズ進出",
+      "summary": "AnthropicとOpenAIがそれぞれ資産運用会社と提携し、企業向けAIサービスを積極展開するための合弁事業を発表した。",
+      "detail": "AnthropicとOpenAIがほぼ同時に、企業向けAIサービスのマーケティングを強化するために資産運用会社との合弁事業を立ち上げた。両社は法人顧客へのリーチ拡大と、AI導入支援を目的としており、エンタープライズ分野での競争がさらに激化する可能性がある。OpenAIはすでに大規模な企業契約を複数獲得しているが、AnthropicもClaudeの安全性と信頼性を武器に追随する構えだ。この動きは、企業向けAI市場が本格的な成長期に入ったことを示している。",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "「This is fine」作者、AI企業がアート盗用と非難",
-      "summary": "人気漫画「This is fine」の作者が、AIスタートアップArtisanが自身の作品を無断使用したと告発。同社は「人間の雇用をやめよ」と訴える広告で問題となっている。",
-      "detail": "インターネットミーム「This is fine」で知られるアーティストK.C. Green氏が、AIスタートアップArtisanによるアートの無断使用を非難した。Artisanは「人間の雇用をやめ、AIエージェントを導入せよ」と訴える物議を醸すビルボード広告を展開しており、Green氏の作品がそのキャンペーンに無断で使用されたとされる。この問題は、AI企業がクリエイターの著作権を軽視しているという批判を再燃させている。特に、AIによるコンテンツ生成と既存アーティストの権利保護のバランスは業界全体の課題であり、法的な議論が今後さらに加速する見込みである。",
-      "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+      "headline": "OpenAI裁判、マスクの脅迫文が物議",
+      "summary": "マスク氏がOpenAIに対し、和解に応じなければアルトマンCEOらを「最も憎まれる男」にすると脅迫テキストを送ったとOpenAIが主張している。",
+      "detail": "OpenAIは、イーロン・マスク氏が和解を求めた後、グレッグ・ブロックマン会長とサム・アルトマンCEOに対し「アメリカで最も嫌われる男になる」と不気味なテキストを送ったと法廷で主張した。これはマスク氏が起こしたOpenAIの営利化を巡る訴訟に関連している。マスク側は反論する見通しだが、裁判はAIのガバナンスと利益相反を巡る重要な争点となっている。業界最大手の内部対立が明るみに出る形だ。",
+      "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
       "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "JXQ AI Forum 2026、新成長パラダイムを発表",
-      "summary": "JXQ AI Forum 2026で、第15次五カ年計画における産業・都市統合のための新たなAI駆動成長モデルが公開された。官民連携のAI戦略に注目が集まる。",
-      "detail": "JXQ AI Forum 2026が開催され、第15次五カ年計画期間中の産業と都市の統合を推進する新しいAI駆動の成長パラダイムが発表された。このフォーラムではAI技術を活用した産業クラスターの形成、スマートシティの高度化、そして地域経済との連携強化が主要テーマとして議論された。具体的には、AIを核としたデータ連携基盤の構築や、製造業・物流・エネルギー分野への応用が強調されている。中国政府の戦略的なAI推進の一環として、このフォーラムは今後の政策方向性を示す重要な指標となる。",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdU5oenhzNWFmTzJFdjZMOE5ZcFZSVTVwSVJISkFUVE5kdWxaSzN5Tkg0ZXVlZHVhVW1yQ3VVU19GUDhYUl9KMHZ2Znl0YjVuMk45dGpmODFpaUFwSDg2RjRsdGNBZzRySmtoaFRRSjctSzVZNkNaUUZnREJTaV9MT3VKSmhHVUNlZHktZU1ybTByakJrY0NEYkZOWUVNU1Y3WlladUtTQ21jT0pETFk5YTZ2bHFoNnQzU2ZIVHRTYjNjaDJhalZDS3BvR0FZTkFQeXJGSWpWRTNpcXdiSWhDQ1F2RXRyQ1N1YmJKQ1N1TdIB9AFBVV95cUxNWFJQVzNfbmhCQVdSMDFYYTVFNmRXdHJaaWdsa1ZOZHhIWHR0bjIzTGxQY1l1U1dOMlZxVDJ6UnJlQTlLeElKMGN5VlZDcUwzRUJ4VmxlcHZhRXJPZ1ZYTXllY09VYU5xTTNDd0l2QW5zYkxqdUtOQS1lQjVPRHV2c3Q3bEJaTDVPeFRpbmRoazdRYXlJTzNlNGEzMUwtTFBRYjE2UmlSSG9ySmpzOThwRUEtZVZIYVktQ0Z1dTlmR1pKVGd4VDJSS3dQdEJ1MjNTXzhxU2RnUFlLYjd5bEFiMlozaGdYVkJXYVJRZUpuakh1S3o3?oc=5",
-      "source": "ANTARA News"
+      "headline": "Anthropic契機に政府が高リスクAI規制検討",
+      "summary": "Anthropicの新モデル「Mythos」を契機に、米政府が高リスクAIモデルの公開前レビュー制度を検討し始めた。",
+      "detail": "Anthropicがリリースした新モデル「Mythos」の影響力を憂慮した米政府が、高リスクAIモデルに対して事前審査制度の導入を本格的に検討している。ホワイトハウスは、モデルが市場に出る前に安全性や倫理的影響を評価する枠組みを模索しており、業界全体に大きな影響を与える可能性がある。これはAIの安全性競争と規制強化の新たな局面を示す。Anthropicは従来から安全重視の姿勢を取ってきたが、その最新モデルが逆に規制のきっかけとなる皮肉な展開だ。",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRExVUmFKc0UteG5xcDA4Zno3Y214V0VOcmVwUlF3QnhGXzFuYVlVSUwxQjdNVHo3RDhuWEN1bnBuTTFWWXRJcUJsRkljUnZTQi00bk1KdW0tSS12MDBWVlotVHRleEFNWUJvcG83UF9rRlJuMTU4S0k2eHFiYXpHWmtQeHVXRy1BQXhXT0xscjJhanJuRndxM2pEdXRVY2N4QWw5U0tiaFI5X0FTUVk2cTNpQmthakZ3LUd0UGNrZ0p2OFRyN0NieHVoODJHYzA?oc=5",
+      "source": "CSOonline"
+    },
+    {
+      "rank": 4,
+      "headline": "CerebrasがIPO申請、評価額266億ドル超",
+      "summary": "OpenAIと連携するAIチップ企業CerebrasがIPOを発表。評価額は最大266億ドル超とされ、AI半導体市場に大きな衝撃を与えている。",
+      "detail": "AIチップメーカーのCerebras Systemsが新規株式公開（IPO）を正式に発表した。評価額は最大266億ドルに達する可能性があり、OpenAIとの緊密なパートナーシップが成長を後押ししている。Cerebrasは巨大なウェハースケールチップ「WSE」で知られ、従来のGPUと異なるアーキテクチャでAI学習・推論を高速化する。IPO成功により、NVIDIA一強の半導体市場に新たな競争軸が生まれる可能性がある。AIハードウェア業界の勢力図が変わる転機となりそうだ。",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "source": "TechCrunch"
+    },
+    {
+      "rank": 5,
+      "headline": "Sierraが9500億調達、エンタープライズAI戦争",
+      "summary": "エンタープライズAIスタートアップSierraが約9500億円を調達。AIカスタマーサービスで「世界標準」を目指す。",
+      "detail": "Sierraは約9億5000万ドル（約9500億円）の大型資金調達に成功し、累計調達額は10億ドルを超えた。同社はAIを活用したカスタマーサービスプラットフォームを提供し、企業の顧客対応を自動化する。今回の資金は「AIカスタマーサービスのグローバルスタンダード」となるために使われる。エンタープライズAI分野では、OpenAIやAnthropicに加え、特化型ベンダーの台頭が目立ち始めており、市場の細分化と競争激化が同時に進んでいる。",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "source": "TechCrunch"
     }
   ]
 }
