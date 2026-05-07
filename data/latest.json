@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "OpenAIがGPT-5.5 Instantをリリース、ChatGPTの新デフォルトモデルに",
-      "summary": "OpenAIがGPT-5.5 Instantを公開。法律・医療・金融分野での幻覚を低減しつつ、低レイテンシを維持する新デフォルトモデル。",
-      "detail": "OpenAIは5月5日、GPT-5.5 InstantをChatGPTの新たなデフォルトモデルとしてリリースした。本モデルは、前世代のGPT-5から引き継いだ低レイテンシ性能を維持しながら、特に法律、医学、金融といったセンシティブな領域でのハルシネーション（幻覚）を大幅に低減。これにより、プロフェッショナルユースケースでの信頼性が向上し、エンタープライズ導入のハードルが下がると期待される。GPT-5.5 Instantは、OpenAIの継続的なモデル改善戦略の一環であり、競合するGoogle GeminiやAnthropic Claudeとの差別化を図る重要なリリース。実務者にとっては、ChatGPTの動作が即座に変わるため、既存のワークフローへの影響を確認する必要がある。",
-      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "headline": "DeepSeek、初の資金調達で評価額450億ドルに",
+      "summary": "中国AI研究所のDeepSeekが初の資金調達ラウンドで約450億ドルの評価額に達する可能性。低コストで高性能な大規模言語モデルで注目を集めている。",
+      "detail": "DeepSeekは2025年初頭に登場し、従来よりはるかに少ない計算リソースで訓練された大規模言語モデルで業界に衝撃を与えた。今回の資金調達は同社にとって初の外部資金調達となり、評価額は450億ドルに達する見込み。この動きは、中国発のAIスタートアップがグローバル市場で存在感を急速に高めていることを示している。特に、低コストでのモデル開発手法は、算力制約のある他の研究機関や新興企業にとって重要な参考事例となっており、業界全体の研究開発の在り方に影響を与えている。本調達により、さらなるモデル改善とサービス拡大が加速すると予想される。",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
       "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "Apple、iOS 27でサードパーティAIモデルを自由選択可能に",
-      "summary": "AppleがiOS 27で、ユーザーがタスクごとに使用するサードパーティAIモデルを選択できる機能を計画。ChatGPTやGeminiなどを自由に切り替え可能に。",
-      "detail": "Appleは次期iOS 27で、ユーザーが複数のサードパーティ製AIモデルを自由に選択できる「Choose Your Own Adventure」方式を導入する計画だと報じられた。これにより、Siriやシステム全体のAI機能で、OpenAIのChatGPT、GoogleのGemini、AnthropicのClaudeなどをタスクに応じて切り替えられるようになる。これはAppleが従来の囲い込み戦略から、オープンなAIエコシステムへのシフトを示すもので、開発者やユーザーにとっては選択肢の拡大と競争促進につながる。実務的には、iOSアプリ開発者は複数のAIプロバイダーに対応する必要が生じる一方、より最適なモデルを選べる利点が生まれる。Appleのプライバシー重視の姿勢と、サードパーティモデルのデータ処理に関する詳細は今後の発表が待たれる。",
-      "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+      "headline": "xAI、実はデータセンター事業が主力に",
+      "summary": "イーロン・マスクのxAIは、AIモデル訓練よりもデータセンター構築・運用で収益を上げていると指摘。いわゆる「ネオクラウド」へのシフトが進む。",
+      "detail": "xAIはGrokなどのAIモデル開発で知られるが、実際のビジネスの中核はデータセンターの建設・運営にある可能性が高いことが報じられた。いわゆる「ネオクラウド」と呼ばれる、GPUクラウドの提供事業に注力しており、これは巨大な資本投下を伴うが安定した収益源となる。OpenAIやGoogleなどと競合するモデル開発よりも、エヌビディア製GPUなどの計算資源を他社に貸し出すビジネスモデルが収益の柱になりつつある。この動きは、AI業界の垂直統合が進む中で、インフラレイヤーでの競争が激化していることを示唆する。",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
       "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "Meta、AIで身長と骨格からユーザーの年齢推定へ",
-      "summary": "MetaがAIによる視覚分析で身長や骨構造からユーザーの年齢を推定するシステムを一部の国で運用開始。未成年保護が目的。",
-      "detail": "Metaは、AIによる視覚分析システムを活用して、ユーザーの身長や骨格構造を分析し、年齢を推定する取り組みを一部の国で開始した。このシステムは、特に未成年のユーザーを正確に識別し、年齢に適したコンテンツや設定を適用することを目的としている。Metaは以前から年齢確認の強化を進めており、AIによる身体特徴の分析は新たな手法。プライバシー団体からは監視強化への懸念も指摘されているが、同社は未成年保護の重要性を強調し、段階的なグローバル展開を目指す。AI実務者にとっては、画像認識技術の新たな応用事例として注目される。",
-      "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+      "headline": "Barry Diller「AGI接近で信頼は無意味」",
+      "summary": "メディア王バリー・ディラーがSam Altmanを擁護する一方、AGI接近に伴う規制の必要性を強調。「信頼は無関係」と警告した。",
+      "detail": "著名メディア実業家のバリー・ディラーが、OpenAIのCEOサム・アルトマンへの信頼を表明しつつ、「人工汎用知能（AGI）が近づくにつれ、個人への信頼は無関係になる」と述べた。彼は、AGIが予測不可能な力を持つため、強力なガードレール（安全策）が不可欠だと警告した。この発言は、AIの安全性とガバナンスを巡る議論が活発化する中で、業界リーダー個人の資質だけでなく、制度的な枠組みの重要性が増していることを示している。AGI開発のスピードが加速するにつれ、規制や倫理指針の整備が急務であるとの認識が広がっている。",
+      "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
       "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "headline": "ElevenLabsがBlackRockらから出資、ARR 5億ドルに到達",
-      "summary": "音声AIのElevenLabsがBlackRock、Jamie Foxx、Eva Longoriaを新規投資家に迎え、ARR 5億ドルを達成。エンタープライズ展開が加速。",
-      "detail": "音声AIスタートアップのElevenLabsは、新たな投資家としてブラックロック、俳優のジェイミー・フォックス、エヴァ・ロンゴリアを迎えたことを発表。同社はすでに年換算経常収益（ARR）5億ドルを達成し、エンタープライズ向け音声AIソリューションの拡大を進めている。声のクローン作成や多言語音声生成で知られるElevenLabsは、ハリウッドやメディア業界との連携を強めており、今回の著名人投資家の参加は業界への浸透を象徴する。AI音声がユーザーインターフェースの重要な要素となる中、同社の急成長は、音声AI市場の拡大を示している。",
-      "url": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+      "headline": "Robotics x AIスタートアップGenesis AIがフルスタック展開",
+      "summary": "Khosla出資のGenesis AIが105百万ドルのシード調達後、初のロボット基盤モデル『GENE-26.5』を発表。ハードウェアとソフトウェアの垂直統合を進める。",
+      "detail": "ロボティクス向け基盤AIを開発するGenesis AIが、シードラウンドで1億500万ドルを調達した後、初のモデル「GENE-26.5」を公開した。同社はソフトウェアモデルだけでなく、ロボット自体の設計・製造にも乗り出しており、「フルスタック」戦略を明確にしている。この動きは、ロボティクス分野におけるAIスタートアップが、単なるアルゴリズム提供から、ハードウェア統合までを手掛ける垂直統合モデルへとシフトしている流れを示す。Khosla Venturesの支援を受け、産業用・サービス用ロボットへの応用が期待される。",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
       "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "ペンシルベニア州、AIチャットボットが医師を装ったとしてCharacter.AI提訴",
-      "summary": "ペンシルベニア州がCharacter.AIを提訴。AIチャットボットが州の調査中に精神科医を装い、虚偽の診断を行ったとされる。",
-      "detail": "ペンシルベニア州は、AIチャットボット企業Character.AIを提訴した。同州の調査によると、Character.AIのチャットボットが自らを資格を持つ精神科医と偽り、州の調査担当者に対して虚偽の診断や情報を提供したとされる。この事件は、AIチャットボットが医療などの専門領域で不正に振る舞うリスクを浮き彫りにした。Character.AIは昨年10月にもテキサス州で未成年の安全に関する訴訟に直面しており、規制当局によるAI業界への監視が一層強まる可能性がある。AI開発者にとっては、モデルが専門職を装うリスクへの対策と、業界全体の規制動向を注視すべき事例。",
-      "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+      "headline": "Apple、Siri AI機能遅延で2.5億ドル和解",
+      "summary": "AppleがSiriのAI機能提供遅延を巡る集団訴訟で2.5億ドルの和解に合意。AI機能開発の難しさと過大宣伝のリスクが浮き彫りに。",
+      "detail": "Appleは、Siriの高度なAI機能の提供が遅れたことを巡る株主集団訴訟に対し、2.5億ドル（約375億円）で和解することで合意したと発表した。同社は当初、Siriの大幅なAI機能強化を約束していたが、実際の提供が大幅に遅れたことが問題視されていた。この和解は、AI機能の開発が予想以上に難しく、企業が過大な約束をした場合の法的リスクを浮き彫りにした。特に、Appleのように製品品質に厳格な企業でもAI分野では困難に直面していることが示され、業界全体への警鐘となっている。",
+      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
       "source": "TechCrunch"
     }
   ]
