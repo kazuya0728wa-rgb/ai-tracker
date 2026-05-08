@@ -2,42 +2,42 @@
   "details": [
     {
       "rank": 1,
-      "headline": "DeepSeek、初の資金調達で評価額450億ドルに",
-      "summary": "中国AI研究所のDeepSeekが初の資金調達ラウンドで約450億ドルの評価額に達する可能性。低コストで高性能な大規模言語モデルで注目を集めている。",
-      "detail": "DeepSeekは2025年初頭に登場し、従来よりはるかに少ない計算リソースで訓練された大規模言語モデルで業界に衝撃を与えた。今回の資金調達は同社にとって初の外部資金調達となり、評価額は450億ドルに達する見込み。この動きは、中国発のAIスタートアップがグローバル市場で存在感を急速に高めていることを示している。特に、低コストでのモデル開発手法は、算力制約のある他の研究機関や新興企業にとって重要な参考事例となっており、業界全体の研究開発の在り方に影響を与えている。本調達により、さらなるモデル改善とサービス拡大が加速すると予想される。",
-      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
-      "source": "TechCrunch"
+      "headline": "Claude for Microsoft 365提供開始",
+      "summary": "AnthropicがClaudeをMicrosoft 365に統合。WordやExcelなどでAIアシスタントが利用可能に。",
+      "detail": "AnthropicはClaude for Microsoft 365を正式リリース。Word、Excel、PowerPoint、Outlook、TeamsといったMicrosoft 365アプリケーション上でClaudeが直接利用可能となり、文書作成やデータ分析、メール作成などを支援する。企業ユーザーは既存のMicrosoft環境でClaudeの高度な言語処理能力を活用でき、業務効率化が期待される。セキュリティやコンプライアンスにも対応し、エンタープライズ向けに最適化されている点が特徴。本発表はAIアシスタントの企業導入をさらに加速させるものとして注目される。",
+      "url": "https://claude.com/claude-for-microsoft-365",
+      "source": "Anthropic"
     },
     {
       "rank": 2,
-      "headline": "xAI、実はデータセンター事業が主力に",
-      "summary": "イーロン・マスクのxAIは、AIモデル訓練よりもデータセンター構築・運用で収益を上げていると指摘。いわゆる「ネオクラウド」へのシフトが進む。",
-      "detail": "xAIはGrokなどのAIモデル開発で知られるが、実際のビジネスの中核はデータセンターの建設・運営にある可能性が高いことが報じられた。いわゆる「ネオクラウド」と呼ばれる、GPUクラウドの提供事業に注力しており、これは巨大な資本投下を伴うが安定した収益源となる。OpenAIやGoogleなどと競合するモデル開発よりも、エヌビディア製GPUなどの計算資源を他社に貸し出すビジネスモデルが収益の柱になりつつある。この動きは、AI業界の垂直統合が進む中で、インフラレイヤーでの競争が激化していることを示唆する。",
-      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-      "source": "TechCrunch"
+      "headline": "Anthropic、新モデルMythosをプレビュー",
+      "summary": "Anthropicが次世代モデルMythosを発表。Firefoxのセキュリティ向上に貢献した実績も。",
+      "detail": "Anthropicは新たなAIモデル「Mythos（コード名Glasswing）」のプレビューを公開。Mythosは従来モデルを大幅に上回る推論能力とコード解析力を備え、Mozilla Firefoxのセキュリティ研究者と協力し、これまで発見困難だった高 severity なバグを多数発見した実績を持つ。サイバーセキュリティ分野での応用に加え、コーディングや複雑な推論タスクでも高い性能を発揮すると見られ、AIの安全性と実用性を両立する次世代モデルとして業界の注目を集めている。",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "Anthropic"
     },
     {
       "rank": 3,
-      "headline": "Barry Diller「AGI接近で信頼は無意味」",
-      "summary": "メディア王バリー・ディラーがSam Altmanを擁護する一方、AGI接近に伴う規制の必要性を強調。「信頼は無関係」と警告した。",
-      "detail": "著名メディア実業家のバリー・ディラーが、OpenAIのCEOサム・アルトマンへの信頼を表明しつつ、「人工汎用知能（AGI）が近づくにつれ、個人への信頼は無関係になる」と述べた。彼は、AGIが予測不可能な力を持つため、強力なガードレール（安全策）が不可欠だと警告した。この発言は、AIの安全性とガバナンスを巡る議論が活発化する中で、業界リーダー個人の資質だけでなく、制度的な枠組みの重要性が増していることを示している。AGI開発のスピードが加速するにつれ、規制や倫理指針の整備が急務であるとの認識が広がっている。",
-      "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+      "headline": "OpenAI、ボイスインテリジェンス機能をAPIに追加",
+      "summary": "OpenAIがAPIに新音声認識・合成機能を追加。カスタマーサービスなど多分野で活用可能。",
+      "detail": "OpenAIはAPIに新たなボイスインテリジェンス機能を実装した。これにより、音声認識の精度向上や自然な音声合成が可能となり、カスタマーサービス、音声アシスタント、教育、医療など幅広い分野での応用が期待される。既存のテキストベースAPIに音声機能が統合されることで、開発者はよりリッチなインタラクションを容易に実装可能に。本機能はGPT-4oの音声機能をさらに拡張する位置づけで、リアルタイム音声対話の実用化を後押しする。",
+      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
       "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "headline": "Robotics x AIスタートアップGenesis AIがフルスタック展開",
-      "summary": "Khosla出資のGenesis AIが105百万ドルのシード調達後、初のロボット基盤モデル『GENE-26.5』を発表。ハードウェアとソフトウェアの垂直統合を進める。",
-      "detail": "ロボティクス向け基盤AIを開発するGenesis AIが、シードラウンドで1億500万ドルを調達した後、初のモデル「GENE-26.5」を公開した。同社はソフトウェアモデルだけでなく、ロボット自体の設計・製造にも乗り出しており、「フルスタック」戦略を明確にしている。この動きは、ロボティクス分野におけるAIスタートアップが、単なるアルゴリズム提供から、ハードウェア統合までを手掛ける垂直統合モデルへとシフトしている流れを示す。Khosla Venturesの支援を受け、産業用・サービス用ロボットへの応用が期待される。",
-      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "headline": "中国Moonshot AIが20億ドル評価で2B調達",
+      "summary": "中国オープンソースAIスタートアップMoonshotが大型資金調達。ARRは2億ドル超。",
+      "detail": "中国のAIスタートアップMoonshot AIが20億ドルの評価額で、約20億ドル（約3000億円）の資金調達を実施した。同社はオープンソースAIモデルに注力しており、月間経常収益（ARR）が4月に2億ドルを突破するなど急成長中。サブスクリプションとAPI利用の増加が収益を牽引。世界的なオープンソースAI需要の高まりを背景に、中国発のAI企業として国際的な存在感を強めており、今後の技術競争や米中AI覇権争いに影響を与える可能性がある。",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
       "source": "TechCrunch"
     },
     {
       "rank": 5,
-      "headline": "Apple、Siri AI機能遅延で2.5億ドル和解",
-      "summary": "AppleがSiriのAI機能提供遅延を巡る集団訴訟で2.5億ドルの和解に合意。AI機能開発の難しさと過大宣伝のリスクが浮き彫りに。",
-      "detail": "Appleは、Siriの高度なAI機能の提供が遅れたことを巡る株主集団訴訟に対し、2.5億ドル（約375億円）で和解することで合意したと発表した。同社は当初、Siriの大幅なAI機能強化を約束していたが、実際の提供が大幅に遅れたことが問題視されていた。この和解は、AI機能の開発が予想以上に難しく、企業が過大な約束をした場合の法的リスクを浮き彫りにした。特に、Appleのように製品品質に厳格な企業でもAI分野では困難に直面していることが示され、業界全体への警鐘となっている。",
-      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
+      "headline": "PerplexityのAIエージェントPC、Macで全員提供",
+      "summary": "PerplexityがMac向けAIエージェント「Personal Computer」を一般公開。タスク自動化を実現。",
+      "detail": "Perplexityは、AIエージェント機能を搭載した「Personal Computer」をMac向けに一般公開した。本機能は、ユーザーの操作を代行するAIエージェントとして、ファイル管理やWeb検索、アプリ操作などを自動化する。これにより、Perplexityは単なる検索ツールから、PCを自律操作するプラットフォームへと進化。類似サービスとしてはAnthropicのComputer UseやMicrosoftのCopilotが競合となる。Macユーザーは無料で利用開始可能で、業務効率化ツールとして注目される。",
+      "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
       "source": "TechCrunch"
     }
   ]
