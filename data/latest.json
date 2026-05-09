@@ -2,43 +2,43 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Claude for Microsoft 365提供開始",
-      "summary": "AnthropicがClaudeをMicrosoft 365に統合。WordやExcelなどでAIアシスタントが利用可能に。",
-      "detail": "AnthropicはClaude for Microsoft 365を正式リリース。Word、Excel、PowerPoint、Outlook、TeamsといったMicrosoft 365アプリケーション上でClaudeが直接利用可能となり、文書作成やデータ分析、メール作成などを支援する。企業ユーザーは既存のMicrosoft環境でClaudeの高度な言語処理能力を活用でき、業務効率化が期待される。セキュリティやコンプライアンスにも対応し、エンタープライズ向けに最適化されている点が特徴。本発表はAIアシスタントの企業導入をさらに加速させるものとして注目される。",
-      "url": "https://claude.com/claude-for-microsoft-365",
-      "source": "Anthropic"
+      "headline": "Cloudflare、AIで1100人削減も収益は過去最高",
+      "summary": "Cloudflareが初の大規模レイオフを発表。CEOはAI効率化によりサポート業務が不要になったと説明。収益は過去最高を記録。",
+      "detail": "CloudflareはAIによる業務効率化で1100人の雇用が不要になったと発表。同社のMatthew Prince CEOは、AIチャットボットや自動化ツールの導入により、カスタマーサポートやバックオフィス業務の人員が大幅に削減されたと説明した。一方で収益は過去最高を記録し、AI導入と業績拡大が両立した事例として注目される。この動きは、AIによる雇用代替が現実のものとなりつつあることを示し、AIエンジニアや実務者にとっては、導入効果の測定や倫理的な課題にも目を向ける必要がある。",
+      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "source": "TechCrunch"
     },
     {
       "rank": 2,
-      "headline": "Anthropic、新モデルMythosをプレビュー",
-      "summary": "Anthropicが次世代モデルMythosを発表。Firefoxのセキュリティ向上に貢献した実績も。",
-      "detail": "Anthropicは新たなAIモデル「Mythos（コード名Glasswing）」のプレビューを公開。Mythosは従来モデルを大幅に上回る推論能力とコード解析力を備え、Mozilla Firefoxのセキュリティ研究者と協力し、これまで発見困難だった高 severity なバグを多数発見した実績を持つ。サイバーセキュリティ分野での応用に加え、コーディングや複雑な推論タスクでも高い性能を発揮すると見られ、AIの安全性と実用性を両立する次世代モデルとして業界の注目を集めている。",
-      "url": "https://www.anthropic.com/glasswing",
-      "source": "Anthropic"
+      "headline": "Intel復活劇、株価490%上昇も実態は複雑",
+      "summary": "Intel株が1年で490%急騰。Wall Streetの期待先行だが、実際のターンアラウンドはまだ道半ばと指摘される。",
+      "detail": "Intelの株価が過去1年で490%も上昇し、市場の期待を集めている。しかしTechCrunchの分析によれば、この急騰はWall Streetの強気な見通しに先行したもので、同社の実際の事業再生はまだ初期段階にあるという。AI向け半導体の需要拡大や政府の補助金政策が追い風となっているが、製造プロセスの改善や競合との差別化が課題。AIエンジニアにとっては、IntelのGPUやAIチップの動向が今後のインフラ選択に影響する可能性がある。",
+      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+      "source": "TechCrunch"
     },
     {
       "rank": 3,
-      "headline": "OpenAI、ボイスインテリジェンス機能をAPIに追加",
-      "summary": "OpenAIがAPIに新音声認識・合成機能を追加。カスタマーサービスなど多分野で活用可能。",
-      "detail": "OpenAIはAPIに新たなボイスインテリジェンス機能を実装した。これにより、音声認識の精度向上や自然な音声合成が可能となり、カスタマーサービス、音声アシスタント、教育、医療など幅広い分野での応用が期待される。既存のテキストベースAPIに音声機能が統合されることで、開発者はよりリッチなインタラクションを容易に実装可能に。本機能はGPT-4oの音声機能をさらに拡張する位置づけで、リアルタイム音声対話の実用化を後押しする。",
-      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "headline": "エンタープライズAIゴールドラッシュ加速",
+      "summary": "AnthropicやOpenAIなどが企業向けAI市場に続々参入。各社が大規模契約を争奪するゴールドラッシュの様相。",
+      "detail": "TechCrunchのポッドキャストで、エンタープライズ向けAI市場の過熱ぶりが取り上げられた。AnthropicやOpenAIをはじめとする主要AI企業が、大企業向けのカスタムモデルやAPI提供を強化している。特に、金融やヘルスケア分野での導入が加速。AIスタートアップの競争は激化し、価格競争や差別化戦略が重要に。日本語圏のAI実務者にとっては、企業向けAIの選定基準や導入事例が参考になる。",
+      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
       "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "headline": "中国Moonshot AIが20億ドル評価で2B調達",
-      "summary": "中国オープンソースAIスタートアップMoonshotが大型資金調達。ARRは2億ドル超。",
-      "detail": "中国のAIスタートアップMoonshot AIが20億ドルの評価額で、約20億ドル（約3000億円）の資金調達を実施した。同社はオープンソースAIモデルに注力しており、月間経常収益（ARR）が4月に2億ドルを突破するなど急成長中。サブスクリプションとAPI利用の増加が収益を牽引。世界的なオープンソースAI需要の高まりを背景に、中国発のAI企業として国際的な存在感を強めており、今後の技術競争や米中AI覇権争いに影響を与える可能性がある。",
-      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-      "source": "TechCrunch"
+      "headline": "OracleのAI最新情報、2026年5月版公開",
+      "summary": "OracleがAI関連の新機能やアップデートをブログで公開。クラウドAIやデータベース統合の最新動向を紹介。",
+      "detail": "Oracleが2026年5月版のAI最新情報を公式ブログで公開。クラウド上のAIサービスやデータベースとの統合機能の強化、OCI（Oracle Cloud Infrastructure）向けの新たなAIツールが含まれる。特に、エンタープライズ向けのAI導入を促進する機能が中心。OracleのAI戦略は、既存のデータベース顧客をクラウドAIに誘導する狙いがあり、AI実務者にとってはOCI環境での開発や運用の選択肢が広がる可能性がある。",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HRHc4WEUtM1NDdlRIQlR0Sl9mXzQxQnFDbjJuN1FXTW5BUGZSRWZsR2p0R18xWE1CT1ZTNVdSd05KclQ3akh1Vkd4Ynp3SDYtZFY0c0o1Y1ZSbDVHWm1obWkzMXJPeEkzb1A3LUxLZXVYZ1h2SHNn?oc=5",
+      "source": "Oracle Blogs"
     },
     {
       "rank": 5,
-      "headline": "PerplexityのAIエージェントPC、Macで全員提供",
-      "summary": "PerplexityがMac向けAIエージェント「Personal Computer」を一般公開。タスク自動化を実現。",
-      "detail": "Perplexityは、AIエージェント機能を搭載した「Personal Computer」をMac向けに一般公開した。本機能は、ユーザーの操作を代行するAIエージェントとして、ファイル管理やWeb検索、アプリ操作などを自動化する。これにより、Perplexityは単なる検索ツールから、PCを自律操作するプラットフォームへと進化。類似サービスとしてはAnthropicのComputer UseやMicrosoftのCopilotが競合となる。Macユーザーは無料で利用開始可能で、業務効率化ツールとして注目される。",
-      "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-      "source": "TechCrunch"
+      "headline": "AI株、急落後の買い時は？2026年5月版分析",
+      "summary": "Yahoo FinanceがAI関連株の急落後の投資機会を分析。長期成長性と現在の割安感を評価。",
+      "detail": "Yahoo Financeが2026年5月のAI株急落を受け、投資家向けに「買い時」と評価する2銘柄を紹介。AI分野の成長性は依然として高いが、一部銘柄の過熱感が調整を招いたと分析。長期的にはAIインフラやエンタープライズ向け企業のファンダメンタルズが堅調と指摘。AI実務者にとっては、市場動向から資金調達や企業戦略の参考になる可能性がある。具体的な銘柄名は記事内で言及されているが、詳細は有料コンテンツの可能性も。",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdDY2eEduWG5yZDdlZ05USkhaamxhblhtVXpLbS15Y2ota3o4ZXVGenlNR2xnc21PNkJtRE1tLVNKUG5Xbmd1aUhZM3A5TmM2MFNnWTNCMVN3NzZwdnI3eUNMTFU0LTZnSTVrcnQ2bmJ6REtUUnBkUmktbENyTHFUVU1WX3pTMWhFWmt4VF9LZUs?oc=5",
+      "source": "Yahoo Finance"
     }
   ]
 }
