@@ -2,43 +2,11 @@
   "details": [
     {
       "rank": 1,
-      "headline": "Cloudflare、AIで1100人削減も収益は過去最高",
-      "summary": "Cloudflareが初の大規模レイオフを発表。CEOはAI効率化によりサポート業務が不要になったと説明。収益は過去最高を記録。",
-      "detail": "CloudflareはAIによる業務効率化で1100人の雇用が不要になったと発表。同社のMatthew Prince CEOは、AIチャットボットや自動化ツールの導入により、カスタマーサポートやバックオフィス業務の人員が大幅に削減されたと説明した。一方で収益は過去最高を記録し、AI導入と業績拡大が両立した事例として注目される。この動きは、AIによる雇用代替が現実のものとなりつつあることを示し、AIエンジニアや実務者にとっては、導入効果の測定や倫理的な課題にも目を向ける必要がある。",
-      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "headline": "Nvidia、今年のAI投資で400億ドルをコミット",
+      "summary": "Nvidiaが2026年に入り、AI関連の株式取引で既に400億ドルを投資。AIエコシステムへの大規模な資金投入を継続している。",
+      "detail": "Nvidiaは2026年の5月時点で、AI関連のエクイティ取引に400億ドルもの資金をコミットしたことが明らかになった。これはNvidiaが単なるGPUベンダーに留まらず、AIエコシステム全体の成長を加速させるために戦略的投資を積極的に行っていることを示す。特にスタートアップ向けの出資や買収を通じて、AIインフラやソフトウェア分野での影響力を強めている。この巨額投資は、同社がAI市場の長期的な拡大を確信している証拠であり、業界全体の競争激化を促すだろう。",
+      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch"
-    },
-    {
-      "rank": 2,
-      "headline": "Intel復活劇、株価490%上昇も実態は複雑",
-      "summary": "Intel株が1年で490%急騰。Wall Streetの期待先行だが、実際のターンアラウンドはまだ道半ばと指摘される。",
-      "detail": "Intelの株価が過去1年で490%も上昇し、市場の期待を集めている。しかしTechCrunchの分析によれば、この急騰はWall Streetの強気な見通しに先行したもので、同社の実際の事業再生はまだ初期段階にあるという。AI向け半導体の需要拡大や政府の補助金政策が追い風となっているが、製造プロセスの改善や競合との差別化が課題。AIエンジニアにとっては、IntelのGPUやAIチップの動向が今後のインフラ選択に影響する可能性がある。",
-      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
-      "source": "TechCrunch"
-    },
-    {
-      "rank": 3,
-      "headline": "エンタープライズAIゴールドラッシュ加速",
-      "summary": "AnthropicやOpenAIなどが企業向けAI市場に続々参入。各社が大規模契約を争奪するゴールドラッシュの様相。",
-      "detail": "TechCrunchのポッドキャストで、エンタープライズ向けAI市場の過熱ぶりが取り上げられた。AnthropicやOpenAIをはじめとする主要AI企業が、大企業向けのカスタムモデルやAPI提供を強化している。特に、金融やヘルスケア分野での導入が加速。AIスタートアップの競争は激化し、価格競争や差別化戦略が重要に。日本語圏のAI実務者にとっては、企業向けAIの選定基準や導入事例が参考になる。",
-      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "source": "TechCrunch"
-    },
-    {
-      "rank": 4,
-      "headline": "OracleのAI最新情報、2026年5月版公開",
-      "summary": "OracleがAI関連の新機能やアップデートをブログで公開。クラウドAIやデータベース統合の最新動向を紹介。",
-      "detail": "Oracleが2026年5月版のAI最新情報を公式ブログで公開。クラウド上のAIサービスやデータベースとの統合機能の強化、OCI（Oracle Cloud Infrastructure）向けの新たなAIツールが含まれる。特に、エンタープライズ向けのAI導入を促進する機能が中心。OracleのAI戦略は、既存のデータベース顧客をクラウドAIに誘導する狙いがあり、AI実務者にとってはOCI環境での開発や運用の選択肢が広がる可能性がある。",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HRHc4WEUtM1NDdlRIQlR0Sl9mXzQxQnFDbjJuN1FXTW5BUGZSRWZsR2p0R18xWE1CT1ZTNVdSd05KclQ3akh1Vkd4Ynp3SDYtZFY0c0o1Y1ZSbDVHWm1obWkzMXJPeEkzb1A3LUxLZXVYZ1h2SHNn?oc=5",
-      "source": "Oracle Blogs"
-    },
-    {
-      "rank": 5,
-      "headline": "AI株、急落後の買い時は？2026年5月版分析",
-      "summary": "Yahoo FinanceがAI関連株の急落後の投資機会を分析。長期成長性と現在の割安感を評価。",
-      "detail": "Yahoo Financeが2026年5月のAI株急落を受け、投資家向けに「買い時」と評価する2銘柄を紹介。AI分野の成長性は依然として高いが、一部銘柄の過熱感が調整を招いたと分析。長期的にはAIインフラやエンタープライズ向け企業のファンダメンタルズが堅調と指摘。AI実務者にとっては、市場動向から資金調達や企業戦略の参考になる可能性がある。具体的な銘柄名は記事内で言及されているが、詳細は有料コンテンツの可能性も。",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdDY2eEduWG5yZDdlZ05USkhaamxhblhtVXpLbS15Y2ota3o4ZXVGenlNR2xnc21PNkJtRE1tLVNKUG5Xbmd1aUhZM3A5TmM2MFNnWTNCMVN3NzZwdnI3eUNMTFU0LTZnSTVrcnQ2bmJ6REtUUnBkUmktbENyTHFUVU1WX3pTMWhFWmt4VF9LZUs?oc=5",
-      "source": "Yahoo Finance"
     }
   ]
 }
